@@ -3,13 +3,48 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
+div#content {
+  margin: 0 auto;
+  height: 100%;
+}
+
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 4rem;
+  height: 2vh;
+  overflow: hidden;
+  transition: ease-in-out 0.2s;
+}
+
+footer:hover {
+  height: 3rem;
+  padding: 10px 0;
+}
+
+footer * {
+  opacity: 0;
+  transition: ease-in-out 0.2s;
+}
+
+footer:hover * {
+  opacity: 1;
+}
+
+/* Header */
 div#header {
   background-color: #007bff;
   color: white;
   padding: 10px;
   text-align: center;
+  min-height: 8vh;
 }
 
 div#header p {
@@ -21,11 +56,13 @@ div#header p {
   transition: ease-in-out 0.2s;
 }
 
-div#header:hover p {
+div#header:hover p,
+div#header:focus p {
   opacity: 1;
   margin: 0 0 2.5rem 0;
 }
 
+/* Main */
 div#flag-container {
   display: flex;
   flex-wrap: wrap;
@@ -71,9 +108,9 @@ form#flag-form {
 
 form#flag-form button {
   height: 40px;
-  width: calc(20% - 24.5px);
+  padding: 0 20px;
   font-size: 1rem;
-  border-radius: 3px;
+  border-radius: 0 3px 3px 0;
 }
 
 form#flag-form input[type="text"] {
@@ -82,7 +119,6 @@ form#flag-form input[type="text"] {
   font-size: 1rem;
   padding: 10px;
   border-radius: 3px;
-  width: 80%;
 }
 
 form#flag-form input[type="text"]:focus {
@@ -92,7 +128,6 @@ form#flag-form input[type="text"]:focus {
 form#flag-form div#text-container {
   background-color: #fefefe;
   margin: 0 10px;
-  width: 50%;
   border: none;
   border-radius: 3px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -113,6 +148,14 @@ form#flag-form button:hover {
   background-color: #0056b3;
 }
 
+form#flag-form button:active {
+  background-color: #004b9e;
+}
+
+form#flag-form button:focus {
+  outline: none;
+}
+
 @media screen and (max-width: 1100px) {
   div#flag-container img {
     max-width: 60vw;
@@ -124,13 +167,6 @@ form#flag-form button:hover {
   div#flag-container img {
     max-width: 90vw;
     min-width: 90vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  div#flag-container img {
-    max-width: 100vw;
-    min-width: 100vw;
   }
 }
 

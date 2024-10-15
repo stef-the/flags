@@ -46,7 +46,6 @@ window.onload = () => {
       attempts++;
       
       document.getElementById("score").textContent = `${score}/${attempts}`;
-      document.getElementById("attempts").textContent = attempts;
       if (score > highScore) {
         highScore = score;
         document.getElementById("high-score").textContent = highScore;

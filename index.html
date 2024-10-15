@@ -9,16 +9,35 @@
   </head>
   <body>
     <div id="header">
-        <h1>Guess the Flag</h1>
-        <p>Enter the name of the country that the flag belongs to.</p>
+      <h1>Guess the Flag</h1>
+      <p>Enter the name of the country that the flag belongs to.</p>
     </div>
-    <div id="flag-container"><img src="https://flagcdn.com/w2560/us.png" alt="Random flag" id="flag-img"></div>
-    <div id="score-container"><div>Score: <span id="score">0</span></div></div>
-    <form id="flag-form">
-      <div id="text-container">
-        <input type="text" id="flag-guess" placeholder="Enter your guess" autocomplete="off" />
-        <button type="submit">Submit</button>
+    <div id="content">
+      <div id="flag-container">
+        <img
+          src="https://flagcdn.com/w2560/us.png"
+          alt="Random flag"
+          id="flag-img"
+        />
       </div>
-      <div id="autocomplete-container"></div>
-    </form>
+      <div id="score-container">
+        <div>Score: <span id="score">0</span></div>
+      </div>
+      <form id="flag-form">
+        <div id="text-container">
+          <input
+            type="text"
+            id="flag-guess"
+            placeholder="Enter your guess"
+            autocomplete="off"
+          />
+          <button type="submit">Submit</button>
+        </div>
+        <div id="autocomplete-container"></div>
+      </form>
+    </div>
+    <footer>
+      <p>Created by Stefan Leung</p>
+    </footer>
+  </body>
 </html>
