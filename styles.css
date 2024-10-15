@@ -67,7 +67,6 @@ form#flag-form {
   display: flex;
   justify-content: center;
   margin: 20px 20px 5px 20px auto;
-  max-width: 1200px;
 }
 
 form#flag-form button {
