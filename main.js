@@ -100,6 +100,18 @@ window.onload = () => {
     }
   }
   form.addEventListener("submit", handleForm);
+
+  /* add event listener to resize */
+  const subcontainer = document.getElementById("score-subcontainer");
+  const guessinput = document.getElementById("flag-guess");
+  const textsubmit = document.getElementById("text-submit");
+
+  guessinput.style.width = `${subcontainer.offsetWidth-textsubmit.offsetWidth-24}px`;
+
+  window.addEventListener("resize", () => {
+    console.log(subcontainer.offsetWidth)
+    guessinput.style.width = `${subcontainer.offsetWidth-textsubmit.offsetWidth-24}px`;
+  });
 };
 
 window.country = null;
