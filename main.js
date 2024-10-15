@@ -32,9 +32,25 @@ window.onload = () => {
     } else if (countryNameToCode(guess) === window.country.iso2_code) {
       alert("Correct! The flag is from " + guess + ".");
       score++;
-      document.getElementById("score").textContent = score;
+      refresh = true;
     } else {
-      alert("Incorrect.");
+      alert(`Incorrect. The flag is from ${window.country.label_en}.`);
+      refresh = true;
+    }
+
+    if (refresh) {
+      window.country = getRandomCountry();
+      document.getElementById("flag-img").src = getFlagUrl(window.country.iso2_code);
+      document.getElementById("flag-guess").value = "";
+      document.getElementById("autocomplete-container").style.display = "none";
+      attempts++;
+      
+      document.getElementById("score").textContent = `${score}/${attempts}`;
+      document.getElementById("attempts").textContent = attempts;
+      if (score > highScore) {
+        highScore = score;
+        document.getElementById("high-score").textContent = highScore;
+      }
     }
   }
   form.addEventListener("submit", handleForm);
