@@ -1,5 +1,18 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #f0f0f0;
+  --tertiary-color: #ddd;
+  --quaternary-color: #aaa;
+
+  --primary-color-hover: #0056b3;
+  --primary-color-active: #004b9e;
+
+  --success-color: #28a745;
+  --error-color: #dc3545;
+}
+
 body {
-  background-color: #f0f0f0;
+  background-color: var(--secondary-color);
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -11,8 +24,9 @@ div#content {
   height: 100%;
 }
 
+/* Footer */
 footer {
-  background-color: #007bff;
+  background-color: var(--primary-color);
   color: white;
   text-align: center;
   position: absolute;
@@ -38,9 +52,25 @@ footer:hover * {
   opacity: 1;
 }
 
+/* Button */
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+button:active {
+  background-color: var(--primary-color-active);
+}
+
 /* Header */
 div#header {
-  background-color: #007bff;
+  background-color: var(--primary-color);
   color: white;
   padding: 10px;
   text-align: center;
@@ -74,12 +104,13 @@ div#flag-container {
 
 div#flag-container img {
   margin: 1rem;
+  max-height: 40vh;
   max-width: 40vw;
-  min-width: 25vw;
   transform: scale(1);
   transition: transform ease-in-out 0.2s;
   border-radius: 3px;
   cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
 div#flag-container img:hover {
@@ -89,15 +120,21 @@ div#flag-container img:hover {
 div#score-container {
   display: flex;
   justify-content: center;
-  margin: 0 0 2rem 0;
+  margin: 1rem auto;
   cursor: default;
 }
 
-div#score-container div {
-  padding: 0.7rem 1rem;
+div#score-container div,
+div#score-container button {
+  padding: 0.6rem 1rem;
   border-radius: 3px;
-  background-color: #ddd;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  font-size: 1rem;
+}
+
+div#score-container div {
+  margin-right: 0.75rem;
+  background-color: #ddd;
 }
 
 form#flag-form {
@@ -137,36 +174,15 @@ form#flag-form div#text-container:focus {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-form#flag-form button {
-  background-color: #007bff;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-form#flag-form button:hover {
-  background-color: #0056b3;
-}
-
-form#flag-form button:active {
-  background-color: #004b9e;
-}
-
-form#flag-form button:focus {
-  outline: none;
-}
-
 @media screen and (max-width: 1100px) {
   div#flag-container img {
     max-width: 60vw;
-    min-width: 25vw;
   }
 }
 
 @media screen and (max-width: 600px) {
   div#flag-container img {
     max-width: 90vw;
-    min-width: 90vw;
   }
 }
 
@@ -204,5 +220,58 @@ form#flag-form input[type="text"]:focus + #autocomplete-container {
 }
 
 #autocomplete-container li:hover {
-  background-color: #f0f0f0;
+  background-color: var(--secondary-color);
+}
+
+#autocomplete-container li:active {
+  background-color: #e0e0e0;
+}
+
+.alert-box {
+  background-color: #111111aa;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.alert-box-content {
+  opacity: 1;
+  background-color: var(--secondary-color);
+  color: #111;
+  width: 35rem;
+  height: 20rem;
+  top: calc(50% - 10rem);
+  left: calc(50% - 17.5rem);
+  position: fixed;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.alert-box-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  color: white;
+  margin: 0;
+  padding: 0.7rem;
+  text-align: center;
+}
+
+.alert-box-body {
+  padding: 0 1rem;
+}
+
+.alert-box-close {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 1rem;
+  width: calc(100% - 2rem);
+  padding: 0.5rem;
+  border-radius: 3px;
 }

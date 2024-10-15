@@ -14,37 +14,84 @@ window.onload = () => {
     }, 200);
   });
 
+  document.getElementById("hint-button").addEventListener("click", () => {
+    switch (hint) {
+      case 0:
+        alertBox(
+          "Hint",
+          `The country's area is <strong>${Math.floor(
+            window.country.area
+          ).toLocaleString()}m²</strong>.`
+        );
+        break;
+      case 1:
+        alertBox(
+          "Hint",
+          `The country's population is <strong>${window.country.population.toLocaleString()}</strong>.`
+        );
+        break;
+      case 2:
+        alertBox(
+          "Hint",
+          `The country is in the <strong>${window.country.subregion}</strong> region.`
+        );
+        break;
+      case 3:
+        alertBox(
+          "Hint",
+          `The country's primary language is <strong>${
+            Object.values(window.country.languages)[0]
+          }</strong>.`
+        );
+        break;
+      default:
+        hint = 1;
+        alertBox(
+          "Hint",
+          `The country's area is <strong>${Math.floor(
+            window.country.area
+          ).toLocaleString()}m²</strong>.`
+        );
+        return;
+    }
+    hint++;
+    hints++;
+    document.getElementById("hint-button").textContent = `Hint (${hints})`;
+  });
+
   /* add event listener to form */
   const form = document.getElementById("flag-form");
   function handleForm(event) {
     event.preventDefault();
-    console.log(event);
-    console.log(document.getElementById("flag-guess").value);
+    console.log("Guess: ", event);
     let guess = document.getElementById("flag-guess").value;
     let refresh = false;
-    
+
     if (guess === "") {
-      alert("Please enter a country name.");
+      alertBox("Error", "Please enter a country name.");
       return;
     } else if (countryNameToCode(guess) === null) {
-      alert("Invalid country name.");
+      alertBox("Error", "Invalid country name.");
       return;
     } else if (countryNameToCode(guess) === window.country.iso2_code) {
-      alert("Correct! The flag is from " + guess + ".");
+      alertBox("Correct", `Correct! The flag is from <strong>${guess}</strong>.`, "#28a745");
       score++;
       refresh = true;
     } else {
-      alert(`Incorrect. The flag is from ${window.country.label_en}.`);
+      alertBox("Incorrect", `Incorrect. The flag is from <strong>${window.country.label_en}</strong>.`, "#dc3545");
       refresh = true;
     }
 
     if (refresh) {
+      hint = 0;
       window.country = getRandomCountry();
-      document.getElementById("flag-img").src = getFlagUrl(window.country.iso2_code);
+      document.getElementById("flag-img").src = getFlagUrl(
+        window.country.iso2_code
+      );
       document.getElementById("flag-guess").value = "";
       document.getElementById("autocomplete-container").style.display = "none";
       attempts++;
-      
+
       document.getElementById("score").textContent = `${score}/${attempts}`;
       if (score > highScore) {
         highScore = score;
@@ -58,9 +105,11 @@ window.onload = () => {
 window.country = null;
 let score = 0,
   highScore = 0,
-  attempts = 0;
+  attempts = 0,
+  hint = 0,
+  hints = 0;
 
-console.log("Loading country data...");
+/* load country data */
 fetch("./country_codes.json")
   .then((response) => response.json())
   .then((json) => {
@@ -84,10 +133,10 @@ fetch("./country_codes.json")
     /* load flag image and country name */
     const flagImg = document.getElementById("flag-img");
     window.country = getRandomCountry();
-    console.log(window.country)
     flagImg.src = getFlagUrl(window.country.iso2_code);
   });
 
+/* helper functions */
 function getRandomCountry() {
   return window.countryData[
     Math.floor(Math.random() * window.countryData.length)
@@ -112,7 +161,9 @@ function countryNameToCode(countryName) {
 }
 
 function autocomplete(inputValue) {
-  const autocompleteContainer = document.getElementById("autocomplete-container");
+  const autocompleteContainer = document.getElementById(
+    "autocomplete-container"
+  );
   const countries = window.countries_en;
   const filteredCountries = countries.filter((country) =>
     country.toLowerCase().includes(inputValue.toLowerCase())
@@ -146,7 +197,11 @@ function autocomplete(inputValue) {
       }
     });
     inputField.addEventListener("keypress", (e) => {
-      if (e.keyCode === 13 && filteredCountries.length > 0 && autocompleteContainer.style.display === "block") {
+      if (
+        e.keyCode === 13 &&
+        filteredCountries.length > 0 &&
+        autocompleteContainer.style.display === "block"
+      ) {
         // Select the first item in the autocomplete list
         const firstItem = autocompleteContainer.querySelector("li");
         document.getElementById("flag-guess").value = firstItem.textContent;
@@ -157,4 +212,29 @@ function autocomplete(inputValue) {
   } else {
     autocompleteContainer.style.display = "none";
   }
+}
+
+function alertBox(title, message, color="#007bff") {
+  const alertBox = document.createElement("div");
+  alertBox.classList.add("alert-box");
+  alertBox.innerHTML = `
+    <div class="alert-box-content">
+      <div class="alert-box-header" style="background-color: ${color}">
+        <h2>${title}</h2>
+      </div>
+      <div class="alert-box-body">
+        <p>${message}</p>
+        <button class="alert-box-close" style="background-color: ${color=="#007bff" ? "#007bff" : "#aaa"}">Close</button>
+      </div>
+    </div>
+  `;
+  alertBox
+    .querySelector(".alert-box-close")
+    .addEventListener("click", closeAlertBox);
+  document.body.appendChild(alertBox);
+}
+
+function closeAlertBox() {
+  const alertBox = document.querySelector(".alert-box");
+  alertBox.remove();
 }
