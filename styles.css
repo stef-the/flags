@@ -250,6 +250,16 @@ form#flag-form input[type="text"]:focus + #autocomplete-container {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
+@media screen and (max-width: 650px) {
+  .alert-box-content {
+    width: 90vw;
+    height: 20rem;
+    top: calc(25%);
+    left: calc(50% - 45vw);
+  }
+  
+}
+
 .alert-box-header {
   font-size: 1.5rem;
   font-weight: bold;
