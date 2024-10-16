@@ -27,8 +27,11 @@
             id="flag-guess"
             placeholder="Enter your guess"
             autocomplete="off"
+            tabindex="2"
           />
-          <button id="text-submit" type="submit"><strong>Submit</strong></button>
+          <button id="text-submit" type="submit" tabindex="3">
+            <strong>Submit</strong>
+          </button>
         </div>
         <div id="autocomplete-container"></div>
       </form>
@@ -36,7 +39,7 @@
         <div id="score-subcontainer">
           <div>Score: <span id="score">0</span></div>
           <div>High Score: <span id="high-score">0</span></div>
-          <button id="hint-button" type="button">Hint (0)</button>
+          <button id="hint-button" type="button" tabindex="1">Hint (0)</button>
         </div>
       </div>
     </div>

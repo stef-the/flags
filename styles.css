@@ -3,6 +3,7 @@
   --secondary-color: #f0f0f0;
   --tertiary-color: #ddd;
   --quaternary-color: #aaa;
+  --quinary-color: #666;
 
   --primary-color-hover: #0056b3;
   --primary-color-active: #004b9e;
@@ -221,6 +222,10 @@ form#flag-form input[type="text"]:focus + #autocomplete-container {
   padding: 10px;
   border-bottom: 1px solid #ddd;
   cursor: pointer;
+}
+
+#autocomplete-container li.selected {
+  background-color: #e0e0e0;
 }
 
 #autocomplete-container li:last-child {

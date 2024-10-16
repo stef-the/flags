@@ -1,0 +1,5519 @@
+[
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KH",
+        "label_en": "Cambodia",
+        "label_fr": "Cambodge",
+        "label_sp": "Camboya",
+        "geo_point_2d": {
+            "lon": 104.902961879,
+            "lat": 12.7158741325
+        },
+        "unMember": true,
+        "currencies": [
+            "KHR",
+            "USD"
+        ],
+        "capital": [
+            "Phnom Penh"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "Khmer"
+        ],
+        "area": 181035.0,
+        "population": 16718971
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "CH",
+        "label_en": "Switzerland",
+        "label_fr": "Suisse",
+        "label_sp": "Suiza",
+        "geo_point_2d": {
+            "lon": 8.21591266153,
+            "lat": 46.7990859221
+        },
+        "unMember": true,
+        "currencies": [
+            "CHF"
+        ],
+        "capital": [
+            "Bern"
+        ],
+        "subregion": "Western Europe",
+        "languages": [
+            "French",
+            "Swiss German",
+            "Italian",
+            "Romansh"
+        ],
+        "area": 41284.0,
+        "population": 8654622
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NG",
+        "label_en": "Nigeria",
+        "label_fr": "Nig\u00e9ria",
+        "label_sp": "Nigeria",
+        "geo_point_2d": {
+            "lon": 8.09141781395,
+            "lat": 9.59507580848
+        },
+        "unMember": true,
+        "currencies": [
+            "NGN"
+        ],
+        "capital": [
+            "Abuja"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "English"
+        ],
+        "area": 923768.0,
+        "population": 206139587
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CZ",
+        "label_en": "Czech Republic",
+        "label_fr": "R\u00e9publique tch\u00e8que",
+        "label_sp": "Rep\u00fablica Checa",
+        "geo_point_2d": {
+            "lon": 15.3140847769,
+            "lat": 49.7324459146
+        },
+        "unMember": true,
+        "currencies": [
+            "CZK"
+        ],
+        "capital": [
+            "Prague"
+        ],
+        "subregion": "Central Europe",
+        "languages": [
+            "Czech",
+            "Slovak"
+        ],
+        "area": 78865.0,
+        "population": 10698896
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "UZ",
+        "label_en": "Uzbekistan",
+        "label_fr": "Ouzb\u00e9kistan",
+        "label_sp": "Uzbekist\u00e1n",
+        "geo_point_2d": {
+            "lon": 63.1405371045,
+            "lat": 41.7554735142
+        },
+        "unMember": true,
+        "currencies": [
+            "UZS"
+        ],
+        "capital": [
+            "Tashkent"
+        ],
+        "subregion": "Central Asia",
+        "languages": [
+            "Russian",
+            "Uzbek"
+        ],
+        "area": 447400.0,
+        "population": 34232050
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "GF",
+        "label_en": "French Guiana",
+        "label_fr": "Guyane fran\u00e7aise",
+        "label_sp": "Guayana Francesa",
+        "geo_point_2d": null,
+        "unMember": false,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Cayenne"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "French"
+        ],
+        "area": 83534.0,
+        "population": 254541
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "DE",
+        "label_en": "Germany",
+        "label_fr": "Allemagne",
+        "label_sp": "Alemania",
+        "geo_point_2d": {
+            "lon": 10.3817108727,
+            "lat": 51.1062734358
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Berlin"
+        ],
+        "subregion": "Western Europe",
+        "languages": [
+            "German"
+        ],
+        "area": 357114.0,
+        "population": 83240525
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BH",
+        "label_en": "Bahrain",
+        "label_fr": "Bahre\u00efn",
+        "label_sp": "Bahrein",
+        "geo_point_2d": {
+            "lon": 50.5459565371,
+            "lat": 26.0514166973
+        },
+        "unMember": true,
+        "currencies": [
+            "BHD"
+        ],
+        "capital": [
+            "Manama"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 765.0,
+        "population": 1701583
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MH",
+        "label_en": "Marshall Islands",
+        "label_fr": "Iles Marshall",
+        "label_sp": "Islas Marshall",
+        "geo_point_2d": {
+            "lon": 170.102306798,
+            "lat": 7.09521237283
+        },
+        "unMember": true,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Majuro"
+        ],
+        "subregion": "Micronesia",
+        "languages": [
+            "English",
+            "Marshallese"
+        ],
+        "area": 181.0,
+        "population": 59194
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "VE",
+        "label_en": "Venezuela, Bolivarian Rep. of",
+        "label_fr": "Venezuela, R\u00e9p. bolivarienne du",
+        "label_sp": "Venezuela, Rep. Bolivariana de",
+        "geo_point_2d": {
+            "lon": -66.1693972508,
+            "lat": 7.12780748878
+        },
+        "unMember": true,
+        "currencies": [
+            "VES"
+        ],
+        "capital": [
+            "Caracas"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 916445.0,
+        "population": 28435943
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "RE",
+        "label_en": "R\u00e9union",
+        "label_fr": "R\u00e9union",
+        "label_sp": "Reuni\u00f3n",
+        "geo_point_2d": null,
+        "unMember": false,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Saint-Denis"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 2511.0,
+        "population": 840974
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GY",
+        "label_en": "Guyana",
+        "label_fr": "Guyana",
+        "label_sp": "Guyana",
+        "geo_point_2d": {
+            "lon": -58.9801364944,
+            "lat": 4.79385162798
+        },
+        "unMember": true,
+        "currencies": [
+            "GYD"
+        ],
+        "capital": [
+            "Georgetown"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "English"
+        ],
+        "area": 214969.0,
+        "population": 786559
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "BI",
+        "label_en": "Burundi",
+        "label_fr": "Burundi",
+        "label_sp": "Burundi",
+        "geo_point_2d": {
+            "lon": 29.8753249526,
+            "lat": -3.35694363826
+        },
+        "unMember": true,
+        "currencies": [
+            "BIF"
+        ],
+        "capital": [
+            "Gitega"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "French",
+            "Kirundi"
+        ],
+        "area": 27834.0,
+        "population": 11890781
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KI",
+        "label_en": "Kiribati",
+        "label_fr": "Kiribati",
+        "label_sp": "Kiribati",
+        "geo_point_2d": {
+            "lon": -52.4190970754,
+            "lat": 0.645568622358
+        },
+        "unMember": true,
+        "currencies": [
+            "AUD",
+            "KID"
+        ],
+        "capital": [
+            "South Tarawa"
+        ],
+        "subregion": "Micronesia",
+        "languages": [
+            "English",
+            "Gilbertese"
+        ],
+        "area": 811.0,
+        "population": 119446
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "JO",
+        "label_en": "Jordan",
+        "label_fr": "Jordanie",
+        "label_sp": "Jordania",
+        "geo_point_2d": {
+            "lon": 36.771219291,
+            "lat": 31.2455331501
+        },
+        "unMember": true,
+        "currencies": [
+            "JOD"
+        ],
+        "capital": [
+            "Amman"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 89342.0,
+        "population": 10203140
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AU",
+        "label_en": "Australia",
+        "label_fr": "Australie",
+        "label_sp": "Australia",
+        "geo_point_2d": {
+            "lon": 134.491117773,
+            "lat": -25.7323831126
+        },
+        "unMember": true,
+        "currencies": [
+            "AUD"
+        ],
+        "capital": [
+            "Canberra"
+        ],
+        "subregion": "Australia and New Zealand",
+        "languages": [
+            "English"
+        ],
+        "area": 7692024.0,
+        "population": 25687041
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "EH",
+        "label_en": "Western Sahara",
+        "label_fr": "Sahara occidental",
+        "label_sp": "Sahara Occidental",
+        "geo_point_2d": null,
+        "unMember": false,
+        "currencies": [
+            "DZD",
+            "MAD",
+            "MRU"
+        ],
+        "capital": [
+            "El Aai\u00fan"
+        ],
+        "subregion": "Northern Africa",
+        "languages": [
+            "Berber",
+            "Hassaniya",
+            "Spanish"
+        ],
+        "area": 266000.0,
+        "population": 510713
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GE",
+        "label_en": "Georgia",
+        "label_fr": "G\u00e9orgie",
+        "label_sp": "Georgia",
+        "geo_point_2d": {
+            "lon": 43.5070595604,
+            "lat": 42.1690379193
+        },
+        "unMember": true,
+        "currencies": [
+            "GEL"
+        ],
+        "capital": [
+            "Tbilisi"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Georgian"
+        ],
+        "area": 69700.0,
+        "population": 3714000
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "UA",
+        "label_en": "Ukraine",
+        "label_fr": "Ukraine",
+        "label_sp": "Ucrania",
+        "geo_point_2d": {
+            "lon": 31.386059716,
+            "lat": 48.9972191079
+        }
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ZW",
+        "label_en": "Zimbabwe",
+        "label_fr": "Zimbabwe",
+        "label_sp": "Zimbabwe",
+        "geo_point_2d": {
+            "lon": 29.8516462113,
+            "lat": -19.0027606418
+        },
+        "unMember": true,
+        "currencies": [
+            "ZWL"
+        ],
+        "capital": [
+            "Harare"
+        ],
+        "subregion": "Southern Africa",
+        "languages": [
+            "Chibarwe",
+            "English",
+            "Kalanga",
+            "Khoisan",
+            "Ndau",
+            "Northern Ndebele",
+            "Chewa",
+            "Shona",
+            "Sotho",
+            "Tonga",
+            "Tswana",
+            "Tsonga",
+            "Venda",
+            "Xhosa",
+            "Zimbabwean Sign Language"
+        ],
+        "area": 390757.0,
+        "population": 14862927
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SY",
+        "label_en": "Syrian Arab Republic",
+        "label_fr": "R\u00e9publique arabe syrienne",
+        "label_sp": "Rep\u00fablica Arabe Siria",
+        "geo_point_2d": {
+            "lon": 38.504432306,
+            "lat": 35.022758145
+        },
+        "unMember": true,
+        "currencies": [
+            "SYP"
+        ],
+        "capital": [
+            "Damascus"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 185180.0,
+        "population": 17500657
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TO",
+        "label_en": "Tonga",
+        "label_fr": "Tonga",
+        "label_sp": "Tonga",
+        "geo_point_2d": {
+            "lon": -174.872535332,
+            "lat": -20.0705280804
+        },
+        "unMember": true,
+        "currencies": [
+            "TOP"
+        ],
+        "capital": [
+            "Nuku'alofa"
+        ],
+        "subregion": "Polynesia",
+        "languages": [
+            "English",
+            "Tongan"
+        ],
+        "area": 747.0,
+        "population": 105697
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "LU",
+        "label_en": "Luxembourg",
+        "label_fr": "Luxembourg",
+        "label_sp": "Luxemburgo",
+        "geo_point_2d": {
+            "lon": 6.07223192937,
+            "lat": 49.7668555991
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Luxembourg"
+        ],
+        "subregion": "Western Europe",
+        "languages": [
+            "German",
+            "French",
+            "Luxembourgish"
+        ],
+        "area": 2586.0,
+        "population": 632275
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "JP",
+        "label_en": "Japan",
+        "label_fr": "Japon",
+        "label_sp": "Jap\u00f3n",
+        "geo_point_2d": {
+            "lon": 137.979959508,
+            "lat": 37.5526225906
+        },
+        "unMember": true,
+        "currencies": [
+            "JPY"
+        ],
+        "capital": [
+            "Tokyo"
+        ],
+        "subregion": "Eastern Asia",
+        "languages": [
+            "Japanese"
+        ],
+        "area": 377930.0,
+        "population": 125836021
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "BO",
+        "label_en": "Bolivia",
+        "label_fr": "Bolivie",
+        "label_sp": "Bolivia",
+        "geo_point_2d": {
+            "lon": -64.6849214117,
+            "lat": -16.7067160673
+        },
+        "unMember": true,
+        "currencies": [
+            "BOB"
+        ],
+        "capital": [
+            "Sucre"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "Aymara",
+            "Guaran\u00ed",
+            "Quechua",
+            "Spanish"
+        ],
+        "area": 1098581.0,
+        "population": 11673029
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AL",
+        "label_en": "Albania",
+        "label_fr": "Albanie",
+        "label_sp": "Albania",
+        "geo_point_2d": {
+            "lon": 20.0536337871,
+            "lat": 41.1423824499
+        }
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ME",
+        "label_en": "Montenegro",
+        "label_fr": "Mont\u00e9n\u00e9gro",
+        "label_sp": "Montenegro",
+        "geo_point_2d": {
+            "lon": 19.23871376,
+            "lat": 42.785696291
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Podgorica"
+        ],
+        "subregion": "Southeast Europe",
+        "languages": [
+            "Montenegrin"
+        ],
+        "area": 13812.0,
+        "population": 621718
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "US",
+        "label_en": "United States",
+        "label_fr": "Etats-Unis",
+        "label_sp": "Estados Unidos",
+        "geo_point_2d": {
+            "lon": -112.494333916,
+            "lat": 45.6875333395
+        },
+        "unMember": true,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Washington, D.C."
+        ],
+        "subregion": "North America",
+        "languages": [
+            "English"
+        ],
+        "area": 9372610.0,
+        "population": 329484123
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BA",
+        "label_en": "Bosnia and Herzegovina",
+        "label_fr": "Bosnie-Herz\u00e9govine",
+        "label_sp": "Bosnia y Herzegovina",
+        "geo_point_2d": {
+            "lon": 17.7734052675,
+            "lat": 44.1715041395
+        },
+        "unMember": true,
+        "currencies": [
+            "BAM"
+        ],
+        "capital": [
+            "Sarajevo"
+        ],
+        "subregion": "Southeast Europe",
+        "languages": [
+            "Bosnian",
+            "Croatian",
+            "Serbian"
+        ],
+        "area": 51209.0,
+        "population": 3280815
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PG",
+        "label_en": "Papua New Guinea",
+        "label_fr": "Papouasie-Nouvelle-Guin\u00e9e",
+        "label_sp": "Papua Nueva Guinea",
+        "geo_point_2d": {
+            "lon": 145.231212592,
+            "lat": -6.47028522217
+        },
+        "unMember": true,
+        "currencies": [
+            "PGK"
+        ],
+        "capital": [
+            "Port Moresby"
+        ],
+        "subregion": "Melanesia",
+        "languages": [
+            "English",
+            "Hiri Motu",
+            "Tok Pisin"
+        ],
+        "area": 462840.0,
+        "population": 8947027
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LV",
+        "label_en": "Latvia",
+        "label_fr": "Lettonie",
+        "label_sp": "Letonia",
+        "geo_point_2d": {
+            "lon": 24.9079168191,
+            "lat": 56.8520035624
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Riga"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "Latvian"
+        ],
+        "area": 64559.0,
+        "population": 1901548
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AG",
+        "label_en": "Antigua and Barbuda",
+        "label_fr": "Antigua-et-Barbuda",
+        "label_sp": "Antigua y Barbuda",
+        "geo_point_2d": {
+            "lon": -61.7915278348,
+            "lat": 17.2828237433
+        },
+        "unMember": true,
+        "currencies": [
+            "XCD"
+        ],
+        "capital": [
+            "Saint John's"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 442.0,
+        "population": 97928
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "AR",
+        "label_en": "Argentina",
+        "label_fr": "Argentine",
+        "label_sp": "Argentina",
+        "geo_point_2d": {
+            "lon": -65.1782708231,
+            "lat": -35.3874753432
+        },
+        "unMember": true,
+        "currencies": [
+            "ARS"
+        ],
+        "capital": [
+            "Buenos Aires"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "Guaran\u00ed",
+            "Spanish"
+        ],
+        "area": 2780400.0,
+        "population": 45376763
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "RO",
+        "label_en": "Romania",
+        "label_fr": "Roumanie",
+        "label_sp": "Rumania",
+        "geo_point_2d": {
+            "lon": 24.9730878059,
+            "lat": 45.8534292955
+        },
+        "unMember": true,
+        "currencies": [
+            "RON"
+        ],
+        "capital": [
+            "Bucharest"
+        ],
+        "subregion": "Southeast Europe",
+        "languages": [
+            "Romanian"
+        ],
+        "area": 238391.0,
+        "population": 19286123
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PS",
+        "label_en": "West Bank and Gaza Strip",
+        "label_fr": "Rive occidentale et Bande de Gaza",
+        "label_sp": "Ribera occidental y Faja de Gaza",
+        "geo_point_2d": null,
+        "unMember": false,
+        "currencies": [
+            "EGP",
+            "ILS",
+            "JOD"
+        ],
+        "capital": [
+            "Ramallah",
+            "Jerusalem"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 6220.0,
+        "population": 4803269
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "JM",
+        "label_en": "Jamaica",
+        "label_fr": "Jama\u00efque",
+        "label_sp": "Jamaica",
+        "geo_point_2d": {
+            "lon": -77.3189142295,
+            "lat": 18.1551953465
+        },
+        "unMember": true,
+        "currencies": [
+            "JMD"
+        ],
+        "capital": [
+            "Kingston"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English",
+            "Jamaican Patois"
+        ],
+        "area": 10991.0,
+        "population": 2961161
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MV",
+        "label_en": "Maldives",
+        "label_fr": "Maldives",
+        "label_sp": "Maldivas",
+        "geo_point_2d": {
+            "lon": 73.3085660176,
+            "lat": 3.86442047724
+        },
+        "unMember": true,
+        "currencies": [
+            "MVR"
+        ],
+        "capital": [
+            "Mal\u00e9"
+        ],
+        "subregion": "Southern Asia",
+        "languages": [
+            "Maldivian"
+        ],
+        "area": 300.0,
+        "population": 540542
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "GW",
+        "label_en": "Guinea-Bissau",
+        "label_fr": "Guin\u00e9e-Bissau",
+        "label_sp": "Guinea-Bissau",
+        "geo_point_2d": {
+            "lon": -14.9767869834,
+            "lat": 12.0276495691
+        },
+        "unMember": false,
+        "currencies": [
+            "XOF"
+        ],
+        "capital": [
+            "Bissau"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "Portuguese",
+            "Upper Guinea Creole"
+        ],
+        "area": 36125.0,
+        "population": 1967998
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "MR",
+        "label_en": "Mauritania",
+        "label_fr": "Mauritanie",
+        "label_sp": "Mauritania",
+        "geo_point_2d": {
+            "lon": -10.3435353439,
+            "lat": 20.256790923
+        },
+        "unMember": true,
+        "currencies": [
+            "MRU"
+        ],
+        "capital": [
+            "Nouakchott"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 1030700.0,
+        "population": 4649660
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IR",
+        "label_en": "Iran, Islamic Rep. of",
+        "label_fr": "Iran, R\u00e9p. islamique d'",
+        "label_sp": "Ir\u00e1n, Rep. Isl\u00e1mica del",
+        "geo_point_2d": {
+            "lon": 54.2771108547,
+            "lat": 32.5705325864
+        },
+        "unMember": true,
+        "currencies": [
+            "IRR"
+        ],
+        "capital": [
+            "Tehran"
+        ],
+        "subregion": "Southern Asia",
+        "languages": [
+            "Persian (Farsi)"
+        ],
+        "area": 1648195.0,
+        "population": 83992953
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GM",
+        "label_en": "Gambia",
+        "label_fr": "Gambie",
+        "label_sp": "Gambia",
+        "geo_point_2d": {
+            "lon": -15.3984217921,
+            "lat": 13.4496127102
+        },
+        "unMember": true,
+        "currencies": [
+            "GMD"
+        ],
+        "capital": [
+            "Banjul"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "English"
+        ],
+        "area": 10689.0,
+        "population": 2416664
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "NC",
+        "label_en": "New Caledonia",
+        "label_fr": "Nouvelle-Cal\u00e9donie",
+        "label_sp": "Nueva Caledonia",
+        "geo_point_2d": {
+            "lon": 165.703585853,
+            "lat": -21.3044620868
+        },
+        "unMember": false,
+        "currencies": [
+            "XPF"
+        ],
+        "capital": [
+            "Noum\u00e9a"
+        ],
+        "subregion": "Melanesia",
+        "languages": [
+            "French"
+        ],
+        "area": 18575.0,
+        "population": 271960
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KS",
+        "label_en": "Kosovo",
+        "label_fr": "Kosovo",
+        "label_sp": "Kosovo",
+        "geo_point_2d": {
+            "lon": 20.8735741478,
+            "lat": 42.5725834961
+        },
+        "unMember": false,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Pristina"
+        ],
+        "subregion": "Southeast Europe",
+        "languages": [
+            "Albanian",
+            "Serbian"
+        ],
+        "area": 10908.0,
+        "population": 1775378
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BN",
+        "label_en": "Brunei Darussalam",
+        "label_fr": "Brun\u00e9i Darussalam",
+        "label_sp": "Brunei Darussalam",
+        "geo_point_2d": {
+            "lon": 114.727238056,
+            "lat": 4.51679953771
+        },
+        "unMember": true,
+        "currencies": [
+            "BND",
+            "SGD"
+        ],
+        "capital": [
+            "Bandar Seri Begawan"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "Malay"
+        ],
+        "area": 5765.0,
+        "population": 437483
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "BR",
+        "label_en": "Brazil",
+        "label_fr": "Br\u00e9sil",
+        "label_sp": "Brasil",
+        "geo_point_2d": {
+            "lon": -53.0925364784,
+            "lat": -10.7811447641
+        },
+        "unMember": true,
+        "currencies": [
+            "BRL"
+        ],
+        "capital": [
+            "Bras\u00edlia"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "Portuguese"
+        ],
+        "area": 8515767.0,
+        "population": 212559409
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NO",
+        "label_en": "Norway",
+        "label_fr": "Norv\u00e8ge",
+        "label_sp": "Noruega",
+        "geo_point_2d": {
+            "lon": 15.4107026868,
+            "lat": 68.7958281693
+        },
+        "unMember": true,
+        "currencies": [
+            "NOK"
+        ],
+        "capital": [
+            "Oslo"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "Norwegian Nynorsk",
+            "Norwegian Bokm\u00e5l",
+            "Sami"
+        ],
+        "area": 323802.0,
+        "population": 5379475
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "GA",
+        "label_en": "Gabon",
+        "label_fr": "Gabon",
+        "label_sp": "Gab\u00f3n",
+        "geo_point_2d": {
+            "lon": 11.7893224204,
+            "lat": -0.591692774419
+        },
+        "unMember": true,
+        "currencies": [
+            "XAF"
+        ],
+        "capital": [
+            "Libreville"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 267668.0,
+        "population": 2225728
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IQ",
+        "label_en": "Iraq",
+        "label_fr": "Iraq",
+        "label_sp": "Iraq",
+        "geo_point_2d": {
+            "lon": 43.7446739676,
+            "lat": 33.0397448476
+        }
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "DJ",
+        "label_en": "Djibouti",
+        "label_fr": "Djibouti",
+        "label_sp": "Djibouti",
+        "geo_point_2d": {
+            "lon": 42.5670039348,
+            "lat": 11.7504923494
+        }
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PL",
+        "label_en": "Poland",
+        "label_fr": "Pologne",
+        "label_sp": "Polonia",
+        "geo_point_2d": {
+            "lon": 19.3943576278,
+            "lat": 52.1248371866
+        },
+        "unMember": true,
+        "currencies": [
+            "PLN"
+        ],
+        "capital": [
+            "Warsaw"
+        ],
+        "subregion": "Central Europe",
+        "languages": [
+            "Polish"
+        ],
+        "area": 312679.0,
+        "population": 37950802
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SO",
+        "label_en": "Somalia",
+        "label_fr": "Somalie",
+        "label_sp": "Somalia",
+        "geo_point_2d": {
+            "lon": 45.7059511133,
+            "lat": 4.74860896352
+        },
+        "unMember": true,
+        "currencies": [
+            "SOS"
+        ],
+        "capital": [
+            "Mogadishu"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "Arabic",
+            "Somali"
+        ],
+        "area": 637657.0,
+        "population": 15893219
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SE",
+        "label_en": "Sweden",
+        "label_fr": "Su\u00e8de",
+        "label_sp": "Suecia",
+        "geo_point_2d": {
+            "lon": 16.7542843545,
+            "lat": 62.777378402
+        }
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PK",
+        "label_en": "Pakistan",
+        "label_fr": "Pakistan",
+        "label_sp": "Pakist\u00e1n",
+        "geo_point_2d": {
+            "lon": 69.3410760793,
+            "lat": 29.9485239896
+        },
+        "unMember": true,
+        "currencies": [
+            "PKR"
+        ],
+        "capital": [
+            "Islamabad"
+        ],
+        "subregion": "Southern Asia",
+        "languages": [
+            "English",
+            "Urdu"
+        ],
+        "area": 881912.0,
+        "population": 220892331
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KY",
+        "label_en": "Cayman Islands",
+        "label_fr": "Iles Ca\u00efmanes",
+        "label_sp": "Islas Caim\u00e1n",
+        "geo_point_2d": {
+            "lon": -80.8675232073,
+            "lat": 19.4287484011
+        },
+        "unMember": false,
+        "currencies": [
+            "KYD"
+        ],
+        "capital": [
+            "George Town"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 264.0,
+        "population": 65720
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "MC",
+        "label_en": "Monaco",
+        "label_fr": "Monaco",
+        "label_sp": "M\u00f3naco",
+        "geo_point_2d": {
+            "lon": 7.39939980518,
+            "lat": 43.7388941238
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Monaco"
+        ],
+        "subregion": "Western Europe",
+        "languages": [
+            "French"
+        ],
+        "area": 2.02,
+        "population": 39244
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BS",
+        "label_en": "Bahamas",
+        "label_fr": "Bahamas",
+        "label_sp": "Bahamas",
+        "geo_point_2d": {
+            "lon": -76.5579510932,
+            "lat": 24.2318875048
+        },
+        "unMember": true,
+        "currencies": [
+            "BSD",
+            "USD"
+        ],
+        "capital": [
+            "Nassau"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 13943.0,
+        "population": 393248
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "CO",
+        "label_en": "Colombia",
+        "label_fr": "Colombie",
+        "label_sp": "Colombia",
+        "geo_point_2d": {
+            "lon": -73.0836676571,
+            "lat": 3.90962199445
+        }
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "SV",
+        "label_en": "El Salvador",
+        "label_fr": "El Salvador",
+        "label_sp": "El Salvador",
+        "geo_point_2d": {
+            "lon": -88.871140054,
+            "lat": 13.7358746054
+        },
+        "unMember": true,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "San Salvador"
+        ],
+        "subregion": "Central America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 21041.0,
+        "population": 6486201
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PH",
+        "label_en": "Philippines",
+        "label_fr": "Philippines",
+        "label_sp": "Filipinas",
+        "geo_point_2d": {
+            "lon": 122.874831814,
+            "lat": 11.7639871446
+        },
+        "unMember": true,
+        "currencies": [
+            "PHP"
+        ],
+        "capital": [
+            "Manila"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "English",
+            "Filipino"
+        ],
+        "area": 342353.0,
+        "population": 109581085
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SD",
+        "label_en": "Sudan, The Republic of",
+        "label_fr": "Soudan, R\u00e9publique du",
+        "label_sp": "Sud\u00e1n, Rep\u00fablica de",
+        "geo_point_2d": {
+            "lon": 29.9397656232,
+            "lat": 15.9868153397
+        },
+        "unMember": true,
+        "currencies": [
+            "SDG"
+        ],
+        "capital": [
+            "Khartoum"
+        ],
+        "subregion": "Northern Africa",
+        "languages": [
+            "Arabic",
+            "English"
+        ],
+        "area": 1886068.0,
+        "population": 43849269
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NU",
+        "label_en": "Niue",
+        "label_fr": "Niou\u00e9",
+        "label_sp": "Niue",
+        "geo_point_2d": {
+            "lon": -169.868910274,
+            "lat": -19.0493506258
+        },
+        "unMember": false,
+        "currencies": [
+            "NZD"
+        ],
+        "capital": [
+            "Alofi"
+        ],
+        "subregion": "Polynesia",
+        "languages": [
+            "English",
+            "Niuean"
+        ],
+        "area": 260.0,
+        "population": 1470
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BZ",
+        "label_en": "Belize",
+        "label_fr": "Belize",
+        "label_sp": "Belice",
+        "geo_point_2d": {
+            "lon": -88.6947664472,
+            "lat": 17.2076202853
+        }
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IT",
+        "label_en": "Italy",
+        "label_fr": "Italie",
+        "label_sp": "Italia",
+        "geo_point_2d": {
+            "lon": 12.0723891753,
+            "lat": 42.7864450125
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Rome"
+        ],
+        "subregion": "Southern Europe",
+        "languages": [
+            "Italian"
+        ],
+        "area": 301336.0,
+        "population": 59554023
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "FI",
+        "label_en": "Finland",
+        "label_fr": "Finlande",
+        "label_sp": "Finlandia",
+        "geo_point_2d": {
+            "lon": 26.2713520963,
+            "lat": 64.496025362
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Helsinki"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "Finnish",
+            "Swedish"
+        ],
+        "area": 338424.0,
+        "population": 5530719
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "PY",
+        "label_en": "Paraguay",
+        "label_fr": "Paraguay",
+        "label_sp": "Paraguay",
+        "geo_point_2d": {
+            "lon": -58.3983991485,
+            "lat": -23.2273143012
+        },
+        "unMember": true,
+        "currencies": [
+            "PYG"
+        ],
+        "capital": [
+            "Asunci\u00f3n"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "Guaran\u00ed",
+            "Spanish"
+        ],
+        "area": 406752.0,
+        "population": 7132530
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AF",
+        "label_en": "Afghanistan",
+        "label_fr": "Afghanistan",
+        "label_sp": "Afganist\u00e1n",
+        "geo_point_2d": {
+            "lon": 66.0087623043,
+            "lat": 33.8364489128
+        },
+        "unMember": true,
+        "currencies": [
+            "AFN"
+        ],
+        "capital": [
+            "Kabul"
+        ],
+        "subregion": "Southern Asia",
+        "languages": [
+            "Dari",
+            "Pashto",
+            "Turkmen"
+        ],
+        "area": 652230.0,
+        "population": 40218234
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AE",
+        "label_en": "United Arab Emirates",
+        "label_fr": "Emirats arabes unis",
+        "label_sp": "Emiratos Arabes Unidos",
+        "geo_point_2d": {
+            "lon": 54.3037299326,
+            "lat": 23.9082234509
+        },
+        "unMember": true,
+        "currencies": [
+            "AED"
+        ],
+        "capital": [
+            "Abu Dhabi"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 83600.0,
+        "population": 9890400
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "PE",
+        "label_en": "Peru",
+        "label_fr": "P\u00e9rou",
+        "label_sp": "Per\u00fa",
+        "geo_point_2d": {
+            "lon": -74.3781377726,
+            "lat": -9.15437177966
+        },
+        "unMember": true,
+        "currencies": [
+            "PEN"
+        ],
+        "capital": [
+            "Lima"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "Aymara",
+            "Quechua",
+            "Spanish"
+        ],
+        "area": 1285216.0,
+        "population": 32971846
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "CG",
+        "label_en": "Congo",
+        "label_fr": "Congo",
+        "label_sp": "Congo",
+        "geo_point_2d": {
+            "lon": 15.2180878602,
+            "lat": -0.83889714404
+        },
+        "unMember": true,
+        "currencies": [
+            "XAF"
+        ],
+        "capital": [
+            "Brazzaville"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "French",
+            "Kikongo",
+            "Lingala"
+        ],
+        "area": 342000.0,
+        "population": 5657000
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "HN",
+        "label_en": "Honduras",
+        "label_fr": "Honduras",
+        "label_sp": "Honduras",
+        "geo_point_2d": {
+            "lon": -86.6254207576,
+            "lat": 14.8207817676
+        },
+        "unMember": true,
+        "currencies": [
+            "HNL"
+        ],
+        "capital": [
+            "Tegucigalpa"
+        ],
+        "subregion": "Central America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 112492.0,
+        "population": 9904608
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VI",
+        "label_en": "Virgin Islands (US)",
+        "label_fr": "Iles Vierges am\u00e9ricaines",
+        "label_sp": "Islas V\u00edrgenes (EE.UU.)",
+        "geo_point_2d": {
+            "lon": -64.7975825297,
+            "lat": 17.9731771556
+        },
+        "unMember": false,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Charlotte Amalie"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 347.0,
+        "population": 106290
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CK",
+        "label_en": "Cook Islands",
+        "label_fr": "Iles Cook",
+        "label_sp": "Islas Cook",
+        "geo_point_2d": {
+            "lon": -158.801766392,
+            "lat": -19.8687679623
+        },
+        "unMember": false,
+        "currencies": [
+            "CKD",
+            "NZD"
+        ],
+        "capital": [
+            "Avarua"
+        ],
+        "subregion": "Polynesia",
+        "languages": [
+            "English",
+            "Cook Islands M\u0101ori"
+        ],
+        "area": 236.0,
+        "population": 18100
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SL",
+        "label_en": "Sierra Leone",
+        "label_fr": "Sierra Leone",
+        "label_sp": "Sierra Leona",
+        "geo_point_2d": {
+            "lon": -11.7947178851,
+            "lat": 8.56342159427
+        },
+        "unMember": true,
+        "currencies": [
+            "SLL"
+        ],
+        "capital": [
+            "Freetown"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "English"
+        ],
+        "area": 71740.0,
+        "population": 7976985
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NL",
+        "label_en": "Netherlands",
+        "label_fr": "Pays-Bas",
+        "label_sp": "Pa\u00edses Bajos",
+        "geo_point_2d": {
+            "lon": 5.22159177132,
+            "lat": 52.0724168637
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Amsterdam"
+        ],
+        "subregion": "Western Europe",
+        "languages": [
+            "Dutch"
+        ],
+        "area": 41850.0,
+        "population": 16655799
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "TN",
+        "label_en": "Tunisia",
+        "label_fr": "Tunisie",
+        "label_sp": "T\u00fanez",
+        "geo_point_2d": {
+            "lon": 9.55488510583,
+            "lat": 34.1194945806
+        },
+        "unMember": true,
+        "currencies": [
+            "TND"
+        ],
+        "capital": [
+            "Tunis"
+        ],
+        "subregion": "Northern Africa",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 163610.0,
+        "population": 11818618
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CY",
+        "label_en": "Cyprus",
+        "label_fr": "Chypre",
+        "label_sp": "Chipre",
+        "geo_point_2d": {
+            "lon": 32.9902425308,
+            "lat": 34.9152999848
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Nicosia"
+        ],
+        "subregion": "Southern Europe",
+        "languages": [
+            "Greek",
+            "Turkish"
+        ],
+        "area": 9251.0,
+        "population": 1207361
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KP",
+        "label_en": "Korea, Dem. People's Rep. of",
+        "label_fr": "Cor\u00e9e, R\u00e9p. pop. d\u00e9m. de",
+        "label_sp": "Corea, Rep. Pop. Dem. de",
+        "geo_point_2d": {
+            "lon": 127.184350323,
+            "lat": 40.1508079459
+        }
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GI",
+        "label_en": "Gibraltar",
+        "label_fr": "Gibraltar",
+        "label_sp": "Gibraltar",
+        "geo_point_2d": {
+            "lon": -5.34697922918,
+            "lat": 36.1298020979
+        }
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TW",
+        "label_en": "Taiwan, China",
+        "label_fr": "Ta\u00efwan, Chine",
+        "label_sp": "Taiwan, China",
+        "geo_point_2d": {
+            "lon": 120.950311941,
+            "lat": 23.753006961
+        },
+        "unMember": false,
+        "currencies": [
+            "TWD"
+        ],
+        "capital": [
+            "Taipei"
+        ],
+        "subregion": "Eastern Asia",
+        "languages": [
+            "Chinese"
+        ],
+        "area": 36193.0,
+        "population": 23503349
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "CD",
+        "label_en": "Congo, Democratic Republic of the",
+        "label_fr": "Congo, R\u00e9p. d\u00e9m. du",
+        "label_sp": "Congo, Rep. Dem. del",
+        "geo_point_2d": {
+            "lon": 23.645093681,
+            "lat": -2.87983051228
+        },
+        "unMember": true,
+        "currencies": [
+            "CDF"
+        ],
+        "capital": [
+            "Kinshasa"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "French",
+            "Kikongo",
+            "Lingala",
+            "Tshiluba",
+            "Swahili"
+        ],
+        "area": 2344858.0,
+        "population": 108407721
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MP",
+        "label_en": "Northern Mariana Islands",
+        "label_fr": "Iles Mariannes du Nord",
+        "label_sp": "Islas Marianas del Norte",
+        "geo_point_2d": {
+            "lon": 145.602081257,
+            "lat": 16.2212036776
+        },
+        "unMember": false,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Saipan"
+        ],
+        "subregion": "Micronesia",
+        "languages": [
+            "Carolinian",
+            "Chamorro",
+            "English"
+        ],
+        "area": 464.0,
+        "population": 57557
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ET",
+        "label_en": "Ethiopia",
+        "label_fr": "Ethiopie",
+        "label_sp": "Etiop\u00eda",
+        "geo_point_2d": {
+            "lon": 39.600671832,
+            "lat": 8.62300299107
+        },
+        "unMember": true,
+        "currencies": [
+            "ETB"
+        ],
+        "capital": [
+            "Addis Ababa"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "Amharic"
+        ],
+        "area": 1104300.0,
+        "population": 114963583
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AT",
+        "label_en": "Austria",
+        "label_fr": "Autriche",
+        "label_sp": "Austria",
+        "geo_point_2d": {
+            "lon": 14.1305444711,
+            "lat": 47.5857571625
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Vienna"
+        ],
+        "subregion": "Central Europe",
+        "languages": [
+            "German"
+        ],
+        "area": 83871.0,
+        "population": 8917205
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CN",
+        "label_en": "China",
+        "label_fr": "Chine",
+        "label_sp": "China",
+        "geo_point_2d": {
+            "lon": 103.831751251,
+            "lat": 36.5602062669
+        },
+        "unMember": true,
+        "currencies": [
+            "CNY"
+        ],
+        "capital": [
+            "Beijing"
+        ],
+        "subregion": "Eastern Asia",
+        "languages": [
+            "Chinese"
+        ],
+        "area": 9706961.0,
+        "population": 1402112000
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SC",
+        "label_en": "Seychelles",
+        "label_fr": "Seychelles",
+        "label_sp": "Seychelles",
+        "geo_point_2d": {
+            "lon": 51.9754508474,
+            "lat": -6.53294945625
+        },
+        "unMember": true,
+        "currencies": [
+            "SCR"
+        ],
+        "capital": [
+            "Victoria"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "Seychellois Creole",
+            "English",
+            "French"
+        ],
+        "area": 452.0,
+        "population": 98462
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MO",
+        "label_en": "Macau, China",
+        "label_fr": "Macao, Chine",
+        "label_sp": "Macao, China",
+        "geo_point_2d": {
+            "lon": 113.549817657,
+            "lat": 22.158366139
+        },
+        "unMember": false,
+        "currencies": [
+            "MOP"
+        ],
+        "capital": [],
+        "subregion": "Eastern Asia",
+        "languages": [
+            "Portuguese",
+            "Chinese"
+        ],
+        "area": 30.0,
+        "population": 649342
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "UG",
+        "label_en": "Uganda",
+        "label_fr": "Ouganda",
+        "label_sp": "Uganda",
+        "geo_point_2d": {
+            "lon": 32.3669969147,
+            "lat": 1.27575775615
+        },
+        "unMember": true,
+        "currencies": [
+            "UGX"
+        ],
+        "capital": [
+            "Kampala"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "English",
+            "Swahili"
+        ],
+        "area": 241550.0,
+        "population": 45741000
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "MA",
+        "label_en": "Morocco",
+        "label_fr": "Maroc",
+        "label_sp": "Marruecos",
+        "geo_point_2d": {
+            "lon": -8.39640701846,
+            "lat": 29.8417475558
+        },
+        "unMember": true,
+        "currencies": [
+            "MAD"
+        ],
+        "capital": [
+            "Rabat"
+        ],
+        "subregion": "Northern Africa",
+        "languages": [
+            "Arabic",
+            "Berber"
+        ],
+        "area": 446550.0,
+        "population": 36910558
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "YE",
+        "label_en": "Yemen",
+        "label_fr": "Y\u00e9men",
+        "label_sp": "Yemen",
+        "geo_point_2d": {
+            "lon": 47.5906008569,
+            "lat": 15.9052492416
+        },
+        "unMember": true,
+        "currencies": [
+            "YER"
+        ],
+        "capital": [
+            "Sana'a"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 527968.0,
+        "population": 29825968
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IM",
+        "label_en": "Isle of Man",
+        "label_fr": "Ile de Man",
+        "label_sp": "Isla de Man",
+        "geo_point_2d": {
+            "lon": -4.53421810603,
+            "lat": 54.2282504929
+        }
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TC",
+        "label_en": "Turks and Caicos Islands",
+        "label_fr": "Iles Turques et Ca\u00efques",
+        "label_sp": "Islas Turcos y Caicos",
+        "geo_point_2d": {
+            "lon": -71.8817069548,
+            "lat": 21.7821634171
+        },
+        "unMember": false,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Cockburn Town"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 948.0,
+        "population": 38718
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LY",
+        "label_en": "Libyan Arab Jamahiriya",
+        "label_fr": "Jamahiriya arabe libyenne",
+        "label_sp": "Jamahiriya Arabe Libia",
+        "geo_point_2d": {
+            "lon": 18.0095950102,
+            "lat": 27.0303685218
+        },
+        "unMember": true,
+        "currencies": [
+            "LYD"
+        ],
+        "capital": [
+            "Tripoli"
+        ],
+        "subregion": "Northern Africa",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 1759540.0,
+        "population": 6871287
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "HR",
+        "label_en": "Croatia",
+        "label_fr": "Croatie",
+        "label_sp": "Croacia",
+        "geo_point_2d": {
+            "lon": 16.3978320054,
+            "lat": 45.0684270744
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Zagreb"
+        ],
+        "subregion": "Southeast Europe",
+        "languages": [
+            "Croatian"
+        ],
+        "area": 56594.0,
+        "population": 4047200
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "TG",
+        "label_en": "Togo",
+        "label_fr": "Togo",
+        "label_sp": "Togo",
+        "geo_point_2d": {
+            "lon": 0.962524955848,
+            "lat": 8.52650737986
+        },
+        "unMember": true,
+        "currencies": [
+            "XOF"
+        ],
+        "capital": [
+            "Lom\u00e9"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 56785.0,
+        "population": 8278737
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "SN",
+        "label_en": "Senegal",
+        "label_fr": "S\u00e9n\u00e9gal",
+        "label_sp": "Senegal",
+        "geo_point_2d": {
+            "lon": -14.4712861299,
+            "lat": 14.3678611322
+        },
+        "unMember": true,
+        "currencies": [
+            "XOF"
+        ],
+        "capital": [
+            "Dakar"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 196722.0,
+        "population": 16743930
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NF",
+        "label_en": "Norfolk Island",
+        "label_fr": "Ile Norfolk",
+        "label_sp": "Isla Norfolk",
+        "geo_point_2d": {
+            "lon": 167.954835874,
+            "lat": -29.0360351114
+        },
+        "unMember": false,
+        "currencies": [
+            "AUD"
+        ],
+        "capital": [
+            "Kingston"
+        ],
+        "subregion": "Australia and New Zealand",
+        "languages": [
+            "English",
+            "Norfuk"
+        ],
+        "area": 36.0,
+        "population": 2302
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KN",
+        "label_en": "Saint Kitts and Nevis",
+        "label_fr": "Saint-Kitts-et-Nevis",
+        "label_sp": "Saint Kitts y Nevis",
+        "geo_point_2d": {
+            "lon": -62.7004618885,
+            "lat": 17.2733218794
+        },
+        "unMember": true,
+        "currencies": [
+            "XCD"
+        ],
+        "capital": [
+            "Basseterre"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 261.0,
+        "population": 53192
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BT",
+        "label_en": "Bhutan",
+        "label_fr": "Bhoutan",
+        "label_sp": "Bhut\u00e1n",
+        "geo_point_2d": {
+            "lon": 90.4047032909,
+            "lat": 27.4216088934
+        },
+        "unMember": true,
+        "currencies": [
+            "BTN",
+            "INR"
+        ],
+        "capital": [
+            "Thimphu"
+        ],
+        "subregion": "Southern Asia",
+        "languages": [
+            "Dzongkha"
+        ],
+        "area": 38394.0,
+        "population": 771612
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PW",
+        "label_en": "Palau",
+        "label_fr": "Palau",
+        "label_sp": "Palau",
+        "geo_point_2d": {
+            "lon": 134.352739769,
+            "lat": 7.20355530152
+        },
+        "unMember": true,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Ngerulmud"
+        ],
+        "subregion": "Micronesia",
+        "languages": [
+            "English",
+            "Palauan"
+        ],
+        "area": 459.0,
+        "population": 18092
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KZ",
+        "label_en": "Kazakhstan",
+        "label_fr": "Kazakhstan",
+        "label_sp": "Kazajst\u00e1n",
+        "geo_point_2d": {
+            "lon": 67.2955171321,
+            "lat": 48.1604671091
+        },
+        "unMember": true,
+        "currencies": [
+            "KZT"
+        ],
+        "capital": [
+            "Nur-Sultan"
+        ],
+        "subregion": "Central Asia",
+        "languages": [
+            "Kazakh",
+            "Russian"
+        ],
+        "area": 2724900.0,
+        "population": 18754440
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "BJ",
+        "label_en": "Benin",
+        "label_fr": "B\u00e9nin",
+        "label_sp": "Benin",
+        "geo_point_2d": {
+            "lon": 2.32921274202,
+            "lat": 9.64190633253
+        },
+        "unMember": true,
+        "currencies": [
+            "XOF"
+        ],
+        "capital": [
+            "Porto-Novo"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 112622.0,
+        "population": 12123198
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AW",
+        "label_en": "Aruba",
+        "label_fr": "Aruba",
+        "label_sp": "Aruba",
+        "geo_point_2d": {
+            "lon": -69.9747672504,
+            "lat": 12.5176657977
+        },
+        "unMember": false,
+        "currencies": [
+            "AWG"
+        ],
+        "capital": [
+            "Oranjestad"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "Dutch",
+            "Papiamento"
+        ],
+        "area": 180.0,
+        "population": 106766
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "DO",
+        "label_en": "Dominican Republic",
+        "label_fr": "R\u00e9publique dominicaine",
+        "label_sp": "Rep\u00fablica Dominicana",
+        "geo_point_2d": {
+            "lon": -70.4965672754,
+            "lat": 18.8960527207
+        }
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "EC",
+        "label_en": "Ecuador",
+        "label_fr": "Equateur",
+        "label_sp": "Ecuador",
+        "geo_point_2d": {
+            "lon": -78.7712502025,
+            "lat": -1.42637018649
+        }
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "NI",
+        "label_en": "Nicaragua",
+        "label_fr": "Nicaragua",
+        "label_sp": "Nicaragua",
+        "geo_point_2d": {
+            "lon": -85.0334031776,
+            "lat": 12.8454113402
+        },
+        "unMember": true,
+        "currencies": [
+            "NIO"
+        ],
+        "capital": [
+            "Managua"
+        ],
+        "subregion": "Central America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 130373.0,
+        "population": 6624554
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "CU",
+        "label_en": "Cuba",
+        "label_fr": "Cuba",
+        "label_sp": "Cuba",
+        "geo_point_2d": {
+            "lon": -79.03529044,
+            "lat": 21.62531027
+        },
+        "unMember": true,
+        "currencies": [
+            "CUC",
+            "CUP"
+        ],
+        "capital": [
+            "Havana"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 109884.0,
+        "population": 11326616
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KW",
+        "label_en": "Kuwait",
+        "label_fr": "Kowe\u00eft",
+        "label_sp": "Kuwait",
+        "geo_point_2d": {
+            "lon": 47.5943688371,
+            "lat": 29.3396377429
+        },
+        "unMember": true,
+        "currencies": [
+            "KWD"
+        ],
+        "capital": [
+            "Kuwait City"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 17818.0,
+        "population": 4270563
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "PT",
+        "label_en": "Portugal",
+        "label_fr": "Portugal",
+        "label_sp": "Portugal",
+        "geo_point_2d": {
+            "lon": -8.58679773073,
+            "lat": 39.5879315668
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Lisbon"
+        ],
+        "subregion": "Southern Europe",
+        "languages": [
+            "Portuguese"
+        ],
+        "area": 92090.0,
+        "population": 10305564
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GR",
+        "label_en": "Greece",
+        "label_fr": "Gr\u00e8ce",
+        "label_sp": "Grecia",
+        "geo_point_2d": {
+            "lon": 22.9734385798,
+            "lat": 39.0516315876
+        }
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "LB",
+        "label_en": "Lebanon",
+        "label_fr": "Liban",
+        "label_sp": "L\u00edbano",
+        "geo_point_2d": {
+            "lon": 35.8799982721,
+            "lat": 33.9207881471
+        },
+        "unMember": true,
+        "currencies": [
+            "LBP"
+        ],
+        "capital": [
+            "Beirut"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic",
+            "French"
+        ],
+        "area": 10452.0,
+        "population": 6825442
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LR",
+        "label_en": "Liberia",
+        "label_fr": "Lib\u00e9ria",
+        "label_sp": "Liberia",
+        "geo_point_2d": {
+            "lon": -9.31988198206,
+            "lat": 6.45238198683
+        },
+        "unMember": true,
+        "currencies": [
+            "LRD"
+        ],
+        "capital": [
+            "Monrovia"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "English"
+        ],
+        "area": 111369.0,
+        "population": 5057677
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AZ",
+        "label_en": "Azerbaijan",
+        "label_fr": "Azerba\u00efdjan",
+        "label_sp": "Azerbaiy\u00e1n",
+        "geo_point_2d": {
+            "lon": 47.5425498534,
+            "lat": 40.2891791299
+        },
+        "unMember": true,
+        "currencies": [
+            "AZN"
+        ],
+        "capital": [
+            "Baku"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Azerbaijani"
+        ],
+        "area": 86600.0,
+        "population": 10110116
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "ES",
+        "label_en": "Spain",
+        "label_fr": "Espagne",
+        "label_sp": "Espa\u00f1a",
+        "geo_point_2d": {
+            "lon": -3.65226540732,
+            "lat": 40.2274328729
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Madrid"
+        ],
+        "subregion": "Southern Europe",
+        "languages": [
+            "Spanish",
+            "Catalan",
+            "Basque",
+            "Galician"
+        ],
+        "area": 505992.0,
+        "population": 47351567
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "QA",
+        "label_en": "Qatar",
+        "label_fr": "Qatar",
+        "label_sp": "Qatar",
+        "geo_point_2d": {
+            "lon": 51.1865307757,
+            "lat": 25.3131884548
+        },
+        "unMember": true,
+        "currencies": [
+            "QAR"
+        ],
+        "capital": [
+            "Doha"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 11586.0,
+        "population": 2881060
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "OM",
+        "label_en": "Oman",
+        "label_fr": "Oman",
+        "label_sp": "Om\u00e1n",
+        "geo_point_2d": {
+            "lon": 56.0925824468,
+            "lat": 20.60210016
+        },
+        "unMember": true,
+        "currencies": [
+            "OMR"
+        ],
+        "capital": [
+            "Muscat"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 309500.0,
+        "population": 5106622
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SK",
+        "label_en": "Slovakia",
+        "label_fr": "Slovaquie",
+        "label_sp": "Eslovaquia",
+        "geo_point_2d": {
+            "lon": 19.4806052302,
+            "lat": 48.7050534694
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Bratislava"
+        ],
+        "subregion": "Central Europe",
+        "languages": [
+            "Slovak"
+        ],
+        "area": 49037.0,
+        "population": 5458827
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "CV",
+        "label_en": "Cape Verde",
+        "label_fr": "Cap-Vert",
+        "label_sp": "Cabo Verde",
+        "geo_point_2d": {
+            "lon": -23.9647310845,
+            "lat": 15.9374673653
+        },
+        "unMember": true,
+        "currencies": [
+            "CVE"
+        ],
+        "capital": [
+            "Praia"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "Portuguese"
+        ],
+        "area": 4033.0,
+        "population": 555988
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GB",
+        "label_en": "United Kingdom",
+        "label_fr": "Royaume-Uni",
+        "label_sp": "Reino Unido",
+        "geo_point_2d": {
+            "lon": -2.88594273633,
+            "lat": 54.1454903122
+        },
+        "unMember": true,
+        "currencies": [
+            "GBP"
+        ],
+        "capital": [
+            "London"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "English"
+        ],
+        "area": 242900.0,
+        "population": 67215293
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BB",
+        "label_en": "Barbados",
+        "label_fr": "Barbade",
+        "label_sp": "Barbados",
+        "geo_point_2d": {
+            "lon": -59.5607434508,
+            "lat": 13.1805182958
+        },
+        "unMember": true,
+        "currencies": [
+            "BBD"
+        ],
+        "capital": [
+            "Bridgetown"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 430.0,
+        "population": 287371
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IE",
+        "label_en": "Ireland",
+        "label_fr": "Irlande",
+        "label_sp": "Irlanda",
+        "geo_point_2d": {
+            "lon": -8.14541782157,
+            "lat": 53.177727454
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Dublin"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "English",
+            "Irish"
+        ],
+        "area": 70273.0,
+        "population": 4994724
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "CI",
+        "label_en": "C\u00f4te d'Ivoire",
+        "label_fr": "C\u00f4te d'Ivoire",
+        "label_sp": "C\u00f4te d'Ivoire",
+        "geo_point_2d": {
+            "lon": -5.56900779845,
+            "lat": 7.62813772584
+        },
+        "unMember": true,
+        "currencies": [
+            "XOF"
+        ],
+        "capital": [
+            "Yamoussoukro"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 322463.0,
+        "population": 26378275
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "RW",
+        "label_en": "Rwanda",
+        "label_fr": "Rwanda",
+        "label_sp": "Rwanda",
+        "geo_point_2d": {
+            "lon": 29.9188561928,
+            "lat": -1.99277319942
+        },
+        "unMember": true,
+        "currencies": [
+            "RWF"
+        ],
+        "capital": [
+            "Kigali"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "English",
+            "French",
+            "Kinyarwanda"
+        ],
+        "area": 26338.0,
+        "population": 12952209
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TV",
+        "label_en": "Tuvalu",
+        "label_fr": "Tuvalu",
+        "label_sp": "Tuvalu",
+        "geo_point_2d": {
+            "lon": 178.602786997,
+            "lat": -7.84026042527
+        },
+        "unMember": true,
+        "currencies": [
+            "AUD",
+            "TVD"
+        ],
+        "capital": [
+            "Funafuti"
+        ],
+        "subregion": "Polynesia",
+        "languages": [
+            "English",
+            "Tuvaluan"
+        ],
+        "area": 26.0,
+        "population": 11792
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "RU",
+        "label_en": "Russian Federation",
+        "label_fr": "Russie, F\u00e9d\u00e9ration de",
+        "label_sp": "Rusia, Federaci\u00f3n de",
+        "geo_point_2d": {
+            "lon": 96.6934557675,
+            "lat": 61.9843417375
+        },
+        "unMember": true,
+        "currencies": [
+            "RUB"
+        ],
+        "capital": [
+            "Moscow"
+        ],
+        "subregion": "Eastern Europe",
+        "languages": [
+            "Russian"
+        ],
+        "area": 17098242.0,
+        "population": 144104080
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VG",
+        "label_en": "British Virgin Islands",
+        "label_fr": "Iles Vierges britanniques",
+        "label_sp": "Islas V\u00edrgenes brit\u00e1nicas",
+        "geo_point_2d": {
+            "lon": -64.502943619,
+            "lat": 18.5095025525
+        },
+        "unMember": false,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Road Town"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 151.0,
+        "population": 30237
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SB",
+        "label_en": "Solomon Islands",
+        "label_fr": "Iles Salomon",
+        "label_sp": "Islas Salom\u00f3n",
+        "geo_point_2d": {
+            "lon": 159.637514734,
+            "lat": -8.91107375944
+        }
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "FK",
+        "label_en": "Falkland Islands (Malvinas)",
+        "label_fr": "Iles Falkland (Malvinas)",
+        "label_sp": "Islas Malvinas (Falkland)",
+        "geo_point_2d": {
+            "lon": -59.3746165316,
+            "lat": -51.733493496
+        },
+        "unMember": false,
+        "currencies": [
+            "FKP"
+        ],
+        "capital": [
+            "Stanley"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "English"
+        ],
+        "area": 12173.0,
+        "population": 2563
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MD",
+        "label_en": "Moldova, Republic of",
+        "label_fr": "Moldova, R\u00e9publique de",
+        "label_sp": "Moldova, Rep\u00fablica de",
+        "geo_point_2d": {
+            "lon": 28.4611524643,
+            "lat": 47.1950678079
+        },
+        "unMember": true,
+        "currencies": [
+            "MDL"
+        ],
+        "capital": [
+            "Chi\u0219in\u0103u"
+        ],
+        "subregion": "Eastern Europe",
+        "languages": [
+            "Romanian"
+        ],
+        "area": 33846.0,
+        "population": 2617820
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "GT",
+        "label_en": "Guatemala",
+        "label_fr": "Guatemala",
+        "label_sp": "Guatemala",
+        "geo_point_2d": {
+            "lon": -90.3597132732,
+            "lat": 15.6959794459
+        },
+        "unMember": true,
+        "currencies": [
+            "GTQ"
+        ],
+        "capital": [
+            "Guatemala City"
+        ],
+        "subregion": "Central America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 108889.0,
+        "population": 16858333
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "AO",
+        "label_en": "Angola",
+        "label_fr": "Angola",
+        "label_sp": "Angola",
+        "geo_point_2d": {
+            "lon": 17.5369791417,
+            "lat": -12.2922888126
+        },
+        "unMember": true,
+        "currencies": [
+            "AOA"
+        ],
+        "capital": [
+            "Luanda"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "Portuguese"
+        ],
+        "area": 1246700.0,
+        "population": 32866268
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VN",
+        "label_en": "Viet Nam",
+        "label_fr": "Viet Nam",
+        "label_sp": "Viet Nam",
+        "geo_point_2d": {
+            "lon": 106.301132488,
+            "lat": 16.6428226166
+        },
+        "unMember": true,
+        "currencies": [
+            "VND"
+        ],
+        "capital": [
+            "Hanoi"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "Vietnamese"
+        ],
+        "area": 331212.0,
+        "population": 97338583
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "RS",
+        "label_en": "Serbia",
+        "label_fr": "Serbie",
+        "label_sp": "Serbia",
+        "geo_point_2d": {
+            "lon": 20.7902937118,
+            "lat": 44.221300008
+        },
+        "unMember": true,
+        "currencies": [
+            "RSD"
+        ],
+        "capital": [
+            "Belgrade"
+        ],
+        "subregion": "Southeast Europe",
+        "languages": [
+            "Serbian"
+        ],
+        "area": 88361.0,
+        "population": 6908224
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "KM",
+        "label_en": "Comoros",
+        "label_fr": "Comores",
+        "label_sp": "Comoras",
+        "geo_point_2d": {
+            "lon": 43.6794188795,
+            "lat": -11.8838077876
+        },
+        "unMember": true,
+        "currencies": [
+            "KMF"
+        ],
+        "capital": [
+            "Moroni"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "Arabic",
+            "French",
+            "Comorian"
+        ],
+        "area": 1862.0,
+        "population": 869595
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GH",
+        "label_en": "Ghana",
+        "label_fr": "Ghana",
+        "label_sp": "Ghana",
+        "geo_point_2d": {
+            "lon": -1.21649642233,
+            "lat": 7.95354676949
+        },
+        "unMember": true,
+        "currencies": [
+            "GHS"
+        ],
+        "capital": [
+            "Accra"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "English"
+        ],
+        "area": 238533.0,
+        "population": 31072945
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TZ",
+        "label_en": "Tanzania, United Republic of",
+        "label_fr": "Tanzanie, R\u00e9publique-Unie de",
+        "label_sp": "Tanzan\u00eda, Rep\u00fablica Unida de",
+        "geo_point_2d": {
+            "lon": 34.8134676243,
+            "lat": -6.27504483039
+        },
+        "unMember": true,
+        "currencies": [
+            "TZS"
+        ],
+        "capital": [
+            "Dodoma"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "English",
+            "Swahili"
+        ],
+        "area": 945087.0,
+        "population": 59734213
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "MQ",
+        "label_en": "Martinique",
+        "label_fr": "Martinique",
+        "label_sp": "Martinica",
+        "geo_point_2d": null,
+        "unMember": false,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Fort-de-France"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "French"
+        ],
+        "area": 1128.0,
+        "population": 378243
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BW",
+        "label_en": "Botswana",
+        "label_fr": "Botswana",
+        "label_sp": "Botswana",
+        "geo_point_2d": {
+            "lon": 23.7991035648,
+            "lat": -22.1861123248
+        },
+        "unMember": true,
+        "currencies": [
+            "BWP"
+        ],
+        "capital": [
+            "Gaborone"
+        ],
+        "subregion": "Southern Africa",
+        "languages": [
+            "English",
+            "Tswana"
+        ],
+        "area": 582000.0,
+        "population": 2351625
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TK",
+        "label_en": "Tokelau",
+        "label_fr": "Tok\u00e9laou",
+        "label_sp": "Tokelau",
+        "geo_point_2d": null,
+        "unMember": false,
+        "currencies": [
+            "NZD"
+        ],
+        "capital": [
+            "Fakaofo"
+        ],
+        "subregion": "Polynesia",
+        "languages": [
+            "English",
+            "Samoan",
+            "Tokelauan"
+        ],
+        "area": 12.0,
+        "population": 1411
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "HK",
+        "label_en": "Hong Kong, China",
+        "label_fr": "Hong-kong, Chine",
+        "label_sp": "Hong Kong, China",
+        "geo_point_2d": {
+            "lon": 114.131303733,
+            "lat": 22.3840677114
+        },
+        "unMember": false,
+        "currencies": [
+            "HKD"
+        ],
+        "capital": [
+            "City of Victoria"
+        ],
+        "subregion": "Eastern Asia",
+        "languages": [
+            "English",
+            "Chinese"
+        ],
+        "area": 1104.0,
+        "population": 7500700
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SG",
+        "label_en": "Singapore",
+        "label_fr": "Singapour",
+        "label_sp": "Singapur",
+        "geo_point_2d": {
+            "lon": 103.812245192,
+            "lat": 1.35861228265
+        },
+        "unMember": true,
+        "currencies": [
+            "SGD"
+        ],
+        "capital": [
+            "Singapore"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "English",
+            "Chinese",
+            "Malay",
+            "Tamil"
+        ],
+        "area": 710.0,
+        "population": 5685807
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KR",
+        "label_en": "Korea, Republic of",
+        "label_fr": "Cor\u00e9e, R\u00e9publique de",
+        "label_sp": "Corea, Rep\u00fablica de",
+        "geo_point_2d": {
+            "lon": 127.819686447,
+            "lat": 36.3740505763
+        },
+        "unMember": true,
+        "currencies": [
+            "KRW"
+        ],
+        "capital": [
+            "Seoul"
+        ],
+        "subregion": "Eastern Asia",
+        "languages": [
+            "Korean"
+        ],
+        "area": 100210.0,
+        "population": 51780579
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "ML",
+        "label_en": "Mali",
+        "label_fr": "Mali",
+        "label_sp": "Mal\u00ed",
+        "geo_point_2d": {
+            "lon": -3.5394321557,
+            "lat": 17.3446450476
+        },
+        "unMember": true,
+        "currencies": [
+            "XOF"
+        ],
+        "capital": [
+            "Bamako"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 1240192.0,
+        "population": 20250834
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AS",
+        "label_en": "American Samoa",
+        "label_fr": "Samoa am\u00e9ricaines",
+        "label_sp": "Samoa Americana",
+        "geo_point_2d": {
+            "lon": -170.40913057,
+            "lat": -14.2610693254
+        },
+        "unMember": false,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Pago Pago"
+        ],
+        "subregion": "Polynesia",
+        "languages": [
+            "English",
+            "Samoan"
+        ],
+        "area": 199.0,
+        "population": 55197
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LT",
+        "label_en": "Lithuania",
+        "label_fr": "Lituanie",
+        "label_sp": "Lituania",
+        "geo_point_2d": {
+            "lon": 23.8885032451,
+            "lat": 55.3270297547
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Vilnius"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "Lithuanian"
+        ],
+        "area": 65300.0,
+        "population": 2794700
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ZA",
+        "label_en": "South Africa",
+        "label_fr": "Afrique du Sud",
+        "label_sp": "Sud\u00e1frica",
+        "geo_point_2d": {
+            "lon": 25.087310262,
+            "lat": -29.001024687
+        },
+        "unMember": true,
+        "currencies": [
+            "ZAR"
+        ],
+        "capital": [
+            "Pretoria",
+            "Bloemfontein",
+            "Cape Town"
+        ],
+        "subregion": "Southern Africa",
+        "languages": [
+            "Afrikaans",
+            "English",
+            "Southern Ndebele",
+            "Northern Sotho",
+            "Southern Sotho",
+            "Swazi",
+            "Tswana",
+            "Tsonga",
+            "Venda",
+            "Xhosa",
+            "Zulu"
+        ],
+        "area": 1221037.0,
+        "population": 59308690
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SH",
+        "label_en": "Saint Helena",
+        "label_fr": "Sainte-H\u00e9l\u00e8ne",
+        "label_sp": "Santa Elena",
+        "geo_point_2d": {
+            "lon": -10.1809053332,
+            "lat": -24.6933346806
+        },
+        "unMember": false,
+        "currencies": [
+            "GBP",
+            "SHP"
+        ],
+        "capital": [
+            "Jamestown"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "English"
+        ],
+        "area": 394.0,
+        "population": 53192
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NA",
+        "label_en": "Namibia",
+        "label_fr": "Namibie",
+        "label_sp": "Namibia",
+        "geo_point_2d": {
+            "lon": 17.211333564,
+            "lat": -22.1284335852
+        },
+        "unMember": true,
+        "currencies": [
+            "NAD",
+            "ZAR"
+        ],
+        "capital": [
+            "Windhoek"
+        ],
+        "subregion": "Southern Africa",
+        "languages": [
+            "Afrikaans",
+            "German",
+            "English",
+            "Herero",
+            "Khoekhoe",
+            "Kwangali",
+            "Lozi",
+            "Ndonga",
+            "Tswana"
+        ],
+        "area": 825615.0,
+        "population": 2540916
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "AD",
+        "label_en": "Andorra",
+        "label_fr": "Andorre",
+        "label_sp": "Andorra",
+        "geo_point_2d": {
+            "lon": 1.56130102941,
+            "lat": 42.5423528314
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Andorra la Vella"
+        ],
+        "subregion": "Southern Europe",
+        "languages": [
+            "Catalan"
+        ],
+        "area": 468.0,
+        "population": 77265
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NP",
+        "label_en": "Nepal",
+        "label_fr": "N\u00e9pal",
+        "label_sp": "Nepal",
+        "geo_point_2d": {
+            "lon": 83.9162472404,
+            "lat": 28.2479439867
+        },
+        "unMember": true,
+        "currencies": [
+            "NPR"
+        ],
+        "capital": [
+            "Kathmandu"
+        ],
+        "subregion": "Southern Asia",
+        "languages": [
+            "Nepali"
+        ],
+        "area": 147181.0,
+        "population": 29136808
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "UY",
+        "label_en": "Uruguay",
+        "label_fr": "Uruguay",
+        "label_sp": "Uruguay",
+        "geo_point_2d": {
+            "lon": -56.0171416599,
+            "lat": -32.7983956504
+        },
+        "unMember": true,
+        "currencies": [
+            "UYU"
+        ],
+        "capital": [
+            "Montevideo"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 181034.0,
+        "population": 3473727
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LC",
+        "label_en": "Saint Lucia",
+        "label_fr": "Sainte-Lucie",
+        "label_sp": "Santa Luc\u00eda",
+        "geo_point_2d": {
+            "lon": -60.9705395552,
+            "lat": 13.902699993
+        },
+        "unMember": true,
+        "currencies": [
+            "XCD"
+        ],
+        "capital": [
+            "Castries"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 616.0,
+        "population": 183629
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SZ",
+        "label_en": "Swaziland",
+        "label_fr": "Swaziland",
+        "label_sp": "Swazilandia",
+        "geo_point_2d": {
+            "lon": 31.4801350162,
+            "lat": -26.5616993839
+        },
+        "unMember": true,
+        "currencies": [
+            "SZL",
+            "ZAR"
+        ],
+        "capital": [
+            "Mbabane"
+        ],
+        "subregion": "Southern Africa",
+        "languages": [
+            "English",
+            "Swazi"
+        ],
+        "area": 17364.0,
+        "population": 1160164
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "WF",
+        "label_en": "Wallis and Futuna Islands",
+        "label_fr": "Iles Wallis et Futuna",
+        "label_sp": "Islas Wallis y Futuna",
+        "geo_point_2d": {
+            "lon": -177.05394523,
+            "lat": -13.736572399
+        },
+        "unMember": false,
+        "currencies": [
+            "XPF"
+        ],
+        "capital": [
+            "Mata-Utu"
+        ],
+        "subregion": "Polynesia",
+        "languages": [
+            "French"
+        ],
+        "area": 142.0,
+        "population": 11750
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TH",
+        "label_en": "Thailand",
+        "label_fr": "Tha\u00eflande",
+        "label_sp": "Tailandia",
+        "geo_point_2d": {
+            "lon": 101.003455746,
+            "lat": 15.1144432725
+        },
+        "unMember": true,
+        "currencies": [
+            "THB"
+        ],
+        "capital": [
+            "Bangkok"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "Thai"
+        ],
+        "area": 513120.0,
+        "population": 69799978
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TL",
+        "label_en": "Timor-Leste",
+        "label_fr": "Timor-Leste",
+        "label_sp": "Timor-Leste",
+        "geo_point_2d": {
+            "lon": 125.85227581,
+            "lat": -8.8233219641
+        },
+        "unMember": true,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Dili"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "Portuguese",
+            "Tetum"
+        ],
+        "area": 14874.0,
+        "population": 1318442
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "BE",
+        "label_en": "Belgium",
+        "label_fr": "Belgique",
+        "label_sp": "B\u00e9lgica",
+        "geo_point_2d": {
+            "lon": 4.63966996313,
+            "lat": 50.6375465936
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Brussels"
+        ],
+        "subregion": "Western Europe",
+        "languages": [
+            "German",
+            "French",
+            "Dutch"
+        ],
+        "area": 30528.0,
+        "population": 11555997
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IS",
+        "label_en": "Iceland",
+        "label_fr": "Islande",
+        "label_sp": "Islandia",
+        "geo_point_2d": {
+            "lon": -18.5967761911,
+            "lat": 64.9981164128
+        },
+        "unMember": true,
+        "currencies": [
+            "ISK"
+        ],
+        "capital": [
+            "Reykjavik"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "Icelandic"
+        ],
+        "area": 103000.0,
+        "population": 366425
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BG",
+        "label_en": "Bulgaria",
+        "label_fr": "Bulgarie",
+        "label_sp": "Bulgaria",
+        "geo_point_2d": {
+            "lon": 25.2177412805,
+            "lat": 42.7684902365
+        },
+        "unMember": true,
+        "currencies": [
+            "BGN"
+        ],
+        "capital": [
+            "Sofia"
+        ],
+        "subregion": "Southeast Europe",
+        "languages": [
+            "Bulgarian"
+        ],
+        "area": 110879.0,
+        "population": 6927288
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SS",
+        "label_en": "South Sudan, The Republic of",
+        "label_fr": "Soudan, R\u00e9publique du",
+        "label_sp": "Sud\u00e1n, Rep\u00fablica de",
+        "geo_point_2d": null,
+        "unMember": true,
+        "currencies": [
+            "SSP"
+        ],
+        "capital": [
+            "Juba"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "English"
+        ],
+        "area": 619745.0,
+        "population": 11193729
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TR",
+        "label_en": "Turkey",
+        "label_fr": "Turquie",
+        "label_sp": "Turqu\u00eda",
+        "geo_point_2d": {
+            "lon": 35.1672670068,
+            "lat": 39.0610307894
+        },
+        "unMember": true,
+        "currencies": [
+            "TRY"
+        ],
+        "capital": [
+            "Ankara"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Turkish"
+        ],
+        "area": 783562.0,
+        "population": 84339067
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MW",
+        "label_en": "Malawi",
+        "label_fr": "Malawi",
+        "label_sp": "Malawi",
+        "geo_point_2d": {
+            "lon": 34.2899685082,
+            "lat": -13.2171368017
+        },
+        "unMember": true,
+        "currencies": [
+            "MWK"
+        ],
+        "capital": [
+            "Lilongwe"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "English",
+            "Chewa"
+        ],
+        "area": 118484.0,
+        "population": 19129955
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "GN",
+        "label_en": "Guinea",
+        "label_fr": "Guin\u00e9e",
+        "label_sp": "Guinea",
+        "geo_point_2d": {
+            "lon": -10.9426023656,
+            "lat": 10.4346600847
+        },
+        "unMember": true,
+        "currencies": [
+            "GNF"
+        ],
+        "capital": [
+            "Conakry"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 245857.0,
+        "population": 13132792
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MY",
+        "label_en": "Malaysia",
+        "label_fr": "Malaisie",
+        "label_sp": "Malasia",
+        "geo_point_2d": {
+            "lon": 109.698582988,
+            "lat": 3.79222522497
+        },
+        "unMember": true,
+        "currencies": [
+            "MYR"
+        ],
+        "capital": [
+            "Kuala Lumpur"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "English",
+            "Malay"
+        ],
+        "area": 330803.0,
+        "population": 32365998
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VU",
+        "label_en": "Vanuatu",
+        "label_fr": "Vanuatu",
+        "label_sp": "Vanuatu",
+        "geo_point_2d": {
+            "lon": 167.698941265,
+            "lat": -16.2005308651
+        },
+        "unMember": true,
+        "currencies": [
+            "VUV"
+        ],
+        "capital": [
+            "Port Vila"
+        ],
+        "subregion": "Melanesia",
+        "languages": [
+            "Bislama",
+            "English",
+            "French"
+        ],
+        "area": 12189.0,
+        "population": 307150
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "ST",
+        "label_en": "Sao Tome and Principe",
+        "label_fr": "Sao Tom\u00e9-et-Principe",
+        "label_sp": "Santo Tom\u00e9 y Pr\u00edncipe",
+        "geo_point_2d": {
+            "lon": 6.72420009882,
+            "lat": 0.441942409904
+        },
+        "unMember": true,
+        "currencies": [
+            "STN"
+        ],
+        "capital": [
+            "S\u00e3o Tom\u00e9"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "Portuguese"
+        ],
+        "area": 964.0,
+        "population": 219161
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "TD",
+        "label_en": "Chad",
+        "label_fr": "Tchad",
+        "label_sp": "Chad",
+        "geo_point_2d": {
+            "lon": 18.6461890475,
+            "lat": 15.332983539
+        },
+        "unMember": true,
+        "currencies": [
+            "XAF"
+        ],
+        "capital": [
+            "N'Djamena"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "Arabic",
+            "French"
+        ],
+        "area": 1284000.0,
+        "population": 16425859
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NZ",
+        "label_en": "New Zealand",
+        "label_fr": "Nouvelle-Z\u00e9lande",
+        "label_sp": "Nueva Zelandia",
+        "geo_point_2d": {
+            "lon": 171.462581036,
+            "lat": -41.8294535363
+        },
+        "unMember": true,
+        "currencies": [
+            "NZD"
+        ],
+        "capital": [
+            "Wellington"
+        ],
+        "subregion": "Australia and New Zealand",
+        "languages": [
+            "English",
+            "M\u0101ori",
+            "New Zealand Sign Language"
+        ],
+        "area": 270467.0,
+        "population": 5084300
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "CA",
+        "label_en": "Canada",
+        "label_fr": "Canada",
+        "label_sp": "Canad\u00e1",
+        "geo_point_2d": {
+            "lon": -98.2945373672,
+            "lat": 61.3765600742
+        },
+        "unMember": true,
+        "currencies": [
+            "CAD"
+        ],
+        "capital": [
+            "Ottawa"
+        ],
+        "subregion": "North America",
+        "languages": [
+            "English",
+            "French"
+        ],
+        "area": 9984670.0,
+        "population": 38005238
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KG",
+        "label_en": "Kyrgyzstan",
+        "label_fr": "Kirghizistan",
+        "label_sp": "Kirguist\u00e1n",
+        "geo_point_2d": {
+            "lon": 74.5411364681,
+            "lat": 41.4618305412
+        },
+        "unMember": true,
+        "currencies": [
+            "KGS"
+        ],
+        "capital": [
+            "Bishkek"
+        ],
+        "subregion": "Central Asia",
+        "languages": [
+            "Kyrgyz",
+            "Russian"
+        ],
+        "area": 199951.0,
+        "population": 6591600
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TT",
+        "iso3_code": "TTO",
+        "onu_code": "780",
+        "is_ilomember": "Y",
+        "is_receiving_quest": "Y",
+        "label_en": "Trinidad and Tobago",
+        "label_fr": "Trinit\u00e9-et-Tobago",
+        "label_sp": "Trinidad y Tabago",
+        "geo_point_2d": {
+            "lon": -61.2588799175,
+            "lat": 10.4682272722
+        },
+        "flags": {
+            "png": "https://flagcdn.com/w320/tt.png",
+            "svg": "https://flagcdn.com/tt.svg",
+            "alt": "The flag of Trinidad and Tobago has a red field with a white-edged black diagonal band that extends from the upper hoist-side corner to the lower fly-side corner of the field."
+        },
+        "name": {
+            "common": "Trinidad and Tobago",
+            "official": "Republic of Trinidad and Tobago",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Trinidad and Tobago",
+                    "common": "Trinidad and Tobago"
+                }
+            }
+        },
+        "unMember": true,
+        "currencies": {
+            "TTD": {
+                "name": "Trinidad and Tobago dollar",
+                "symbol": "$"
+            }
+        },
+        "capital": [
+            "Port of Spain"
+        ],
+        "subregion": "Caribbean",
+        "languages": {
+            "eng": "English"
+        },
+        "area": 5130.0,
+        "population": 1399491
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "GQ",
+        "label_en": "Equatorial Guinea",
+        "label_fr": "Guin\u00e9e \u00e9quatoriale",
+        "label_sp": "Guinea Ecuatorial",
+        "geo_point_2d": {
+            "lon": 10.333378379,
+            "lat": 1.7072413441
+        },
+        "unMember": true,
+        "currencies": [
+            "XAF"
+        ],
+        "capital": [
+            "Malabo"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "French",
+            "Portuguese",
+            "Spanish"
+        ],
+        "area": 28051.0,
+        "population": 1402985
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SR",
+        "label_en": "Suriname",
+        "label_fr": "Suriname",
+        "label_sp": "Suriname",
+        "geo_point_2d": {
+            "lon": -55.9111551618,
+            "lat": 4.13105778556
+        },
+        "unMember": true,
+        "currencies": [
+            "SRD"
+        ],
+        "capital": [
+            "Paramaribo"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "Dutch"
+        ],
+        "area": 163820.0,
+        "population": 586634
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ZM",
+        "label_en": "Zambia",
+        "label_fr": "Zambie",
+        "label_sp": "Zambia",
+        "geo_point_2d": {
+            "lon": 27.7743026217,
+            "lat": -13.4601310731
+        },
+        "unMember": true,
+        "currencies": [
+            "ZMW"
+        ],
+        "capital": [
+            "Lusaka"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "English"
+        ],
+        "area": 752612.0,
+        "population": 18383956
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AN",
+        "label_en": "Netherlands Antilles",
+        "label_fr": "Antilles n\u00e9erlandaises",
+        "label_sp": "Antillas Neerlandesas",
+        "geo_point_2d": null,
+        "unMember": true,
+        "currencies": [
+            "XCD"
+        ],
+        "capital": [
+            "Saint John's"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 442.0,
+        "population": 97928
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MM",
+        "label_en": "Myanmar",
+        "label_fr": "Myanmar",
+        "label_sp": "Myanmar",
+        "geo_point_2d": {
+            "lon": 96.4892839365,
+            "lat": 21.1683805571
+        }
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "GP",
+        "label_en": "Guadeloupe",
+        "label_fr": "Guadeloupe",
+        "label_sp": "Guadalupe",
+        "geo_point_2d": null,
+        "unMember": false,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Basse-Terre"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "French"
+        ],
+        "area": 1628.0,
+        "population": 400132
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "MX",
+        "label_en": "Mexico",
+        "label_fr": "Mexique",
+        "label_sp": "M\u00e9xico",
+        "geo_point_2d": {
+            "lon": -102.53036366,
+            "lat": 23.9489236523
+        },
+        "unMember": true,
+        "currencies": [
+            "MXN"
+        ],
+        "capital": [
+            "Mexico City"
+        ],
+        "subregion": "North America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 1964375.0,
+        "population": 128932753
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MU",
+        "label_en": "Mauritius",
+        "label_fr": "Maurice",
+        "label_sp": "Mauricio",
+        "geo_point_2d": {
+            "lon": 57.8502553676,
+            "lat": -20.1858075358
+        },
+        "unMember": true,
+        "currencies": [
+            "MUR"
+        ],
+        "capital": [
+            "Port Louis"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "English",
+            "French",
+            "Mauritian Creole"
+        ],
+        "area": 2040.0,
+        "population": 1265740
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SA",
+        "label_en": "Saudi Arabia",
+        "label_fr": "Arabie saoudite",
+        "label_sp": "Arabia Saudita",
+        "geo_point_2d": {
+            "lon": 44.5372436892,
+            "lat": 24.1219726043
+        },
+        "unMember": true,
+        "currencies": [
+            "SAR"
+        ],
+        "capital": [
+            "Riyadh"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 2149690.0,
+        "population": 34813867
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LK",
+        "label_en": "Sri Lanka",
+        "label_fr": "Sri Lanka",
+        "label_sp": "Sri Lanka",
+        "geo_point_2d": {
+            "lon": 80.7029489373,
+            "lat": 7.61596053702
+        },
+        "unMember": true,
+        "currencies": [
+            "LKR"
+        ],
+        "capital": [
+            "Sri Jayawardenepura Kotte"
+        ],
+        "subregion": "Southern Asia",
+        "languages": [
+            "Sinhala",
+            "Tamil"
+        ],
+        "area": 65610.0,
+        "population": 21919000
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "NR",
+        "label_en": "Nauru",
+        "label_fr": "Nauru",
+        "label_sp": "Nauru",
+        "geo_point_2d": {
+            "lon": 166.932472001,
+            "lat": -0.52015915404
+        },
+        "unMember": true,
+        "currencies": [
+            "AUD"
+        ],
+        "capital": [
+            "Yaren"
+        ],
+        "subregion": "Micronesia",
+        "languages": [
+            "English",
+            "Nauru"
+        ],
+        "area": 21.0,
+        "population": 10834
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MK",
+        "label_en": "Macedonia, The former Yugoslav Rep. of",
+        "label_fr": "Mac\u00e9doine, Ex-R\u00e9p. yougoslave de",
+        "label_sp": "Macedonia, Ex Rep. Yugoslava de",
+        "geo_point_2d": {
+            "lon": 21.683956725,
+            "lat": 41.5948948332
+        },
+        "unMember": true,
+        "currencies": [
+            "MKD"
+        ],
+        "capital": [
+            "Skopje"
+        ],
+        "subregion": "Southeast Europe",
+        "languages": [
+            "Macedonian"
+        ],
+        "area": 25713.0,
+        "population": 2077132
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "SM",
+        "label_en": "San Marino",
+        "label_fr": "Saint-Marin",
+        "label_sp": "San Marino",
+        "geo_point_2d": {
+            "lon": 12.4414307355,
+            "lat": 43.9354661874
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "City of San Marino"
+        ],
+        "subregion": "Southern Europe",
+        "languages": [
+            "Italian"
+        ],
+        "area": 61.0,
+        "population": 33938
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ER",
+        "label_en": "Eritrea",
+        "label_fr": "Erythr\u00e9e",
+        "label_sp": "Eritrea",
+        "geo_point_2d": {
+            "lon": 38.8534296499,
+            "lat": 15.3574559287
+        },
+        "unMember": true,
+        "currencies": [
+            "ERN"
+        ],
+        "capital": [
+            "Asmara"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "Arabic",
+            "English",
+            "Tigrinya"
+        ],
+        "area": 117600.0,
+        "population": 5352000
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GL",
+        "label_en": "Greenland",
+        "label_fr": "Groenland",
+        "label_sp": "Groenlandia",
+        "geo_point_2d": {
+            "lon": -41.3458712652,
+            "lat": 74.7364293388
+        },
+        "unMember": false,
+        "currencies": [
+            "DKK"
+        ],
+        "capital": [
+            "Nuuk"
+        ],
+        "subregion": "North America",
+        "languages": [
+            "Greenlandic"
+        ],
+        "area": 2166086.0,
+        "population": 56367
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TM",
+        "label_en": "Turkmenistan",
+        "label_fr": "Turkm\u00e9nistan",
+        "label_sp": "Turkmenist\u00e1n",
+        "geo_point_2d": {
+            "lon": 59.3761877275,
+            "lat": 39.11575805
+        },
+        "unMember": true,
+        "currencies": [
+            "TMT"
+        ],
+        "capital": [
+            "Ashgabat"
+        ],
+        "subregion": "Central Asia",
+        "languages": [
+            "Russian",
+            "Turkmen"
+        ],
+        "area": 488100.0,
+        "population": 6031187
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "KE",
+        "label_en": "Kenya",
+        "label_fr": "Kenya",
+        "label_sp": "Kenya",
+        "geo_point_2d": {
+            "lon": 37.8221204959,
+            "lat": 0.550735388524
+        },
+        "unMember": true,
+        "currencies": [
+            "KES"
+        ],
+        "capital": [
+            "Nairobi"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "English",
+            "Swahili"
+        ],
+        "area": 580367.0,
+        "population": 53771300
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "TJ",
+        "label_en": "Tajikistan",
+        "label_fr": "Tadjikistan",
+        "label_sp": "Tayikist\u00e1n",
+        "geo_point_2d": {
+            "lon": 71.0158664683,
+            "lat": 38.5298999117
+        },
+        "unMember": true,
+        "currencies": [
+            "TJS"
+        ],
+        "capital": [
+            "Dushanbe"
+        ],
+        "subregion": "Central Asia",
+        "languages": [
+            "Russian",
+            "Tajik"
+        ],
+        "area": 143100.0,
+        "population": 9537642
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AI",
+        "label_en": "Anguilla",
+        "label_fr": "Anguilla",
+        "label_sp": "Anguilla",
+        "geo_point_2d": {
+            "lon": -63.0600473989,
+            "lat": 18.224869546
+        },
+        "unMember": false,
+        "currencies": [
+            "XCD"
+        ],
+        "capital": [
+            "The Valley"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 91.0,
+        "population": 13452
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "FO",
+        "label_en": "Faeroe Islands",
+        "label_fr": "Iles F\u00e9ro\u00e9",
+        "label_sp": "Islas Feroe",
+        "geo_point_2d": {
+            "lon": -6.87192063785,
+            "lat": 62.0728461388
+        },
+        "unMember": false,
+        "currencies": [
+            "DKK",
+            "FOK"
+        ],
+        "capital": [
+            "T\u00f3rshavn"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "Danish",
+            "Faroese"
+        ],
+        "area": 1393.0,
+        "population": 48865
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "MG",
+        "label_en": "Madagascar",
+        "label_fr": "Madagascar",
+        "label_sp": "Madagascar",
+        "geo_point_2d": {
+            "lon": 46.7058236619,
+            "lat": -19.3736785722
+        },
+        "unMember": true,
+        "currencies": [
+            "MGA"
+        ],
+        "capital": [
+            "Antananarivo"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "French",
+            "Malagasy"
+        ],
+        "area": 587041.0,
+        "population": 27691019
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LI",
+        "label_en": "Liechtenstein",
+        "label_fr": "Liechtenstein",
+        "label_sp": "Liechtenstein",
+        "geo_point_2d": {
+            "lon": 9.54116129617,
+            "lat": 47.1378619173
+        },
+        "unMember": true,
+        "currencies": [
+            "CHF"
+        ],
+        "capital": [
+            "Vaduz"
+        ],
+        "subregion": "Western Europe",
+        "languages": [
+            "German"
+        ],
+        "area": 160.0,
+        "population": 38137
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "PF",
+        "label_en": "French Polynesia",
+        "label_fr": "Polyn\u00e9sie fran\u00e7aise",
+        "label_sp": "Polinesia Francesa",
+        "geo_point_2d": {
+            "lon": -145.038256856,
+            "lat": -15.1765651812
+        },
+        "unMember": false,
+        "currencies": [
+            "XPF"
+        ],
+        "capital": [
+            "Papeet\u0113"
+        ],
+        "subregion": "Polynesia",
+        "languages": [
+            "French"
+        ],
+        "area": 4167.0,
+        "population": 280904
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "EG",
+        "label_en": "Egypt",
+        "label_fr": "Egypte",
+        "label_sp": "Egipto",
+        "geo_point_2d": {
+            "lon": 29.8611742358,
+            "lat": 26.4931757586
+        },
+        "unMember": true,
+        "currencies": [
+            "EGP"
+        ],
+        "capital": [
+            "Cairo"
+        ],
+        "subregion": "Northern Africa",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 1002450.0,
+        "population": 102334403
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "WS",
+        "label_en": "Samoa",
+        "label_fr": "Samoa",
+        "label_sp": "Samoa",
+        "geo_point_2d": {
+            "lon": -172.16175453,
+            "lat": -13.7547051921
+        },
+        "unMember": true,
+        "currencies": [
+            "WST"
+        ],
+        "capital": [
+            "Apia"
+        ],
+        "subregion": "Polynesia",
+        "languages": [
+            "English",
+            "Samoan"
+        ],
+        "area": 2842.0,
+        "population": 198410
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BY",
+        "label_en": "Belarus",
+        "label_fr": "B\u00e9larus",
+        "label_sp": "Belar\u00fas",
+        "geo_point_2d": {
+            "lon": 28.0333167556,
+            "lat": 53.5316917941
+        },
+        "unMember": true,
+        "currencies": [
+            "BYN"
+        ],
+        "capital": [
+            "Minsk"
+        ],
+        "subregion": "Eastern Europe",
+        "languages": [
+            "Belarusian",
+            "Russian"
+        ],
+        "area": 207600.0,
+        "population": 9398861
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "PA",
+        "label_en": "Panama",
+        "label_fr": "Panama",
+        "label_sp": "Panam\u00e1",
+        "geo_point_2d": {
+            "lon": -80.1212207136,
+            "lat": 8.51447641709
+        },
+        "unMember": true,
+        "currencies": [
+            "PAB",
+            "USD"
+        ],
+        "capital": [
+            "Panama City"
+        ],
+        "subregion": "Central America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 75417.0,
+        "population": 4314768
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "HT",
+        "label_en": "Haiti",
+        "label_fr": "Ha\u00efti",
+        "label_sp": "Hait\u00ed",
+        "geo_point_2d": {
+            "lon": -72.6903857021,
+            "lat": 18.9384526075
+        },
+        "unMember": true,
+        "currencies": [
+            "HTG"
+        ],
+        "capital": [
+            "Port-au-Prince"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "French",
+            "Haitian Creole"
+        ],
+        "area": 27750.0,
+        "population": 11402533
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BD",
+        "label_en": "Bangladesh",
+        "label_fr": "Bangladesh",
+        "label_sp": "Bangladesh",
+        "geo_point_2d": {
+            "lon": 90.2419424062,
+            "lat": 23.8455777203
+        },
+        "unMember": true,
+        "currencies": [
+            "BDT"
+        ],
+        "capital": [
+            "Dhaka"
+        ],
+        "subregion": "Southern Asia",
+        "languages": [
+            "Bengali"
+        ],
+        "area": 147570.0,
+        "population": 164689383
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "CF",
+        "label_en": "Central African Republic",
+        "label_fr": "R\u00e9publique centrafricaine",
+        "label_sp": "Rep\u00fablica Centroafricana",
+        "geo_point_2d": {
+            "lon": 20.4648268732,
+            "lat": 6.56632290607
+        },
+        "unMember": true,
+        "currencies": [
+            "XAF"
+        ],
+        "capital": [
+            "Bangui"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "French",
+            "Sango"
+        ],
+        "area": 622984.0,
+        "population": 4829764
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "DZ",
+        "label_en": "Algeria",
+        "label_fr": "Alg\u00e9rie",
+        "label_sp": "Argelia",
+        "geo_point_2d": {
+            "lon": 2.65318018402,
+            "lat": 28.1489523417
+        },
+        "unMember": true,
+        "currencies": [
+            "DZD"
+        ],
+        "capital": [
+            "Algiers"
+        ],
+        "subregion": "Northern Africa",
+        "languages": [
+            "Arabic"
+        ],
+        "area": 2381741.0,
+        "population": 44700000
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GU",
+        "label_en": "Guam",
+        "label_fr": "Guam",
+        "label_sp": "Guam",
+        "geo_point_2d": {
+            "lon": 144.770773628,
+            "lat": 13.443095422
+        },
+        "unMember": false,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "Hag\u00e5t\u00f1a"
+        ],
+        "subregion": "Micronesia",
+        "languages": [
+            "Chamorro",
+            "English",
+            "Spanish"
+        ],
+        "area": 549.0,
+        "population": 168783
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GD",
+        "label_en": "Grenada",
+        "label_fr": "Grenade",
+        "label_sp": "Granada",
+        "geo_point_2d": {
+            "lon": -61.6574851042,
+            "lat": 12.1519285645
+        },
+        "unMember": true,
+        "currencies": [
+            "XCD"
+        ],
+        "capital": [
+            "St. George's"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 344.0,
+        "population": 112519
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "FR",
+        "label_en": "France",
+        "label_fr": "France",
+        "label_sp": "Francia",
+        "geo_point_2d": {
+            "lon": -2.75442214946,
+            "lat": 42.1820291785
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Paris"
+        ],
+        "subregion": "Western Europe",
+        "languages": [
+            "French"
+        ],
+        "area": 551695.0,
+        "population": 67391582
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MZ",
+        "label_en": "Mozambique",
+        "label_fr": "Mozambique",
+        "label_sp": "Mozambique",
+        "geo_point_2d": {
+            "lon": 35.5381045309,
+            "lat": -17.2694407361
+        },
+        "unMember": true,
+        "currencies": [
+            "MZN"
+        ],
+        "capital": [
+            "Maputo"
+        ],
+        "subregion": "Eastern Africa",
+        "languages": [
+            "Portuguese"
+        ],
+        "area": 801590.0,
+        "population": 31255435
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "EE",
+        "label_en": "Estonia",
+        "label_fr": "Estonie",
+        "label_sp": "Estonia",
+        "geo_point_2d": {
+            "lon": 25.5366060242,
+            "lat": 58.6709781603
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Tallinn"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "Estonian"
+        ],
+        "area": 45227.0,
+        "population": 1331057
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "CL",
+        "label_en": "Chile",
+        "label_fr": "Chili",
+        "label_sp": "Chile",
+        "geo_point_2d": {
+            "lon": -71.3627814168,
+            "lat": -37.7346256717
+        },
+        "unMember": true,
+        "currencies": [
+            "CLP"
+        ],
+        "capital": [
+            "Santiago"
+        ],
+        "subregion": "South America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 756102.0,
+        "population": 19116209
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "PR",
+        "label_en": "Puerto Rico",
+        "label_fr": "Porto Rico",
+        "label_sp": "Puerto Rico",
+        "geo_point_2d": {
+            "lon": -66.4663845764,
+            "lat": 18.2238457179
+        },
+        "unMember": false,
+        "currencies": [
+            "USD"
+        ],
+        "capital": [
+            "San Juan"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English",
+            "Spanish"
+        ],
+        "area": 8870.0,
+        "population": 3194034
+    },
+    {
+        "official_lang_code": "SP",
+        "iso2_code": "CR",
+        "label_en": "Costa Rica",
+        "label_fr": "Costa Rica",
+        "label_sp": "Costa Rica",
+        "geo_point_2d": {
+            "lon": -84.193292649,
+            "lat": 9.97332729645
+        },
+        "unMember": true,
+        "currencies": [
+            "CRC"
+        ],
+        "capital": [
+            "San Jos\u00e9"
+        ],
+        "subregion": "Central America",
+        "languages": [
+            "Spanish"
+        ],
+        "area": 51100.0,
+        "population": 5094114
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "AM",
+        "label_en": "Armenia",
+        "label_fr": "Arm\u00e9nie",
+        "label_sp": "Armenia",
+        "geo_point_2d": {
+            "lon": 44.9321167362,
+            "lat": 40.2881475184
+        },
+        "unMember": true,
+        "currencies": [
+            "AMD"
+        ],
+        "capital": [
+            "Yerevan"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Armenian"
+        ],
+        "area": 29743.0,
+        "population": 2963234
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "GG",
+        "label_en": "Guernsey",
+        "label_fr": "Guernesey",
+        "label_sp": "Guernesey",
+        "geo_point_2d": {
+            "lon": -2.54060746535,
+            "lat": 49.4774717256
+        },
+        "unMember": false,
+        "currencies": [
+            "GBP",
+            "GGP"
+        ],
+        "capital": [
+            "St. Peter Port"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "English",
+            "French",
+            "Guern\u00e9siais"
+        ],
+        "area": 78.0,
+        "population": 62999
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MT",
+        "label_en": "Malta",
+        "label_fr": "Malte",
+        "label_sp": "Malta",
+        "geo_point_2d": {
+            "lon": 14.4043840372,
+            "lat": 35.9200811084
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Valletta"
+        ],
+        "subregion": "Southern Europe",
+        "languages": [
+            "English",
+            "Maltese"
+        ],
+        "area": 316.0,
+        "population": 525285
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IL",
+        "label_en": "Israel",
+        "label_fr": "Isra\u00ebl",
+        "label_sp": "Israel",
+        "geo_point_2d": {
+            "lon": 34.9964234505,
+            "lat": 31.4448606644
+        },
+        "unMember": true,
+        "currencies": [
+            "ILS"
+        ],
+        "capital": [
+            "Jerusalem"
+        ],
+        "subregion": "Western Asia",
+        "languages": [
+            "Arabic",
+            "Hebrew"
+        ],
+        "area": 20770.0,
+        "population": 9216900
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LS",
+        "label_en": "Lesotho",
+        "label_fr": "Lesotho",
+        "label_sp": "Lesotho",
+        "geo_point_2d": {
+            "lon": 28.2284419379,
+            "lat": -29.5798587816
+        },
+        "unMember": true,
+        "currencies": [
+            "LSL",
+            "ZAR"
+        ],
+        "capital": [
+            "Maseru"
+        ],
+        "subregion": "Southern Africa",
+        "languages": [
+            "English",
+            "Sotho"
+        ],
+        "area": 30355.0,
+        "population": 2142252
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "LA",
+        "label_en": "Lao People's Dem. Rep.",
+        "label_fr": "R\u00e9publique d\u00e9m. pop. lao",
+        "label_sp": "Rep\u00fablica Dem. Pop. Lao",
+        "geo_point_2d": {
+            "lon": 103.73756404,
+            "lat": 18.5027254609
+        },
+        "unMember": true,
+        "currencies": [
+            "LAK"
+        ],
+        "capital": [
+            "Vientiane"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "Lao"
+        ],
+        "area": 236800.0,
+        "population": 7275556
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "BF",
+        "label_en": "Burkina Faso",
+        "label_fr": "Burkina Faso",
+        "label_sp": "Burkina Faso",
+        "geo_point_2d": {
+            "lon": -1.75515034,
+            "lat": 12.2695677876
+        },
+        "unMember": true,
+        "currencies": [
+            "XOF"
+        ],
+        "capital": [
+            "Ouagadougou"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 272967.0,
+        "population": 20903278
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "VC",
+        "label_en": "Saint Vincent and the Grenadines",
+        "label_fr": "Saint-Vincent-et-les Grenadines",
+        "label_sp": "San Vicente y las Granadinas",
+        "geo_point_2d": {
+            "lon": -61.2026948357,
+            "lat": 13.2170996606
+        },
+        "unMember": true,
+        "currencies": [
+            "XCD"
+        ],
+        "capital": [
+            "Kingstown"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 389.0,
+        "population": 110947
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "PM",
+        "label_en": "Saint Pierre and Miquelon",
+        "label_fr": "Saint-Pierre-et-Miquelon",
+        "label_sp": "San Pedro y Miquel\u00f3n",
+        "geo_point_2d": {
+            "lon": -56.3083720391,
+            "lat": 46.9322291441
+        },
+        "unMember": false,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Saint-Pierre"
+        ],
+        "subregion": "North America",
+        "languages": [
+            "French"
+        ],
+        "area": 242.0,
+        "population": 6069
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "SI",
+        "label_en": "Slovenia",
+        "label_fr": "Slov\u00e9nie",
+        "label_sp": "Eslovenia",
+        "geo_point_2d": {
+            "lon": 14.8077251029,
+            "lat": 46.1161834406
+        },
+        "unMember": true,
+        "currencies": [
+            "EUR"
+        ],
+        "capital": [
+            "Ljubljana"
+        ],
+        "subregion": "Central Europe",
+        "languages": [
+            "Slovene"
+        ],
+        "area": 20273.0,
+        "population": 2100126
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "IN",
+        "label_en": "India",
+        "label_fr": "Inde",
+        "label_sp": "India",
+        "geo_point_2d": {
+            "lon": 79.6158935763,
+            "lat": 22.8881002778
+        },
+        "unMember": true,
+        "currencies": [
+            "INR"
+        ],
+        "capital": [
+            "New Delhi"
+        ],
+        "subregion": "Southern Asia",
+        "languages": [
+            "English",
+            "Hindi",
+            "Tamil"
+        ],
+        "area": 3287590.0,
+        "population": 1380004385
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "JE",
+        "label_en": "Jersey",
+        "label_fr": "Jersey",
+        "label_sp": "Jersey",
+        "geo_point_2d": {
+            "lon": -2.12560781432,
+            "lat": 49.2209848181
+        },
+        "unMember": false,
+        "currencies": [
+            "GBP",
+            "JEP"
+        ],
+        "capital": [
+            "Saint Helier"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "English",
+            "French",
+            "J\u00e8rriais"
+        ],
+        "area": 116.0,
+        "population": 100800
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MS",
+        "label_en": "Montserrat",
+        "label_fr": "Montserrat",
+        "label_sp": "Montserrat",
+        "geo_point_2d": {
+            "lon": -62.1870907846,
+            "lat": 16.7374766049
+        },
+        "unMember": false,
+        "currencies": [
+            "XCD"
+        ],
+        "capital": [
+            "Plymouth"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 102.0,
+        "population": 4922
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "MN",
+        "label_en": "Mongolia",
+        "label_fr": "Mongolie",
+        "label_sp": "Mongolia",
+        "geo_point_2d": {
+            "lon": 103.055990959,
+            "lat": 46.825774899
+        },
+        "unMember": true,
+        "currencies": [
+            "MNT"
+        ],
+        "capital": [
+            "Ulan Bator"
+        ],
+        "subregion": "Eastern Asia",
+        "languages": [
+            "Mongolian"
+        ],
+        "area": 1564110.0,
+        "population": 3278292
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "HU",
+        "label_en": "Hungary",
+        "label_fr": "Hongrie",
+        "label_sp": "Hungr\u00eda",
+        "geo_point_2d": {
+            "lon": 19.3963546422,
+            "lat": 47.1631484858
+        },
+        "unMember": true,
+        "currencies": [
+            "HUF"
+        ],
+        "capital": [
+            "Budapest"
+        ],
+        "subregion": "Central Europe",
+        "languages": [
+            "Hungarian"
+        ],
+        "area": 93028.0,
+        "population": 9749763
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "ID",
+        "label_en": "Indonesia",
+        "label_fr": "Indon\u00e9sie",
+        "label_sp": "Indonesia",
+        "geo_point_2d": {
+            "lon": 117.268941687,
+            "lat": -2.22275260271
+        },
+        "unMember": true,
+        "currencies": [
+            "IDR"
+        ],
+        "capital": [
+            "Jakarta"
+        ],
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            "Indonesian"
+        ],
+        "area": 1904569.0,
+        "population": 273523621
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "BM",
+        "label_en": "Bermuda",
+        "label_fr": "Bermudes",
+        "label_sp": "Bermudas",
+        "geo_point_2d": {
+            "lon": -64.758030158,
+            "lat": 32.3128402132
+        },
+        "unMember": false,
+        "currencies": [
+            "BMD"
+        ],
+        "capital": [
+            "Hamilton"
+        ],
+        "subregion": "North America",
+        "languages": [
+            "English"
+        ],
+        "area": 54.0,
+        "population": 63903
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "DM",
+        "label_en": "Dominica",
+        "label_fr": "Dominique",
+        "label_sp": "Dominica",
+        "geo_point_2d": {
+            "lon": -61.3569313883,
+            "lat": 15.4372261204
+        },
+        "unMember": true,
+        "currencies": [
+            "XCD"
+        ],
+        "capital": [
+            "Roseau"
+        ],
+        "subregion": "Caribbean",
+        "languages": [
+            "English"
+        ],
+        "area": 751.0,
+        "population": 71991
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "NE",
+        "label_en": "Niger",
+        "label_fr": "Niger",
+        "label_sp": "N\u00edger",
+        "geo_point_2d": {
+            "lon": 9.3857412628,
+            "lat": 17.4187581641
+        },
+        "unMember": true,
+        "currencies": [
+            "XOF"
+        ],
+        "capital": [
+            "Niamey"
+        ],
+        "subregion": "Western Africa",
+        "languages": [
+            "French"
+        ],
+        "area": 1267000.0,
+        "population": 24206636
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "FJ",
+        "label_en": "Fiji",
+        "label_fr": "Fidji",
+        "label_sp": "Fiji",
+        "geo_point_2d": {
+            "lon": 163.732973147,
+            "lat": -17.4466602926
+        },
+        "unMember": true,
+        "currencies": [
+            "FJD"
+        ],
+        "capital": [
+            "Suva"
+        ],
+        "subregion": "Melanesia",
+        "languages": [
+            "English",
+            "Fijian",
+            "Fiji Hindi"
+        ],
+        "area": 18272.0,
+        "population": 896444
+    },
+    {
+        "official_lang_code": "FR",
+        "iso2_code": "CM",
+        "label_en": "Cameroon",
+        "label_fr": "Cameroun",
+        "label_sp": "Camer\u00fan",
+        "geo_point_2d": {
+            "lon": 12.7370844447,
+            "lat": 5.69302138386
+        },
+        "unMember": true,
+        "currencies": [
+            "XAF"
+        ],
+        "capital": [
+            "Yaound\u00e9"
+        ],
+        "subregion": "Middle Africa",
+        "languages": [
+            "English",
+            "French"
+        ],
+        "area": 475442.0,
+        "population": 26545864
+    },
+    {
+        "official_lang_code": "EN",
+        "iso2_code": "DK",
+        "label_en": "Denmark",
+        "label_fr": "Danemark",
+        "label_sp": "Dinamarca",
+        "geo_point_2d": {
+            "lon": 10.0502290036,
+            "lat": 55.9659213307
+        },
+        "unMember": true,
+        "currencies": [
+            "DKK"
+        ],
+        "capital": [
+            "Copenhagen"
+        ],
+        "subregion": "Northern Europe",
+        "languages": [
+            "Danish"
+        ],
+        "area": 43094.0,
+        "population": 5831404
+    }
+]
