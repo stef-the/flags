@@ -369,6 +369,7 @@ function zoomFlag() {
       .getElementById("flag-img")
       .src.replace("w2560", "w1280");
     zoomedFlag.alt = "Flag";
+    zoomedFlag.style.transform = "scale(0.8) translate(-62.5%, -62.5%)";
 
     zoomedFlag.classList.add("zoomed-flag");
     zoomedFlagContainer.classList.add("zoomed-flag-container");
@@ -377,6 +378,11 @@ function zoomFlag() {
 
     zoomedFlagContainer.appendChild(zoomedFlag);
     document.body.appendChild(zoomedFlagContainer);
+    
+    // Zoom in on flag animation after 100ms
+    setTimeout(() => {
+      zoomedFlag.style.transform = "scale(1) translate(-50%, -50%)";
+    }, 1);
   } else {
     document.getElementById("zoomed-flag").remove();
   }
