@@ -21,6 +21,9 @@ window.onload = () => {
     }, 200);
   });
 
+  /* Zoom in on flag image when clicked */
+  document.getElementById("flag-img").addEventListener("click", zoomFlag);
+
   /* Handle form submission with handleForm */
   const form = document.getElementById("flag-form");
   form.addEventListener("submit", handleForm);
@@ -348,6 +351,37 @@ function closeAlertBox(autofocus = false) {
   }
 }
 
+/* flag zoom */
+function zoomFlag() {
+  // flag zooms in on click and then zooms out on click again.
+  // make flag 80% of screen width/height, depending on which is smaller
+  // grey out background to the same degree as alertBox
+  // use a new img element with fixed position to display the zoomed flag
+  // clicking on the zoomed flag will close it
+
+  if (!document.getElementById("zoomed-flag")) {
+    const zoomedFlagContainer = document.createElement("div");
+    const zoomedFlag = document.createElement("img");
+
+    zoomedFlagContainer.id = "zoomed-flag";
+
+    zoomedFlag.src = document
+      .getElementById("flag-img")
+      .src.replace("w2560", "w1280");
+    zoomedFlag.alt = "Flag";
+
+    zoomedFlag.classList.add("zoomed-flag");
+    zoomedFlagContainer.classList.add("zoomed-flag-container");
+
+    zoomedFlagContainer.addEventListener("click", zoomFlag);
+
+    zoomedFlagContainer.appendChild(zoomedFlag);
+    document.body.appendChild(zoomedFlagContainer);
+  } else {
+    document.getElementById("zoomed-flag").remove();
+  }
+}
+
 /* handle form submission */
 function handleForm(event) {
   event.preventDefault();
@@ -373,6 +407,7 @@ function handleForm(event) {
       `Correct! The flag is from <strong>${guess}</strong>.`,
       "#28a745"
     );
+    console.log(`Correct. The flag is from ${guess}.`);
     score++;
     refresh = true;
   } else {
@@ -380,6 +415,9 @@ function handleForm(event) {
       "Incorrect",
       `Incorrect. The flag is from <strong>${window.country.label_en}</strong>.`,
       "#dc3545"
+    );
+    console.log(
+      `Incorrect. The flag is from ${window.country.label_en}.`
     );
     refresh = true;
   }
