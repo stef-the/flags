@@ -4,7 +4,7 @@ to a new one with more data, using the restcountries API.
 """
 import json
 
-blacklist = ["JG"]
+blacklist = ["JG", "KS", "AN"]
 
 counter = 0
 deleted = 0
