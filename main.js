@@ -1,10 +1,23 @@
 window.onload = () => {
   // Resize input field when window is resized
-  window.addEventListener("resize", () => {
-    guessinput.style.width = `${
-      subcontainer.offsetWidth - textsubmit.offsetWidth - 24
-    }px`;
-  });
+  window.addEventListener("resize", fixInputWidth);
+
+  // Load high score and gamemode from cookie
+  const cookies = document.cookie.split("; ");
+  for (let cookie of cookies) {
+    const [name, value] = cookie.split("=");
+    if (name === "highScore") {
+      highScore = parseInt(value);
+      document.getElementById("high-score").textContent = " " + highScore;
+    } else if (name === "gamemode") {
+      gamemode = value;
+      // Set active gamemode
+      setActive(document.getElementById(gamemode), "active");
+      document.getElementsByTagName("h1")[0].textContent = `Guess the Flag: ${
+        document.getElementById(gamemode).textContent
+      }`;
+    }
+  }
 
   /* add event listeners to autocomplete function */
   document.getElementById("flag-guess").addEventListener("input", (e) => {
@@ -87,14 +100,66 @@ window.onload = () => {
     document.getElementById("hint-button").textContent = `Hint (${hints})`;
   });
 
-  /* Autoresize input field */
-  const subcontainer = document.getElementById("score-subcontainer");
-  const guessinput = document.getElementById("flag-guess");
-  const textsubmit = document.getElementById("text-submit");
+  const gamemodeSwitcher = document.getElementById("gamemode-switcher");
+  const gamemodeElements = gamemodeSwitcher.getElementsByTagName("span");
+  for (var i = 0; i < gamemodeElements.length; i++) {
+    const element = gamemodeElements[i];
+    switch (element.id) {
+      case "endless":
+        element.addEventListener("click", () => {
+          switchGamemode(element);
+        });
+        break;
+      case "onehundredpercent":
+        element.addEventListener("click", () => {
+          switchGamemode(element);
+        });
+        break;
+      case "threelives":
+        element.addEventListener("click", () => {
+          switchGamemode(element);
+        });
+        break;
+      case "twominutes":
+        element.addEventListener("click", () => {
+          switchGamemode(element);
+          // Start countdown timer for 2 minutes with async
+          countdown(
+            2,
+            () => {
+              // Update h1 text content to show time remaining
+              document.getElementsByTagName(
+                "h1"
+              )[0].textContent = `Guess the Flag: ${gamemodeVariables.twominutesText}`;
+            },
+            () => {
+              // End game when timer reaches 0
+              alertBox(
+                "Game Over",
+                `Game over! You scored ${score}/${attempts}.`,
+                "#dc3545"
+              );
+              score = 0;
+              attempts = 0;
+              document.getElementById(
+                "score"
+              ).textContent = ` ${score}/${attempts}`;
+              document.getElementsByTagName(
+                "h1"
+              )[0].textContent = `Guess the Flag: ${element.textContent}`;
+            }
+          );
+        });
+        break;
+      default:
+        break;
+    }
+  }
 
-  guessinput.style.width = `${
-    subcontainer.offsetWidth - textsubmit.offsetWidth - 24
-  }px`;
+  fixInputWidth();
+  document.getElementById("flag-img").src = getFlagUrl(
+    window.country.iso2_code
+  );
 };
 
 window.country = null;
@@ -107,7 +172,55 @@ let score = 0,
   nextHint,
   nextHintKey,
   errorWindow = false,
-  autocompleting = false;
+  autocompleting = false,
+  gamemode = "endless",
+  exitTimer = false;
+
+const gamemodeVariablesDefault = {
+  endless: false,
+  onehundredpercent: 0,
+  onehundredpercentCountries: [],
+  threelives: 3,
+  twominutes: 120,
+  twominutesText: "2:00",
+};
+
+let gamemodeVariables = { ...gamemodeVariablesDefault };
+
+function setActive(element, className = "active") {
+  document.getElementsByClassName("active")[0].classList.remove(className);
+  element.classList.add(className);
+}
+
+function switchGamemode(element) {
+  if (gamemode === "twominutes") {
+    exitTimer = true;
+    // wait for timer to exit
+    setTimeout(() => {
+      if (element.id === "twominutes") {
+        setActive(element);
+        gamemode = element.id;
+        console.log("switched to gamemode", gamemode);
+        document.getElementsByTagName(
+          "h1"
+        )[0].textContent = `Guess the Flag: ${element.textContent}`;
+        // add current gamemode to cookie
+        document.cookie = `gamemode=${gamemode}; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+        gamemodeVariables = { ...gamemodeVariablesDefault };
+      }
+    }, 200);
+  } else if (gamemode !== element.id && gamemode !== "twominutes") {
+    setActive(element);
+    gamemode = element.id;
+    console.log("switched to gamemode", gamemode);
+    document.getElementsByTagName(
+      "h1"
+    )[0].textContent = `Guess the Flag: ${element.textContent}`;
+    // add current gamemode to cookie
+    document.cookie = `gamemode=${gamemode}; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+    gamemodeVariables = { ...gamemodeVariablesDefault };
+  }
+}
 
 /* load country data */
 fetch("./country_codes.json")
@@ -378,7 +491,7 @@ function zoomFlag() {
 
     zoomedFlagContainer.appendChild(zoomedFlag);
     document.body.appendChild(zoomedFlagContainer);
-    
+
     // Zoom in on flag animation after 100ms
     setTimeout(() => {
       zoomedFlag.style.transform = "scale(1) translate(-50%, -50%)";
@@ -417,20 +530,70 @@ function handleForm(event) {
     score++;
     refresh = true;
   } else {
-    alertBox(
-      "Incorrect",
-      `Incorrect. The flag is from <strong>${window.country.label_en}</strong>.`,
-      "#dc3545"
-    );
-    console.log(
-      `Incorrect. The flag is from ${window.country.label_en}.`
-    );
+    console.log(`Incorrect. The flag is from ${window.country.label_en}.`);
+    let gameover = false;
+    if (gamemode === "threelives") {
+      gamemodeVariables.threelives--;
+      document.getElementsByTagName(
+        "h1"
+      )[0].textContent = `Guess the Flag: ${gamemodeVariables.threelives} Lives`;
+      if (gamemodeVariables.threelives === 0) {
+        gameover = true;
+        alertBox(
+          "Game Over",
+          `Game over! You scored ${score}/${attempts}.`,
+          "#dc3545"
+        );
+        score = 0;
+        attempts = 0;
+        gamemodeVariables.threelives = 3;
+      }
+    }
+
+    if (!gameover) {
+      alertBox(
+        "Incorrect",
+        `Incorrect. The flag is from <strong>${window.country.label_en}</strong>.`,
+        "#dc3545"
+      );
+    }
     refresh = true;
   }
 
   if (refresh) {
     hint = 0;
-    window.country = getRandomCountry();
+    if (gamemode === "onehundredpercent") {
+      gamemodeVariables.onehundredpercent++;
+      gamemodeVariables.onehundredpercentCountries.push(window.country);
+      // Update h1 text content to show percentage of flags completed
+      document.getElementsByTagName("h1")[0].textContent = `Guess the Flag: ${
+        Math.round(
+          (gamemodeVariables.onehundredpercent / window.countryData.length) *
+            1000
+        ) / 10
+      }%`;
+      console.log(
+        gamemodeVariables.onehundredpercent / window.countryData.length
+      );
+      if (gamemodeVariables.onehundredpercent >= window.countryData.length) {
+        alertBox(
+          "Game Over",
+          `Game over! You scored ${score}/${window.countryData.length}.`,
+          "#dc3545"
+        );
+        score = 0;
+        attempts = 0;
+        gamemodeVariables.onehundredpercent = 0;
+      } else {
+        while (
+          gamemodeVariables.onehundredpercentCountries.includes(
+            (window.country = getRandomCountry())
+          )
+        );
+      }
+    } else {
+      window.country = getRandomCountry();
+    }
     document.getElementById("flag-img").src = getFlagUrl(
       window.country.iso2_code
     );
@@ -438,10 +601,62 @@ function handleForm(event) {
     document.getElementById("autocomplete-container").style.display = "none";
     attempts++;
 
-    document.getElementById("score").textContent = `${score}/${attempts}`;
-    if (score > highScore) {
+    document.getElementById("score").textContent = ` ${score}/${attempts}`;
+    if (score > highScore && gamemode === "endless") {
       highScore = score;
-      document.getElementById("high-score").textContent = highScore;
+      document.getElementById("high-score").textContent = " " + highScore;
+      document.cookie = `highScore=${highScore}; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+    }
+
+    fixInputWidth();
+  }
+}
+
+/* fix input width */
+function fixInputWidth() {
+  /* Autoresize input field */
+  const subcontainer = document.getElementById("score-subcontainer");
+  const guessinput = document.getElementById("flag-guess");
+  const textsubmit = document.getElementById("text-submit");
+
+  guessinput.style.width = `${
+    subcontainer.offsetWidth - textsubmit.offsetWidth - 24
+  }px`;
+}
+
+let timeoutHandle;
+function countdown(minutes, secFunction = null, endFunction = null) {
+  let seconds = 60;
+  let mins = minutes;
+  function tick() {
+    if (exitTimer) {
+      console.log("exiting timer");
+      exitTimer = false;
+      return;
+    }
+    if (secFunction) {
+      secFunction();
+    }
+    let current_minutes = mins - 1;
+    seconds--;
+    gamemodeVariables.twominutesText =
+      current_minutes.toString() +
+      ":" +
+      (seconds < 10 ? "0" : "") +
+      String(seconds);
+    if (seconds > 0) {
+      timeoutHandle = setTimeout(tick, 1000);
+    } else {
+      if (mins > 1) {
+        setTimeout(function () {
+          countdown(mins - 1);
+        }, 1000);
+      } else {
+        if (endFunction) {
+          endFunction();
+        }
+      }
     }
   }
+  tick();
 }
