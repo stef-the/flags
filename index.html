@@ -37,14 +37,21 @@
       </form>
       <div id="score-container">
         <div id="score-subcontainer">
-          <div>Score: <span id="score">0</span></div>
-          <div>High Score: <span id="high-score">0</span></div>
+          <div>Score:<b id="score"> 0</b></div>
+          <div>High Score:<b id="high-score"> 0</b></div>
           <button id="hint-button" type="button" tabindex="1">Hint (0)</button>
         </div>
       </div>
     </div>
     <footer>
-      <p>Created by <strong>Stefan Leung</strong></p>
+      <div id="gamemode-switcher">
+        Extra Gamemodes:
+        <span id="endless" class="active">Endless</span>
+        <span id="onehundredpercent">100%</span>
+        <span id="threelives">3 Lives</span>
+        <span id="twominutes">2 Minutes</span>
+      </p>
+      <p>Created by <strong><a id="footer-name" href="https://github.com/stef-the/">Stefan Leung</a></strong></p>
     </footer>
   </body>
 </html>
