@@ -20,6 +20,11 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 div#content {
   margin: 0 auto;
   height: 100%;
@@ -40,7 +45,7 @@ footer {
 }
 
 footer:hover {
-  height: 3rem;
+  height: 5rem;
   padding: 10px 0;
 }
 
@@ -320,4 +325,25 @@ form#flag-form input[type="text"]:focus + #autocomplete-container {
   height: 100vh;
   background-color: #111111aa;
   z-index: 1;
+}
+
+footer #gamemode-switcher {
+  margin-top: 1rem;
+}
+
+footer #gamemode-switcher span {
+  margin: 0 0.1rem;
+  cursor: pointer;
+}
+
+footer #gamemode-switcher span:hover {
+  text-decoration: underline;
+}
+
+footer #gamemode-switcher span.active {
+  font-weight: bold;
+}
+
+footer #footer-name:hover {
+  text-decoration: underline;
 }
