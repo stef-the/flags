@@ -1,6 +1,8 @@
 window.onload = () => {
   // Resize input field when window is resized
   window.addEventListener("resize", fixInputWidth);
+  window.flagGuess = document.getElementById("flag-guess");
+  window.head = document.getElementsByTagName("h1")[0];
 
   // Load high score and gamemode from cookie
   const cookies = document.cookie.split("; ");
@@ -13,22 +15,27 @@ window.onload = () => {
       gamemode = value;
       // Set active gamemode
       setActive(document.getElementById(gamemode), "active");
-      document.getElementsByTagName("h1")[0].textContent = `Guess the Flag: ${
+      window.head.textContent = `Guess the Flag: ${
         document.getElementById(gamemode).textContent
       }`;
+
+      // start timed game if gamemode is twominutes
+      if (gamemode === "twominutes") {
+        timedGameCountdown(document.getElementById(gamemode).textContent, 2000);
+      }
     }
   }
 
   /* add event listeners to autocomplete function */
-  document.getElementById("flag-guess").addEventListener("input", (e) => {
+  window.flagGuess.addEventListener("input", (e) => {
     autocomplete(e.target.value);
   });
 
-  document.getElementById("flag-guess").addEventListener("focus", (e) => {
+  window.flagGuess.addEventListener("focus", (e) => {
     autocomplete(e.target.value);
   });
 
-  document.getElementById("flag-guess").addEventListener("blur", () => {
+  window.flagGuess.addEventListener("blur", () => {
     setTimeout(() => {
       document.getElementById("autocomplete-container").style.display = "none";
     }, 200);
@@ -98,62 +105,79 @@ window.onload = () => {
     hint++;
     hints++;
     document.getElementById("hint-button").textContent = `Hint (${hints})`;
+    document.getElementById(
+      "score"
+    ).textContent = ` ${score}/${attempts}/${hints}`;
   });
+
+  /* Skip button */
+
+  document.getElementById("skip-button").addEventListener("click", () => {
+    alertBox(
+      "Skip",
+      `The flag is from <strong>${window.country.label_en}</strong>.`,
+      "#dc3545"
+    );
+    while (
+      gamemode === "onehundredpercent" &&
+      gamemodeVariables.onehundredpercentCountries.includes(
+        (window.country = getRandomCountry())
+      )
+    );
+    if (gamemode === "onehundredpercent") {
+      gamemodeVariables.onehundredpercent++;
+      gamemodeVariables.onehundredpercentCountries.push(window.country);
+      // Update h1 text content to show percentage of flags completed
+      window.head.textContent = `Guess the Flag: ${
+        Math.round(
+          (gamemodeVariables.onehundredpercent / window.countryData.length) *
+            1000
+        ) / 10
+      }%`;
+      console.log(
+        gamemodeVariables.onehundredpercent / window.countryData.length
+      );
+      if (gamemodeVariables.onehundredpercent >= window.countryData.length) {
+        alertBox(
+          "Game Over",
+          `Game over! You scored ${score}/${window.countryData.length}.`,
+          "#dc3545"
+        );
+        score = 0;
+        attempts = 0;
+        gamemodeVariables.onehundredpercent = 0;
+      }
+    } else {
+      window.country = getRandomCountry();
+    }
+    document.getElementById("flag-img").src = getFlagUrl(
+      window.country.iso2_code
+    );
+    window.flagGuess.value = "";
+    document.getElementById("autocomplete-container").style.display = "none";
+    attempts++;
+
+    document.getElementById(
+      "score"
+    ).textContent = ` ${score}/${attempts}/${hints}`;
+    if (score > highScore && gamemode === "endless") {
+      highScore = score;
+      document.getElementById("high-score").textContent = " " + highScore;
+      document.cookie = `highScore=${highScore}; SameSite=Strict; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+    }
+
+    fixInputWidth();
+  });
+
+  /* Add event listeners to gamemode switchers in footer */
 
   const gamemodeSwitcher = document.getElementById("gamemode-switcher");
   const gamemodeElements = gamemodeSwitcher.getElementsByTagName("span");
   for (var i = 0; i < gamemodeElements.length; i++) {
     const element = gamemodeElements[i];
-    switch (element.id) {
-      case "endless":
-        element.addEventListener("click", () => {
-          switchGamemode(element);
-        });
-        break;
-      case "onehundredpercent":
-        element.addEventListener("click", () => {
-          switchGamemode(element);
-        });
-        break;
-      case "threelives":
-        element.addEventListener("click", () => {
-          switchGamemode(element);
-        });
-        break;
-      case "twominutes":
-        element.addEventListener("click", () => {
-          switchGamemode(element);
-          // Start countdown timer for 2 minutes with async
-          countdown(
-            2,
-            () => {
-              // Update h1 text content to show time remaining
-              document.getElementsByTagName(
-                "h1"
-              )[0].textContent = `Guess the Flag: ${gamemodeVariables.twominutesText}`;
-            },
-            () => {
-              // End game when timer reaches 0
-              alertBox(
-                "Game Over",
-                `Game over! You scored ${score}/${attempts}.`,
-                "#dc3545"
-              );
-              score = 0;
-              attempts = 0;
-              document.getElementById(
-                "score"
-              ).textContent = ` ${score}/${attempts}`;
-              document.getElementsByTagName(
-                "h1"
-              )[0].textContent = `Guess the Flag: ${element.textContent}`;
-            }
-          );
-        });
-        break;
-      default:
-        break;
-    }
+    element.addEventListener("click", () => {
+      switchGamemode(element);
+    });
   }
 
   fixInputWidth();
@@ -163,6 +187,7 @@ window.onload = () => {
 };
 
 window.country = null;
+window.head = null;
 let score = 0,
   highScore = 0,
   attempts = 0,
@@ -195,31 +220,61 @@ function setActive(element, className = "active") {
 function switchGamemode(element) {
   if (gamemode === "twominutes") {
     exitTimer = true;
-    // wait for timer to exit
+  }
+  // reset active gamemode
+  setActive(element);
+  gamemode = element.id;
+  console.log("switched to gamemode", gamemode);
+  document.getElementsByTagName(
+    "h1"
+  )[0].textContent = `Guess the Flag: ${element.textContent}`;
+
+  // reset score and attempts
+  score = 0;
+  attempts = 0;
+  hints = 0;
+  document.getElementById(
+    "score"
+  ).textContent = ` ${score}/${attempts}/${hints}`;
+
+  // add current gamemode to cookie
+  document.cookie = `gamemode=${gamemode}; SameSite=Strict; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+  gamemodeVariables = { ...gamemodeVariablesDefault };
+
+  // start timed game if gamemode is twominutes
+  if (gamemode === "twominutes") {
+    timedGameCountdown(element.textContent);
+  }
+}
+
+function timedGameCountdown(title, delay = 0) {
+  // disable flagGuess input field
+  const flagGuess = window.flagGuess;
+  flagGuess.setAttribute("disabled", "true");
+  // countdown to start timed game
+  [3, 2, 1].forEach((i) => {
     setTimeout(() => {
-      if (element.id === "twominutes") {
-        setActive(element);
-        gamemode = element.id;
-        console.log("switched to gamemode", gamemode);
+      if (gamemode === "twominutes") {
         document.getElementsByTagName(
           "h1"
-        )[0].textContent = `Guess the Flag: ${element.textContent}`;
-        // add current gamemode to cookie
-        document.cookie = `gamemode=${gamemode}; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
-        gamemodeVariables = { ...gamemodeVariablesDefault };
+        )[0].textContent = `Guess the Flag: ${title} (${i})`;
+      } else {
+        flagGuess.removeAttribute("disabled");
       }
-    }, 200);
-  } else if (gamemode !== element.id && gamemode !== "twominutes") {
-    setActive(element);
-    gamemode = element.id;
-    console.log("switched to gamemode", gamemode);
-    document.getElementsByTagName(
-      "h1"
-    )[0].textContent = `Guess the Flag: ${element.textContent}`;
-    // add current gamemode to cookie
-    document.cookie = `gamemode=${gamemode}; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
-    gamemodeVariables = { ...gamemodeVariablesDefault };
-  }
+    }, delay + 3000 - 1000 * i);
+  });
+  // start timed game after 3+delay seconds
+  setTimeout(() => {
+    // enable and focus flagGuess input field
+    flagGuess.removeAttribute("disabled");
+    if (gamemode === "twominutes") {
+      flagGuess.focus();
+
+      // start countdown
+      exitTimer = false;
+      timedGame(2);
+    }
+  }, delay + 3000);
 }
 
 /* load country data */
@@ -297,7 +352,7 @@ function autocomplete(inputValue) {
       const li = document.createElement("li");
       li.textContent = country;
       li.addEventListener("click", () => {
-        document.getElementById("flag-guess").value = country;
+        window.flagGuess.value = country;
         autocompleteContainer.style.display = "none";
       });
       ul.appendChild(li);
@@ -309,7 +364,7 @@ function autocomplete(inputValue) {
       ul.firstChild.classList.add("selected");
     }
 
-    const inputField = document.getElementById("flag-guess");
+    const inputField = window.flagGuess;
     let selectedIndex = 0; // Keep track of the currently selected index
     autocompleting = true;
 
@@ -375,8 +430,7 @@ function autocomplete(inputValue) {
           autocompleteContainer.querySelector(".selected");
 
         if (currentSelected) {
-          document.getElementById("flag-guess").value =
-            currentSelected.textContent;
+          window.flagGuess.value = currentSelected.textContent;
 
           // Hide autocomplete list
           autocompleteContainer.style.display = "none";
@@ -398,7 +452,7 @@ function autocomplete(inputValue) {
 }
 
 /* alert box */
-function alertBox(title, message, color = "#007bff", autofocus = false) {
+function alertBox(title, message, color = "#007bff") {
   if (!errorWindow) {
     const alertBox = document.createElement("div");
     alertBox.classList.add("alert-box");
@@ -422,7 +476,7 @@ function alertBox(title, message, color = "#007bff", autofocus = false) {
       .addEventListener("click", closeAlertBox);
 
     // Unfocus input fields when alert box is opened
-    document.getElementById("flag-guess").blur();
+    window.flagGuess.blur();
     document.getElementById("text-submit").blur();
 
     // Prevent autocomplete from interfering with alert box
@@ -431,14 +485,14 @@ function alertBox(title, message, color = "#007bff", autofocus = false) {
     // Close alert box when clicked outside of the box
     alertBox.addEventListener("click", (e) => {
       if (e.target === alertBox) {
-        closeAlertBox(autofocus);
+        closeAlertBox((autofocus = false));
       }
     });
 
     // Close alert box when key is pressed
     window.addEventListener("keydown", (e) => {
       if (errorWindow && (e.key === "Escape" || e.key === "Enter")) {
-        closeAlertBox(autofocus);
+        closeAlertBox((autofocus = true));
       }
     });
 
@@ -459,7 +513,9 @@ function closeAlertBox(autofocus = false) {
   // Refocus input field with short delay if autofocus is true
   if (autofocus) {
     setTimeout(() => {
-      document.getElementById("flag-guess").focus();
+      if (document.activeElement !== window.flag) {
+        window.flagGuess.focus();
+      }
     }, 100);
   }
 }
@@ -504,8 +560,8 @@ function zoomFlag() {
 /* handle form submission */
 function handleForm(event) {
   event.preventDefault();
-  console.log("Guess: ", document.getElementById("flag-guess").value);
-  let guess = document.getElementById("flag-guess").value;
+  console.log("Guess: ", window.flagGuess.value);
+  let guess = window.flagGuess.value;
   let refresh = false;
 
   // Clear autocomplete list and reset autocompleting flag
@@ -541,7 +597,7 @@ function handleForm(event) {
         gameover = true;
         alertBox(
           "Game Over",
-          `Game over! You scored ${score}/${attempts}.`,
+          `Game over! You scored ${score}/${attempts}/${hints}.`,
           "#dc3545"
         );
         score = 0;
@@ -566,7 +622,7 @@ function handleForm(event) {
       gamemodeVariables.onehundredpercent++;
       gamemodeVariables.onehundredpercentCountries.push(window.country);
       // Update h1 text content to show percentage of flags completed
-      document.getElementsByTagName("h1")[0].textContent = `Guess the Flag: ${
+      window.head.textContent = `Guess the Flag: ${
         Math.round(
           (gamemodeVariables.onehundredpercent / window.countryData.length) *
             1000
@@ -597,15 +653,17 @@ function handleForm(event) {
     document.getElementById("flag-img").src = getFlagUrl(
       window.country.iso2_code
     );
-    document.getElementById("flag-guess").value = "";
+    window.flagGuess.value = "";
     document.getElementById("autocomplete-container").style.display = "none";
     attempts++;
 
-    document.getElementById("score").textContent = ` ${score}/${attempts}`;
+    document.getElementById(
+      "score"
+    ).textContent = ` ${score}/${attempts}/${hints}`;
     if (score > highScore && gamemode === "endless") {
       highScore = score;
       document.getElementById("high-score").textContent = " " + highScore;
-      document.cookie = `highScore=${highScore}; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+      document.cookie = `highScore=${highScore}; SameSite=Strict; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
     }
 
     fixInputWidth();
@@ -616,7 +674,7 @@ function handleForm(event) {
 function fixInputWidth() {
   /* Autoresize input field */
   const subcontainer = document.getElementById("score-subcontainer");
-  const guessinput = document.getElementById("flag-guess");
+  const guessinput = window.flagGuess;
   const textsubmit = document.getElementById("text-submit");
 
   guessinput.style.width = `${
@@ -625,38 +683,81 @@ function fixInputWidth() {
 }
 
 let timeoutHandle;
+
 function countdown(minutes, secFunction = null, endFunction = null) {
   let seconds = 60;
   let mins = minutes;
+
+  // exit timer if exitTimer is true
+  if (exitTimer) {
+    console.log("exiting timer (countdown)");
+    return;
+  }
+
   function tick() {
+    // exit timer if exitTimer is true
     if (exitTimer) {
-      console.log("exiting timer");
-      exitTimer = false;
+      console.log("exiting timer (tick)");
       return;
     }
+
+    // run secFunction if it exists
     if (secFunction) {
       secFunction();
     }
+
     let current_minutes = mins - 1;
     seconds--;
+
+    // update text variable to show time remaining
     gamemodeVariables.twominutesText =
       current_minutes.toString() +
       ":" +
       (seconds < 10 ? "0" : "") +
       String(seconds);
+
+    // tick next second/minute
     if (seconds > 0) {
       timeoutHandle = setTimeout(tick, 1000);
     } else {
-      if (mins > 1) {
-        setTimeout(function () {
-          countdown(mins - 1);
-        }, 1000);
+      if (mins > 0) {
+        setTimeout(countdown(mins - 1, secFunction, endFunction), 1000);
       } else {
+        // run endFunction if it exists
         if (endFunction) {
           endFunction();
         }
+        return;
       }
     }
   }
   tick();
+}
+
+function timedGame(minutes) {
+  countdown(
+    minutes,
+    () => {
+      // Update h1 text content to show time remaining
+      document.getElementsByTagName(
+        "h1"
+      )[0].textContent = `Guess the Flag: ${gamemodeVariables.twominutesText}`;
+    },
+    () => {
+      // End game when timer reaches 0
+      alertBox(
+        "Game Over",
+        `Game over! You scored ${score}/${attempts}/${hints}.`,
+        "#dc3545"
+      );
+      score = 0;
+      attempts = 0;
+      document.getElementById(
+        "score"
+      ).textContent = `${score}/${attempts}/${hints}`;
+      document.getElementsByTagName(
+        "h1"
+      )[0].textContent = `Guess the Flag: ${score}/${attempts}/${hints}`;
+    }
+  );
 }
