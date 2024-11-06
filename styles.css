@@ -4,6 +4,8 @@
   --tertiary-color: #ddd;
   --quaternary-color: #aaa;
   --quinary-color: #666;
+  --senary-color: #333;
+  --septenary-color: #111;
 
   --primary-color-hover: #0056b3;
   --primary-color-active: #004b9e;
@@ -83,12 +85,23 @@ div#header {
   min-height: 8vh;
 }
 
+div#header h1 {
+  transition-delay: 0.1s;
+  transition: ease-in-out 0.2s;
+}
+
+div#header:hover h1,
+div#header:focus h1 {
+  margin-bottom: 1rem;
+}
+
 div#header #hiddenheader {
   font-size: 1rem;
   opacity: 0;
   height: 0;
   margin: 0;
   padding: 0;
+  transform: translateY(-2rem);
   transition: ease-in-out 0.2s;
 }
 
@@ -96,10 +109,21 @@ div#header:hover #hiddenheader,
 div#header:focus #hiddenheader {
   opacity: 1;
   margin: 0 0 4rem 0;
+  transform: translateY(0);
 }
 
 div#header #hiddenheader div {
-  padding-bottom: 0.4rem;
+  margin: 0.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+div#header #hiddenheader div #score-container {
+  padding: 0.4rem;
+  background-color: white;
+  color: var(--septenary-color);
+  border-radius: 3px;
+  width: max-content;
 }
 
 /* Main */
@@ -278,7 +302,6 @@ form#flag-form input[type="text"]:focus + #autocomplete-container {
     top: calc(25%);
     left: calc(50% - 45vw);
   }
-  
 }
 
 .alert-box-header {
