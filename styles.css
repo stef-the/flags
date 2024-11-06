@@ -83,7 +83,7 @@ div#header {
   min-height: 8vh;
 }
 
-div#header p {
+div#header #hiddenheader {
   font-size: 1rem;
   opacity: 0;
   height: 0;
@@ -92,10 +92,14 @@ div#header p {
   transition: ease-in-out 0.2s;
 }
 
-div#header:hover p,
-div#header:focus p {
+div#header:hover #hiddenheader,
+div#header:focus #hiddenheader {
   opacity: 1;
-  margin: 0 0 2.5rem 0;
+  margin: 0 0 4rem 0;
+}
+
+div#header #hiddenheader div {
+  padding-bottom: 0.4rem;
 }
 
 /* Main */
@@ -123,31 +127,31 @@ div#flag-container img:hover {
   transform: scale(102%);
 }
 
-div#score-container {
+div#hint-container {
   display: flex;
   justify-content: center;
   margin: 1rem auto;
   cursor: default;
 }
 
-div#score-container div {
+div#hint-container div {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #111;
 }
 
-div#score-container div div,
-div#score-container div button {
+div#hint-container div button {
   padding: 0.6rem 1rem;
   border-radius: 3px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   font-size: 1rem;
+  margin-right: 0.75rem;
 }
 
-div#score-container div div {
-  margin-right: 0.75rem;
-  background-color: #ddd;
+/* Remove margin for last child */
+div#hint-container div button:last-child {
+  margin-right: 0;
 }
 
 form#flag-form {
