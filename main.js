@@ -277,8 +277,17 @@ function timedGameCountdown(title, delay = 0) {
   }, delay + 3000);
 }
 
-/* load country data */
-fetch("./country_codes.json")
+/* load/cache country data */
+fetch(
+  "https://raw.githubusercontent.com/stef-the/flags/refs/heads/main/country_codes.json",
+  {
+    cache: "force-cache",
+    headers: {
+      "Cache-Control": "max-age=3600",
+      Pragma: "max-age=3600", // added for redundancy
+    },
+  }
+)
   .then((response) => response.json())
   .then((json) => {
     // Store country data in global variables
@@ -302,6 +311,12 @@ fetch("./country_codes.json")
     const flagImg = document.getElementById("flag-img");
     window.country = getRandomCountry();
     flagImg.src = getFlagUrl(window.country.iso2_code);
+  })
+  .catch((error) => {
+    console.error("Error loading country data:", error);
+  })
+  .finally(() => {
+    console.log("Country data loaded.");
   });
 
 /* helper functions */
