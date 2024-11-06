@@ -282,10 +282,6 @@ fetch(
   "https://raw.githubusercontent.com/stef-the/flags/refs/heads/main/country_codes.json",
   {
     cache: "force-cache",
-    headers: {
-      "Cache-Control": "max-age=3600",
-      Pragma: "max-age=3600", // added for redundancy
-    },
   }
 )
   .then((response) => response.json())
