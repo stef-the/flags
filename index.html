@@ -10,7 +10,10 @@
   <body>
     <div id="header">
       <h1>Guess the Flag</h1>
-      <p>Enter the name of the country that the flag belongs to.</p>
+      <div id="hiddenheader">
+        <div>Enter the name of the country that the flag belongs to.</div>
+        <div>Current Score:<b id="score"> 0</b>&nbsp;&nbsp;High Score:<b id="high-score"> 0</b></div>
+      </div>
     </div>
     <div id="content">
       <div id="flag-container">
@@ -35,11 +38,10 @@
         </div>
         <div id="autocomplete-container"></div>
       </form>
-      <div id="score-container">
-        <div id="score-subcontainer">
-          <div>Score:<b id="score"> 0</b></div>
-          <div>High Score:<b id="high-score"> 0</b></div>
+      <div id="hint-container">
+        <div id="hint-subcontainer">
           <button id="hint-button" type="button" tabindex="1">Hint (0)</button>
+          <button id="skip-button" type="button" tabindex="4">Skip</button>
         </div>
       </div>
     </div>
