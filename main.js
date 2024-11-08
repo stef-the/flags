@@ -99,6 +99,12 @@ window.onload = () => {
       window.country.rainfall
         ? `The country's average yearly rainfall is <strong>${window.country.rainfall}mm</strong>.`
         : false,
+      window.country.income_level
+        ? `The country's income level is <strong>${window.country.income_level}</strong>.`
+        : false,
+      window.country.wb_region
+        ? `The country is in the <strong>${window.country.wb_region}</strong> region.`
+        : false,
     ];
 
     // Get a random hint message that is not false
