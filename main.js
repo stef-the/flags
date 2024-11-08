@@ -8,9 +8,9 @@ window.onload = () => {
   const cookies = document.cookie.split("; ");
   for (let cookie of cookies) {
     const [name, value] = cookie.split("=");
-    if (name === "highScore") {
-      highScore = parseInt(value);
-      document.getElementById("high-score").textContent = " " + highScore;
+    if (name === "highScoreEndless") {
+      highScoreEndless = parseStr(value);
+      document.getElementById("high-score").textContent = highScoreEndless;
     } else if (name === "gamemode") {
       gamemode = value;
       // Set active gamemode
@@ -93,12 +93,22 @@ window.onload = () => {
       window.country.unMember
         ? "This country <strong>is</strong> a member of the United Nations."
         : "This country <strong>is not</strong> a member of the United Nations.",
+      window.country.geo_point_2d.lat
+        ? `This country is <strong>${Math.round(parseFloat(window.country.geo_point_2d.lat)*111)}km</strong> from the equator.`
+        : false,
+      window.country.rainfall
+        ? `The country's average yearly rainfall is <strong>${window.country.rainfall}mm</strong>.`
+        : false,
     ];
 
-    nextHintKey = Math.floor(
-      Math.random() * hintMsg.filter((msg) => msg !== false).length
-    );
-    nextHint = hintMsg.filter((msg) => msg !== false)[nextHintKey];
+    // Get a random hint message that is not false
+    // Never show the same hint message twice in a row
+    do {
+      nextHintKey = Math.floor(
+        Math.random() * hintMsg.filter((msg) => msg !== false).length
+      );
+      nextHint = hintMsg.filter((msg) => msg !== false)[nextHintKey];
+    } while (nextHint === hintMsg[hint]);
 
     alertBox("Hint", nextHint, "#ffc107");
 
@@ -160,10 +170,10 @@ window.onload = () => {
     document.getElementById(
       "score"
     ).textContent = ` ${score}/${attempts}/${hints}`;
-    if (score > highScore && gamemode === "endless") {
-      highScore = score;
-      document.getElementById("high-score").textContent = " " + highScore;
-      document.cookie = `highScore=${highScore}; SameSite=Strict; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+    if (score > highScoreEndless && gamemode === "endless") {
+      highScoreEndless = score;
+      document.getElementById("high-score").textContent = highScoreEndless;
+      document.cookie = `highScoreEndless=${highScoreEndless}/${attempts}/${hints}; SameSite=Strict; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
     }
 
     fixInputWidth();
@@ -189,7 +199,7 @@ window.onload = () => {
 window.country = null;
 window.head = null;
 let score = 0,
-  highScore = 0,
+  highScoreEndless = 0,
   attempts = 0,
   hint = 0,
   hints = 0,
@@ -671,10 +681,10 @@ function handleForm(event) {
     document.getElementById(
       "score"
     ).textContent = ` ${score}/${attempts}/${hints}`;
-    if (score > highScore && gamemode === "endless") {
-      highScore = score;
-      document.getElementById("high-score").textContent = " " + highScore;
-      document.cookie = `highScore=${highScore}; SameSite=Strict; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+    if (score > highScoreEndless && gamemode === "endless") {
+      highScoreEndless = score;
+      document.getElementById("high-score").textContent = highScoreEndless;
+      document.cookie = `highScoreEndless=${highScoreEndless}/${attempts}/${hints}; SameSite=Strict; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
     }
 
     fixInputWidth();

@@ -1,3 +1,1 @@
-# Flags Guessing Game
-
-flags innit
+# flags

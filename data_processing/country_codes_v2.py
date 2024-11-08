@@ -14,7 +14,6 @@ with open("country_codes_v2.json", "r") as original_file:
     country_codes = json.load(original_file)
     for i in country_codes:
         print(f"\nProcessing entry {i['label_en']}...")
-        del i["iso3_code"]
         del i["onu_code"]
         del i["is_ilomember"]
         del i["is_receiving_quest"]

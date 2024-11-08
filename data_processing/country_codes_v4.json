@@ -23,7 +23,8 @@
             "Khmer"
         ],
         "area": 181035.0,
-        "population": 16718971
+        "population": 16718971,
+        "rainfall": 1904.0
     },
     {
         "official_lang_code": "FR",
@@ -51,7 +52,8 @@
             "Romansh"
         ],
         "area": 41284.0,
-        "population": 8654622
+        "population": 8654622,
+        "rainfall": 1537.0
     },
     {
         "official_lang_code": "EN",
@@ -76,7 +78,8 @@
             "English"
         ],
         "area": 923768.0,
-        "population": 206139587
+        "population": 206139587,
+        "rainfall": 1150.0
     },
     {
         "official_lang_code": "EN",
@@ -102,7 +105,8 @@
             "Slovak"
         ],
         "area": 78865.0,
-        "population": 10698896
+        "population": 10698896,
+        "rainfall": 677.0
     },
     {
         "official_lang_code": "EN",
@@ -128,7 +132,8 @@
             "Uzbek"
         ],
         "area": 447400.0,
-        "population": 34232050
+        "population": 34232050,
+        "rainfall": 206.0
     },
     {
         "official_lang_code": "FR",
@@ -175,7 +180,8 @@
             "German"
         ],
         "area": 357114.0,
-        "population": 83240525
+        "population": 83240525,
+        "rainfall": 700.0
     },
     {
         "official_lang_code": "EN",
@@ -200,7 +206,8 @@
             "Arabic"
         ],
         "area": 765.0,
-        "population": 1701583
+        "population": 1701583,
+        "rainfall": 83.0
     },
     {
         "official_lang_code": "EN",
@@ -251,7 +258,8 @@
             "Spanish"
         ],
         "area": 916445.0,
-        "population": 28435943
+        "population": 28435943,
+        "rainfall": 2044.0
     },
     {
         "official_lang_code": "FR",
@@ -298,7 +306,8 @@
             "English"
         ],
         "area": 214969.0,
-        "population": 786559
+        "population": 786559,
+        "rainfall": 2387.0
     },
     {
         "official_lang_code": "FR",
@@ -324,7 +333,8 @@
             "Kirundi"
         ],
         "area": 27834.0,
-        "population": 11890781
+        "population": 11890781,
+        "rainfall": 1273.0819672131147
     },
     {
         "official_lang_code": "EN",
@@ -376,7 +386,8 @@
             "Arabic"
         ],
         "area": 89342.0,
-        "population": 10203140
+        "population": 10203140,
+        "rainfall": 111.0
     },
     {
         "official_lang_code": "EN",
@@ -401,7 +412,8 @@
             "English"
         ],
         "area": 7692024.0,
-        "population": 25687041
+        "population": 25687041,
+        "rainfall": 534.0
     },
     {
         "official_lang_code": "SP",
@@ -452,7 +464,8 @@
             "Georgian"
         ],
         "area": 69700.0,
-        "population": 3714000
+        "population": 3714000,
+        "rainfall": 1026.0
     },
     {
         "official_lang_code": "EN",
@@ -464,7 +477,8 @@
         "geo_point_2d": {
             "lon": 31.386059716,
             "lat": 48.9972191079
-        }
+        },
+        "rainfall": 565.0
     },
     {
         "official_lang_code": "EN",
@@ -503,7 +517,8 @@
             "Zimbabwean Sign Language"
         ],
         "area": 390757.0,
-        "population": 14862927
+        "population": 14862927,
+        "rainfall": 657.5737704918033
     },
     {
         "official_lang_code": "EN",
@@ -528,7 +543,8 @@
             "Arabic"
         ],
         "area": 185180.0,
-        "population": 17500657
+        "population": 17500657,
+        "rainfall": 252.0
     },
     {
         "official_lang_code": "EN",
@@ -581,7 +597,8 @@
             "Luxembourgish"
         ],
         "area": 2586.0,
-        "population": 632275
+        "population": 632275,
+        "rainfall": 934.0
     },
     {
         "official_lang_code": "EN",
@@ -606,7 +623,8 @@
             "Japanese"
         ],
         "area": 377930.0,
-        "population": 125836021
+        "population": 125836021,
+        "rainfall": 1668.0
     },
     {
         "official_lang_code": "SP",
@@ -634,7 +652,8 @@
             "Spanish"
         ],
         "area": 1098581.0,
-        "population": 11673029
+        "population": 11673029,
+        "rainfall": 1146.0
     },
     {
         "official_lang_code": "EN",
@@ -646,7 +665,8 @@
         "geo_point_2d": {
             "lon": 20.0536337871,
             "lat": 41.1423824499
-        }
+        },
+        "rainfall": 1485.0
     },
     {
         "official_lang_code": "EN",
@@ -696,7 +716,8 @@
             "English"
         ],
         "area": 9372610.0,
-        "population": 329484123
+        "population": 329484123,
+        "rainfall": 715.0
     },
     {
         "official_lang_code": "EN",
@@ -723,7 +744,8 @@
             "Serbian"
         ],
         "area": 51209.0,
-        "population": 3280815
+        "population": 3280815,
+        "rainfall": 1028.0
     },
     {
         "official_lang_code": "EN",
@@ -750,7 +772,8 @@
             "Tok Pisin"
         ],
         "area": 462840.0,
-        "population": 8947027
+        "population": 8947027,
+        "rainfall": 3142.0
     },
     {
         "official_lang_code": "EN",
@@ -775,7 +798,8 @@
             "Latvian"
         ],
         "area": 64559.0,
-        "population": 1901548
+        "population": 1901548,
+        "rainfall": 667.0
     },
     {
         "official_lang_code": "EN",
@@ -800,7 +824,8 @@
             "English"
         ],
         "area": 442.0,
-        "population": 97928
+        "population": 97928,
+        "rainfall": 1030.0
     },
     {
         "official_lang_code": "SP",
@@ -826,7 +851,8 @@
             "Spanish"
         ],
         "area": 2780400.0,
-        "population": 45376763
+        "population": 45376763,
+        "rainfall": 591.0
     },
     {
         "official_lang_code": "FR",
@@ -851,7 +877,8 @@
             "Romanian"
         ],
         "area": 238391.0,
-        "population": 19286123
+        "population": 19286123,
+        "rainfall": 637.0
     },
     {
         "official_lang_code": "EN",
@@ -876,7 +903,8 @@
             "Arabic"
         ],
         "area": 6220.0,
-        "population": 4803269
+        "population": 4803269,
+        "rainfall": 402.0
     },
     {
         "official_lang_code": "EN",
@@ -902,7 +930,8 @@
             "Jamaican Patois"
         ],
         "area": 10991.0,
-        "population": 2961161
+        "population": 2961161,
+        "rainfall": 2051.0
     },
     {
         "official_lang_code": "EN",
@@ -927,7 +956,8 @@
             "Maldivian"
         ],
         "area": 300.0,
-        "population": 540542
+        "population": 540542,
+        "rainfall": 1972.0
     },
     {
         "official_lang_code": "FR",
@@ -953,7 +983,8 @@
             "Upper Guinea Creole"
         ],
         "area": 36125.0,
-        "population": 1967998
+        "population": 1967998,
+        "rainfall": 1577.0
     },
     {
         "official_lang_code": "FR",
@@ -978,7 +1009,8 @@
             "Arabic"
         ],
         "area": 1030700.0,
-        "population": 4649660
+        "population": 4649660,
+        "rainfall": 92.0
     },
     {
         "official_lang_code": "EN",
@@ -1003,7 +1035,8 @@
             "Persian (Farsi)"
         ],
         "area": 1648195.0,
-        "population": 83992953
+        "population": 83992953,
+        "rainfall": 228.0
     },
     {
         "official_lang_code": "EN",
@@ -1028,7 +1061,8 @@
             "English"
         ],
         "area": 10689.0,
-        "population": 2416664
+        "population": 2416664,
+        "rainfall": 836.0
     },
     {
         "official_lang_code": "FR",
@@ -1103,7 +1137,8 @@
             "msa": "Malay"
         },
         "area": 5765.0,
-        "population": 437483
+        "population": 437483,
+        "rainfall": 2722.0
     },
     {
         "official_lang_code": "SP",
@@ -1128,7 +1163,8 @@
             "Portuguese"
         ],
         "area": 8515767.0,
-        "population": 212559409
+        "population": 212559409,
+        "rainfall": 1773.7377049180327
     },
     {
         "official_lang_code": "EN",
@@ -1155,7 +1191,8 @@
             "Sami"
         ],
         "area": 323802.0,
-        "population": 5379475
+        "population": 5379475,
+        "rainfall": 1414.0
     },
     {
         "official_lang_code": "FR",
@@ -1180,7 +1217,8 @@
             "French"
         ],
         "area": 267668.0,
-        "population": 2225728
+        "population": 2225728,
+        "rainfall": 1831.0
     },
     {
         "official_lang_code": "EN",
@@ -1192,7 +1230,8 @@
         "geo_point_2d": {
             "lon": 43.7446739676,
             "lat": 33.0397448476
-        }
+        },
+        "rainfall": 216.0
     },
     {
         "official_lang_code": "FR",
@@ -1204,7 +1243,8 @@
         "geo_point_2d": {
             "lon": 42.5670039348,
             "lat": 11.7504923494
-        }
+        },
+        "rainfall": 220.0
     },
     {
         "official_lang_code": "EN",
@@ -1229,7 +1269,8 @@
             "Polish"
         ],
         "area": 312679.0,
-        "population": 37950802
+        "population": 37950802,
+        "rainfall": 600.0
     },
     {
         "official_lang_code": "EN",
@@ -1255,7 +1296,8 @@
             "Somali"
         ],
         "area": 637657.0,
-        "population": 15893219
+        "population": 15893219,
+        "rainfall": 282.0
     },
     {
         "official_lang_code": "EN",
@@ -1267,7 +1309,8 @@
         "geo_point_2d": {
             "lon": 16.7542843545,
             "lat": 62.777378402
-        }
+        },
+        "rainfall": 624.0
     },
     {
         "official_lang_code": "EN",
@@ -1293,7 +1336,8 @@
             "Urdu"
         ],
         "area": 881912.0,
-        "population": 220892331
+        "population": 220892331,
+        "rainfall": 494.0
     },
     {
         "official_lang_code": "EN",
@@ -1369,7 +1413,8 @@
             "English"
         ],
         "area": 13943.0,
-        "population": 393248
+        "population": 393248,
+        "rainfall": 1292.0
     },
     {
         "official_lang_code": "SP",
@@ -1381,7 +1426,8 @@
         "geo_point_2d": {
             "lon": -73.0836676571,
             "lat": 3.90962199445
-        }
+        },
+        "rainfall": 3229.5333333333333
     },
     {
         "official_lang_code": "SP",
@@ -1406,7 +1452,8 @@
             "Spanish"
         ],
         "area": 21041.0,
-        "population": 6486201
+        "population": 6486201,
+        "rainfall": 1784.0
     },
     {
         "official_lang_code": "EN",
@@ -1432,7 +1479,8 @@
             "Filipino"
         ],
         "area": 342353.0,
-        "population": 109581085
+        "population": 109581085,
+        "rainfall": 2348.0
     },
     {
         "official_lang_code": "EN",
@@ -1458,7 +1506,8 @@
             "English"
         ],
         "area": 1886068.0,
-        "population": 43849269
+        "population": 43849269,
+        "rainfall": 250.0
     },
     {
         "official_lang_code": "EN",
@@ -1496,7 +1545,8 @@
         "geo_point_2d": {
             "lon": -88.6947664472,
             "lat": 17.2076202853
-        }
+        },
+        "rainfall": 1705.0
     },
     {
         "official_lang_code": "EN",
@@ -1521,7 +1571,8 @@
             "Italian"
         ],
         "area": 301336.0,
-        "population": 59554023
+        "population": 59554023,
+        "rainfall": 832.0
     },
     {
         "official_lang_code": "EN",
@@ -1547,7 +1598,8 @@
             "Swedish"
         ],
         "area": 338424.0,
-        "population": 5530719
+        "population": 5530719,
+        "rainfall": 536.0
     },
     {
         "official_lang_code": "SP",
@@ -1573,7 +1625,8 @@
             "Spanish"
         ],
         "area": 406752.0,
-        "population": 7132530
+        "population": 7132530,
+        "rainfall": 1130.0
     },
     {
         "official_lang_code": "EN",
@@ -1600,7 +1653,8 @@
             "Turkmen"
         ],
         "area": 652230.0,
-        "population": 40218234
+        "population": 40218234,
+        "rainfall": 327.0
     },
     {
         "official_lang_code": "EN",
@@ -1625,7 +1679,8 @@
             "Arabic"
         ],
         "area": 83600.0,
-        "population": 9890400
+        "population": 9890400,
+        "rainfall": 78.0
     },
     {
         "official_lang_code": "SP",
@@ -1652,7 +1707,8 @@
             "Spanish"
         ],
         "area": 1285216.0,
-        "population": 32971846
+        "population": 32971846,
+        "rainfall": 1738.0
     },
     {
         "official_lang_code": "FR",
@@ -1679,7 +1735,8 @@
             "Lingala"
         ],
         "area": 342000.0,
-        "population": 5657000
+        "population": 5657000,
+        "rainfall": 1646.0
     },
     {
         "official_lang_code": "SP",
@@ -1704,7 +1761,8 @@
             "Spanish"
         ],
         "area": 112492.0,
-        "population": 9904608
+        "population": 9904608,
+        "rainfall": 1976.0
     },
     {
         "official_lang_code": "EN",
@@ -1781,7 +1839,8 @@
             "English"
         ],
         "area": 71740.0,
-        "population": 7976985
+        "population": 7976985,
+        "rainfall": 2526.0
     },
     {
         "official_lang_code": "EN",
@@ -1806,7 +1865,8 @@
             "Dutch"
         ],
         "area": 41850.0,
-        "population": 16655799
+        "population": 16655799,
+        "rainfall": 778.0
     },
     {
         "official_lang_code": "FR",
@@ -1831,7 +1891,8 @@
             "Arabic"
         ],
         "area": 163610.0,
-        "population": 11818618
+        "population": 11818618,
+        "rainfall": 207.0
     },
     {
         "official_lang_code": "EN",
@@ -1857,7 +1918,8 @@
             "Turkish"
         ],
         "area": 9251.0,
-        "population": 1207361
+        "population": 1207361,
+        "rainfall": 498.0
     },
     {
         "official_lang_code": "EN",
@@ -1869,7 +1931,8 @@
         "geo_point_2d": {
             "lon": 127.184350323,
             "lat": 40.1508079459
-        }
+        },
+        "rainfall": 1054.0
     },
     {
         "official_lang_code": "EN",
@@ -1935,7 +1998,8 @@
             "Swahili"
         ],
         "area": 2344858.0,
-        "population": 108407721
+        "population": 108407721,
+        "rainfall": 1543.0
     },
     {
         "official_lang_code": "EN",
@@ -1987,7 +2051,8 @@
             "Amharic"
         ],
         "area": 1104300.0,
-        "population": 114963583
+        "population": 114963583,
+        "rainfall": 848.0
     },
     {
         "official_lang_code": "EN",
@@ -2012,7 +2077,8 @@
             "German"
         ],
         "area": 83871.0,
-        "population": 8917205
+        "population": 8917205,
+        "rainfall": 1110.0
     },
     {
         "official_lang_code": "EN",
@@ -2037,7 +2103,8 @@
             "Chinese"
         ],
         "area": 9706961.0,
-        "population": 1402112000
+        "population": 1402112000,
+        "rainfall": 645.0
     },
     {
         "official_lang_code": "EN",
@@ -2064,7 +2131,8 @@
             "French"
         ],
         "area": 452.0,
-        "population": 98462
+        "population": 98462,
+        "rainfall": 2324.098360655738
     },
     {
         "official_lang_code": "EN",
@@ -2114,7 +2182,8 @@
             "Swahili"
         ],
         "area": 241550.0,
-        "population": 45741000
+        "population": 45741000,
+        "rainfall": 1180.0
     },
     {
         "official_lang_code": "FR",
@@ -2140,7 +2209,8 @@
             "Berber"
         ],
         "area": 446550.0,
-        "population": 36910558
+        "population": 36910558,
+        "rainfall": 346.0
     },
     {
         "official_lang_code": "EN",
@@ -2165,7 +2235,8 @@
             "Arabic"
         ],
         "area": 527968.0,
-        "population": 29825968
+        "population": 29825968,
+        "rainfall": 167.0
     },
     {
         "official_lang_code": "EN",
@@ -2227,7 +2298,8 @@
             "Arabic"
         ],
         "area": 1759540.0,
-        "population": 6871287
+        "population": 6871287,
+        "rainfall": 56.0
     },
     {
         "official_lang_code": "EN",
@@ -2252,7 +2324,8 @@
             "Croatian"
         ],
         "area": 56594.0,
-        "population": 4047200
+        "population": 4047200,
+        "rainfall": 1113.0
     },
     {
         "official_lang_code": "FR",
@@ -2277,7 +2350,8 @@
             "French"
         ],
         "area": 56785.0,
-        "population": 8278737
+        "population": 8278737,
+        "rainfall": 1168.0
     },
     {
         "official_lang_code": "FR",
@@ -2302,7 +2376,8 @@
             "French"
         ],
         "area": 196722.0,
-        "population": 16743930
+        "population": 16743930,
+        "rainfall": 686.0
     },
     {
         "official_lang_code": "EN",
@@ -2353,7 +2428,8 @@
             "English"
         ],
         "area": 261.0,
-        "population": 53192
+        "population": 53192,
+        "rainfall": 1427.0
     },
     {
         "official_lang_code": "EN",
@@ -2379,7 +2455,8 @@
             "Dzongkha"
         ],
         "area": 38394.0,
-        "population": 771612
+        "population": 771612,
+        "rainfall": 2200.0
     },
     {
         "official_lang_code": "EN",
@@ -2431,7 +2508,8 @@
             "Russian"
         ],
         "area": 2724900.0,
-        "population": 18754440
+        "population": 18754440,
+        "rainfall": 250.0
     },
     {
         "official_lang_code": "FR",
@@ -2456,7 +2534,8 @@
             "French"
         ],
         "area": 112622.0,
-        "population": 12123198
+        "population": 12123198,
+        "rainfall": 1039.0
     },
     {
         "official_lang_code": "EN",
@@ -2494,7 +2573,8 @@
         "geo_point_2d": {
             "lon": -70.4965672754,
             "lat": 18.8960527207
-        }
+        },
+        "rainfall": 1410.0
     },
     {
         "official_lang_code": "SP",
@@ -2506,7 +2586,8 @@
         "geo_point_2d": {
             "lon": -78.7712502025,
             "lat": -1.42637018649
-        }
+        },
+        "rainfall": 2270.883333333333
     },
     {
         "official_lang_code": "SP",
@@ -2531,7 +2612,8 @@
             "Spanish"
         ],
         "area": 130373.0,
-        "population": 6624554
+        "population": 6624554,
+        "rainfall": 2280.0
     },
     {
         "official_lang_code": "SP",
@@ -2557,7 +2639,8 @@
             "Spanish"
         ],
         "area": 109884.0,
-        "population": 11326616
+        "population": 11326616,
+        "rainfall": 1335.0
     },
     {
         "official_lang_code": "EN",
@@ -2582,7 +2665,8 @@
             "Arabic"
         ],
         "area": 17818.0,
-        "population": 4270563
+        "population": 4270563,
+        "rainfall": 121.0
     },
     {
         "official_lang_code": "FR",
@@ -2607,7 +2691,8 @@
             "Portuguese"
         ],
         "area": 92090.0,
-        "population": 10305564
+        "population": 10305564,
+        "rainfall": 854.0
     },
     {
         "official_lang_code": "EN",
@@ -2619,7 +2704,8 @@
         "geo_point_2d": {
             "lon": 22.9734385798,
             "lat": 39.0516315876
-        }
+        },
+        "rainfall": 652.0
     },
     {
         "official_lang_code": "FR",
@@ -2645,7 +2731,8 @@
             "French"
         ],
         "area": 10452.0,
-        "population": 6825442
+        "population": 6825442,
+        "rainfall": 661.0
     },
     {
         "official_lang_code": "EN",
@@ -2670,7 +2757,8 @@
             "English"
         ],
         "area": 111369.0,
-        "population": 5057677
+        "population": 5057677,
+        "rainfall": 2391.0
     },
     {
         "official_lang_code": "EN",
@@ -2695,7 +2783,8 @@
             "Azerbaijani"
         ],
         "area": 86600.0,
-        "population": 10110116
+        "population": 10110116,
+        "rainfall": 447.0
     },
     {
         "official_lang_code": "SP",
@@ -2723,7 +2812,8 @@
             "Galician"
         ],
         "area": 505992.0,
-        "population": 47351567
+        "population": 47351567,
+        "rainfall": 636.0
     },
     {
         "official_lang_code": "EN",
@@ -2748,7 +2838,8 @@
             "Arabic"
         ],
         "area": 11586.0,
-        "population": 2881060
+        "population": 2881060,
+        "rainfall": 74.0
     },
     {
         "official_lang_code": "EN",
@@ -2773,7 +2864,8 @@
             "Arabic"
         ],
         "area": 309500.0,
-        "population": 5106622
+        "population": 5106622,
+        "rainfall": 125.0
     },
     {
         "official_lang_code": "EN",
@@ -2798,7 +2890,8 @@
             "Slovak"
         ],
         "area": 49037.0,
-        "population": 5458827
+        "population": 5458827,
+        "rainfall": 824.0
     },
     {
         "official_lang_code": "FR",
@@ -2823,7 +2916,8 @@
             "Portuguese"
         ],
         "area": 4033.0,
-        "population": 555988
+        "population": 555988,
+        "rainfall": 228.0
     },
     {
         "official_lang_code": "EN",
@@ -2848,7 +2942,8 @@
             "English"
         ],
         "area": 242900.0,
-        "population": 67215293
+        "population": 67215293,
+        "rainfall": 1220.0
     },
     {
         "official_lang_code": "EN",
@@ -2873,7 +2968,8 @@
             "English"
         ],
         "area": 430.0,
-        "population": 287371
+        "population": 287371,
+        "rainfall": 1422.0
     },
     {
         "official_lang_code": "EN",
@@ -2899,7 +2995,8 @@
             "Irish"
         ],
         "area": 70273.0,
-        "population": 4994724
+        "population": 4994724,
+        "rainfall": 1118.0
     },
     {
         "official_lang_code": "FR",
@@ -2924,7 +3021,8 @@
             "French"
         ],
         "area": 322463.0,
-        "population": 26378275
+        "population": 26378275,
+        "rainfall": 1348.0
     },
     {
         "official_lang_code": "EN",
@@ -2951,7 +3049,8 @@
             "Kinyarwanda"
         ],
         "area": 26338.0,
-        "population": 12952209
+        "population": 12952209,
+        "rainfall": 1212.0
     },
     {
         "official_lang_code": "EN",
@@ -3003,7 +3102,8 @@
             "Russian"
         ],
         "area": 17098242.0,
-        "population": 144104080
+        "population": 144104080,
+        "rainfall": 460.0
     },
     {
         "official_lang_code": "EN",
@@ -3040,7 +3140,8 @@
         "geo_point_2d": {
             "lon": 159.637514734,
             "lat": -8.91107375944
-        }
+        },
+        "rainfall": 3028.0
     },
     {
         "official_lang_code": "EN",
@@ -3090,7 +3191,8 @@
             "Romanian"
         ],
         "area": 33846.0,
-        "population": 2617820
+        "population": 2617820,
+        "rainfall": 450.0
     },
     {
         "official_lang_code": "SP",
@@ -3115,7 +3217,8 @@
             "Spanish"
         ],
         "area": 108889.0,
-        "population": 16858333
+        "population": 16858333,
+        "rainfall": 1996.0
     },
     {
         "official_lang_code": "FR",
@@ -3140,7 +3243,8 @@
             "Portuguese"
         ],
         "area": 1246700.0,
-        "population": 32866268
+        "population": 32866268,
+        "rainfall": 1010.0
     },
     {
         "official_lang_code": "EN",
@@ -3165,7 +3269,8 @@
             "Vietnamese"
         ],
         "area": 331212.0,
-        "population": 97338583
+        "population": 97338583,
+        "rainfall": 1821.0
     },
     {
         "official_lang_code": "EN",
@@ -3217,7 +3322,8 @@
             "Comorian"
         ],
         "area": 1862.0,
-        "population": 869595
+        "population": 869595,
+        "rainfall": 900.0
     },
     {
         "official_lang_code": "EN",
@@ -3242,7 +3348,8 @@
             "English"
         ],
         "area": 238533.0,
-        "population": 31072945
+        "population": 31072945,
+        "rainfall": 1187.0
     },
     {
         "official_lang_code": "EN",
@@ -3268,7 +3375,8 @@
             "Swahili"
         ],
         "area": 945087.0,
-        "population": 59734213
+        "population": 59734213,
+        "rainfall": 1071.0
     },
     {
         "official_lang_code": "FR",
@@ -3316,7 +3424,8 @@
             "Tswana"
         ],
         "area": 582000.0,
-        "population": 2351625
+        "population": 2351625,
+        "rainfall": 416.0
     },
     {
         "official_lang_code": "EN",
@@ -3394,7 +3503,8 @@
             "Tamil"
         ],
         "area": 710.0,
-        "population": 5685807
+        "population": 5685807,
+        "rainfall": 2497.0
     },
     {
         "official_lang_code": "EN",
@@ -3419,7 +3529,8 @@
             "Korean"
         ],
         "area": 100210.0,
-        "population": 51780579
+        "population": 51780579,
+        "rainfall": 1274.0
     },
     {
         "official_lang_code": "FR",
@@ -3444,7 +3555,8 @@
             "French"
         ],
         "area": 1240192.0,
-        "population": 20250834
+        "population": 20250834,
+        "rainfall": 282.0
     },
     {
         "official_lang_code": "EN",
@@ -3495,7 +3607,8 @@
             "Lithuanian"
         ],
         "area": 65300.0,
-        "population": 2794700
+        "population": 2794700,
+        "rainfall": 656.0
     },
     {
         "official_lang_code": "EN",
@@ -3532,7 +3645,8 @@
             "Zulu"
         ],
         "area": 1221037.0,
-        "population": 59308690
+        "population": 59308690,
+        "rainfall": 495.0
     },
     {
         "official_lang_code": "EN",
@@ -3592,7 +3706,8 @@
             "Tswana"
         ],
         "area": 825615.0,
-        "population": 2540916
+        "population": 2540916,
+        "rainfall": 285.0
     },
     {
         "official_lang_code": "FR",
@@ -3642,7 +3757,8 @@
             "Nepali"
         ],
         "area": 147181.0,
-        "population": 29136808
+        "population": 29136808,
+        "rainfall": 1500.0
     },
     {
         "official_lang_code": "SP",
@@ -3667,7 +3783,8 @@
             "Spanish"
         ],
         "area": 181034.0,
-        "population": 3473727
+        "population": 3473727,
+        "rainfall": 1299.4166666666667
     },
     {
         "official_lang_code": "EN",
@@ -3692,7 +3809,8 @@
             "English"
         ],
         "area": 616.0,
-        "population": 183629
+        "population": 183629,
+        "rainfall": 2301.0
     },
     {
         "official_lang_code": "EN",
@@ -3719,7 +3837,8 @@
             "Swazi"
         ],
         "area": 17364.0,
-        "population": 1160164
+        "population": 1160164,
+        "rainfall": 788.0
     },
     {
         "official_lang_code": "FR",
@@ -3769,7 +3888,8 @@
             "Thai"
         ],
         "area": 513120.0,
-        "population": 69799978
+        "population": 69799978,
+        "rainfall": 1622.0
     },
     {
         "official_lang_code": "EN",
@@ -3795,7 +3915,8 @@
             "Tetum"
         ],
         "area": 14874.0,
-        "population": 1318442
+        "population": 1318442,
+        "rainfall": 1500.0
     },
     {
         "official_lang_code": "FR",
@@ -3822,7 +3943,8 @@
             "Dutch"
         ],
         "area": 30528.0,
-        "population": 11555997
+        "population": 11555997,
+        "rainfall": 847.0
     },
     {
         "official_lang_code": "EN",
@@ -3847,7 +3969,8 @@
             "Icelandic"
         ],
         "area": 103000.0,
-        "population": 366425
+        "population": 366425,
+        "rainfall": 1940.0
     },
     {
         "official_lang_code": "EN",
@@ -3872,7 +3995,8 @@
             "Bulgarian"
         ],
         "area": 110879.0,
-        "population": 6927288
+        "population": 6927288,
+        "rainfall": 608.0
     },
     {
         "official_lang_code": "EN",
@@ -3894,7 +4018,8 @@
             "English"
         ],
         "area": 619745.0,
-        "population": 11193729
+        "population": 11193729,
+        "rainfall": 900.0
     },
     {
         "official_lang_code": "EN",
@@ -3919,7 +4044,8 @@
             "Turkish"
         ],
         "area": 783562.0,
-        "population": 84339067
+        "population": 84339067,
+        "rainfall": 593.0
     },
     {
         "official_lang_code": "EN",
@@ -3945,7 +4071,8 @@
             "Chewa"
         ],
         "area": 118484.0,
-        "population": 19129955
+        "population": 19129955,
+        "rainfall": 1181.0
     },
     {
         "official_lang_code": "FR",
@@ -3970,7 +4097,8 @@
             "French"
         ],
         "area": 245857.0,
-        "population": 13132792
+        "population": 13132792,
+        "rainfall": 1651.0
     },
     {
         "official_lang_code": "EN",
@@ -3996,7 +4124,8 @@
             "Malay"
         ],
         "area": 330803.0,
-        "population": 32365998
+        "population": 32365998,
+        "rainfall": 2875.0
     },
     {
         "official_lang_code": "EN",
@@ -4023,7 +4152,8 @@
             "French"
         ],
         "area": 12189.0,
-        "population": 307150
+        "population": 307150,
+        "rainfall": 2000.0
     },
     {
         "official_lang_code": "SP",
@@ -4048,7 +4178,8 @@
             "Portuguese"
         ],
         "area": 964.0,
-        "population": 219161
+        "population": 219161,
+        "rainfall": 3200.0
     },
     {
         "official_lang_code": "FR",
@@ -4074,7 +4205,8 @@
             "French"
         ],
         "area": 1284000.0,
-        "population": 16425859
+        "population": 16425859,
+        "rainfall": 322.0
     },
     {
         "official_lang_code": "EN",
@@ -4101,7 +4233,8 @@
             "New Zealand Sign Language"
         ],
         "area": 270467.0,
-        "population": 5084300
+        "population": 5084300,
+        "rainfall": 1732.0
     },
     {
         "official_lang_code": "EN",
@@ -4127,7 +4260,8 @@
             "French"
         ],
         "area": 9984670.0,
-        "population": 38005238
+        "population": 38005238,
+        "rainfall": 537.0
     },
     {
         "official_lang_code": "EN",
@@ -4153,7 +4287,8 @@
             "Russian"
         ],
         "area": 199951.0,
-        "population": 6591600
+        "population": 6591600,
+        "rainfall": 533.0
     },
     {
         "official_lang_code": "EN",
@@ -4199,7 +4334,8 @@
             "eng": "English"
         },
         "area": 5130.0,
-        "population": 1399491
+        "population": 1399491,
+        "rainfall": 2200.0
     },
     {
         "official_lang_code": "SP",
@@ -4226,7 +4362,8 @@
             "Spanish"
         ],
         "area": 28051.0,
-        "population": 1402985
+        "population": 1402985,
+        "rainfall": 2156.0
     },
     {
         "official_lang_code": "EN",
@@ -4251,7 +4388,8 @@
             "Dutch"
         ],
         "area": 163820.0,
-        "population": 586634
+        "population": 586634,
+        "rainfall": 2331.0
     },
     {
         "official_lang_code": "EN",
@@ -4276,7 +4414,8 @@
             "English"
         ],
         "area": 752612.0,
-        "population": 18383956
+        "population": 18383956,
+        "rainfall": 1020.0
     },
     {
         "official_lang_code": "EN",
@@ -13656,7 +13795,8 @@
         "geo_point_2d": {
             "lon": 96.4892839365,
             "lat": 21.1683805571
-        }
+        },
+        "rainfall": 2091.0
     },
     {
         "official_lang_code": "FR",
@@ -13703,7 +13843,8 @@
             "Spanish"
         ],
         "area": 1964375.0,
-        "population": 128932753
+        "population": 128932753,
+        "rainfall": 757.9
     },
     {
         "official_lang_code": "EN",
@@ -13730,7 +13871,8 @@
             "Mauritian Creole"
         ],
         "area": 2040.0,
-        "population": 1265740
+        "population": 1265740,
+        "rainfall": 2041.0
     },
     {
         "official_lang_code": "EN",
@@ -13755,7 +13897,8 @@
             "Arabic"
         ],
         "area": 2149690.0,
-        "population": 34813867
+        "population": 34813867,
+        "rainfall": 59.0
     },
     {
         "official_lang_code": "EN",
@@ -13781,7 +13924,8 @@
             "Tamil"
         ],
         "area": 65610.0,
-        "population": 21919000
+        "population": 21919000,
+        "rainfall": 1712.0
     },
     {
         "official_lang_code": "EN",
@@ -13832,7 +13976,8 @@
             "Macedonian"
         ],
         "area": 25713.0,
-        "population": 2077132
+        "population": 2077132,
+        "rainfall": 619.0
     },
     {
         "official_lang_code": "FR",
@@ -13884,7 +14029,8 @@
             "Tigrinya"
         ],
         "area": 117600.0,
-        "population": 5352000
+        "population": 5352000,
+        "rainfall": 384.0
     },
     {
         "official_lang_code": "EN",
@@ -13935,7 +14081,8 @@
             "Turkmen"
         ],
         "area": 488100.0,
-        "population": 6031187
+        "population": 6031187,
+        "rainfall": 161.0
     },
     {
         "official_lang_code": "EN",
@@ -13961,7 +14108,8 @@
             "Swahili"
         ],
         "area": 580367.0,
-        "population": 53771300
+        "population": 53771300,
+        "rainfall": 631.016393442623
     },
     {
         "official_lang_code": "EN",
@@ -13987,7 +14135,8 @@
             "Tajik"
         ],
         "area": 143100.0,
-        "population": 9537642
+        "population": 9537642,
+        "rainfall": 691.0
     },
     {
         "official_lang_code": "EN",
@@ -14065,7 +14214,8 @@
             "Malagasy"
         ],
         "area": 587041.0,
-        "population": 27691019
+        "population": 27691019,
+        "rainfall": 1513.0
     },
     {
         "official_lang_code": "EN",
@@ -14140,7 +14290,8 @@
             "Arabic"
         ],
         "area": 1002450.0,
-        "population": 102334403
+        "population": 102334403,
+        "rainfall": 18.100000000000005
     },
     {
         "official_lang_code": "EN",
@@ -14166,7 +14317,8 @@
             "Samoan"
         ],
         "area": 2842.0,
-        "population": 198410
+        "population": 198410,
+        "rainfall": 2880.0
     },
     {
         "official_lang_code": "EN",
@@ -14192,7 +14344,8 @@
             "Russian"
         ],
         "area": 207600.0,
-        "population": 9398861
+        "population": 9398861,
+        "rainfall": 618.0
     },
     {
         "official_lang_code": "SP",
@@ -14218,7 +14371,8 @@
             "Spanish"
         ],
         "area": 75417.0,
-        "population": 4314768
+        "population": 4314768,
+        "rainfall": 2928.0
     },
     {
         "official_lang_code": "FR",
@@ -14244,7 +14398,8 @@
             "Haitian Creole"
         ],
         "area": 27750.0,
-        "population": 11402533
+        "population": 11402533,
+        "rainfall": 1440.0
     },
     {
         "official_lang_code": "EN",
@@ -14269,7 +14424,8 @@
             "Bengali"
         ],
         "area": 147570.0,
-        "population": 164689383
+        "population": 164689383,
+        "rainfall": 2666.0
     },
     {
         "official_lang_code": "FR",
@@ -14295,7 +14451,8 @@
             "Sango"
         ],
         "area": 622984.0,
-        "population": 4829764
+        "population": 4829764,
+        "rainfall": 1343.0
     },
     {
         "official_lang_code": "FR",
@@ -14320,7 +14477,8 @@
             "Arabic"
         ],
         "area": 2381741.0,
-        "population": 44700000
+        "population": 44700000,
+        "rainfall": 89.0
     },
     {
         "official_lang_code": "EN",
@@ -14372,7 +14530,8 @@
             "English"
         ],
         "area": 344.0,
-        "population": 112519
+        "population": 112519,
+        "rainfall": 2350.0
     },
     {
         "official_lang_code": "FR",
@@ -14397,7 +14556,8 @@
             "French"
         ],
         "area": 551695.0,
-        "population": 67391582
+        "population": 67391582,
+        "rainfall": 867.0
     },
     {
         "official_lang_code": "EN",
@@ -14422,7 +14582,8 @@
             "Portuguese"
         ],
         "area": 801590.0,
-        "population": 31255435
+        "population": 31255435,
+        "rainfall": 1032.0
     },
     {
         "official_lang_code": "EN",
@@ -14447,7 +14608,8 @@
             "Estonian"
         ],
         "area": 45227.0,
-        "population": 1331057
+        "population": 1331057,
+        "rainfall": 626.0
     },
     {
         "official_lang_code": "SP",
@@ -14472,7 +14634,8 @@
             "Spanish"
         ],
         "area": 756102.0,
-        "population": 19116209
+        "population": 19116209,
+        "rainfall": 1522.0
     },
     {
         "official_lang_code": "EN",
@@ -14498,7 +14661,8 @@
             "Spanish"
         ],
         "area": 8870.0,
-        "population": 3194034
+        "population": 3194034,
+        "rainfall": 2054.0
     },
     {
         "official_lang_code": "SP",
@@ -14523,7 +14687,8 @@
             "Spanish"
         ],
         "area": 51100.0,
-        "population": 5094114
+        "population": 5094114,
+        "rainfall": 2926.0
     },
     {
         "official_lang_code": "EN",
@@ -14548,7 +14713,8 @@
             "Armenian"
         ],
         "area": 29743.0,
-        "population": 2963234
+        "population": 2963234,
+        "rainfall": 562.0
     },
     {
         "official_lang_code": "EN",
@@ -14602,7 +14768,8 @@
             "Maltese"
         ],
         "area": 316.0,
-        "population": 525285
+        "population": 525285,
+        "rainfall": 560.0
     },
     {
         "official_lang_code": "EN",
@@ -14628,7 +14795,8 @@
             "Hebrew"
         ],
         "area": 20770.0,
-        "population": 9216900
+        "population": 9216900,
+        "rainfall": 435.0
     },
     {
         "official_lang_code": "EN",
@@ -14655,7 +14823,8 @@
             "Sotho"
         ],
         "area": 30355.0,
-        "population": 2142252
+        "population": 2142252,
+        "rainfall": 788.0
     },
     {
         "official_lang_code": "EN",
@@ -14680,7 +14849,8 @@
             "Lao"
         ],
         "area": 236800.0,
-        "population": 7275556
+        "population": 7275556,
+        "rainfall": 1834.0
     },
     {
         "official_lang_code": "FR",
@@ -14705,7 +14875,8 @@
             "French"
         ],
         "area": 272967.0,
-        "population": 20903278
+        "population": 20903278,
+        "rainfall": 748.0
     },
     {
         "official_lang_code": "EN",
@@ -14730,7 +14901,8 @@
             "English"
         ],
         "area": 389.0,
-        "population": 110947
+        "population": 110947,
+        "rainfall": 1583.0
     },
     {
         "official_lang_code": "FR",
@@ -14780,7 +14952,8 @@
             "Slovene"
         ],
         "area": 20273.0,
-        "population": 2100126
+        "population": 2100126,
+        "rainfall": 1162.0
     },
     {
         "official_lang_code": "EN",
@@ -14807,7 +14980,8 @@
             "Tamil"
         ],
         "area": 3287590.0,
-        "population": 1380004385
+        "population": 1380004385,
+        "rainfall": 1083.0
     },
     {
         "official_lang_code": "EN",
@@ -14885,7 +15059,8 @@
             "Mongolian"
         ],
         "area": 1564110.0,
-        "population": 3278292
+        "population": 3278292,
+        "rainfall": 241.0
     },
     {
         "official_lang_code": "EN",
@@ -14910,7 +15085,8 @@
             "Hungarian"
         ],
         "area": 93028.0,
-        "population": 9749763
+        "population": 9749763,
+        "rainfall": 589.0
     },
     {
         "official_lang_code": "EN",
@@ -14935,7 +15111,8 @@
             "Indonesian"
         ],
         "area": 1904569.0,
-        "population": 273523621
+        "population": 273523621,
+        "rainfall": 2702.0
     },
     {
         "official_lang_code": "EN",
@@ -14985,7 +15162,8 @@
             "English"
         ],
         "area": 751.0,
-        "population": 71991
+        "population": 71991,
+        "rainfall": 2083.0
     },
     {
         "official_lang_code": "FR",
@@ -15010,7 +15188,8 @@
             "French"
         ],
         "area": 1267000.0,
-        "population": 24206636
+        "population": 24206636,
+        "rainfall": 151.0
     },
     {
         "official_lang_code": "EN",
@@ -15037,7 +15216,8 @@
             "Fiji Hindi"
         ],
         "area": 18272.0,
-        "population": 896444
+        "population": 896444,
+        "rainfall": 2592.0
     },
     {
         "official_lang_code": "FR",
@@ -15063,7 +15243,8 @@
             "French"
         ],
         "area": 475442.0,
-        "population": 26545864
+        "population": 26545864,
+        "rainfall": 1604.0
     },
     {
         "official_lang_code": "EN",
@@ -15088,6 +15269,7 @@
             "Danish"
         ],
         "area": 43094.0,
-        "population": 5831404
+        "population": 5831404,
+        "rainfall": 703.0
     }
 ]
