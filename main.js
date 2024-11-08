@@ -94,7 +94,7 @@ window.onload = () => {
         ? "This country <strong>is</strong> a member of the United Nations."
         : "This country <strong>is not</strong> a member of the United Nations.",
       window.country.geo_point_2d.lat
-        ? `This country is <strong>${Math.round(parseFloat(window.country.geo_point_2d.lat)*111)}km</strong> from the equator.`
+        ? `This country is <strong>${Math.abs(Math.round(parseFloat(window.country.geo_point_2d.lat)*111))}km</strong> from the equator.`
         : false,
       window.country.rainfall
         ? `The country's average yearly rainfall is <strong>${window.country.rainfall}mm</strong>.`
