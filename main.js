@@ -31,7 +31,7 @@ window.onload = () => {
     autocomplete(e.target.value);
   });
 
-  window.flagGuess.addEventListener("focus", (e) => {
+  window.flagGuess.addEventListener("click", (e) => {
     autocomplete(e.target.value);
   });
 
